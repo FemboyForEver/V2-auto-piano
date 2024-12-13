@@ -4701,19 +4701,83 @@ q [tW] 8 [tW] q [tW] 8 [tW]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("march imperials", "Auto", function()
+Section:NewButton("old doll", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [5yo] [5yo] [5yo] [EY] P [5yo] [EY] P [5yo]
-5 d d d [PD] [P] [YI] [EY] P [5yo]
-5 [5odh] [5o] o [5odh] G g f D f
-O [TOS] s a [IP] p [IP] Y [YI] [EY] I P o P d
-5 h o o [5oh] [DG] g f D f
-O [TOS] s a [IP] p [PI] Y [YI] [EY] P [5yo] [EY] P [5yo] ]]
+shared.scr = [[ u [oa] [oa]
+u [oa] [oa]
+u [oa] [oa]
+u [oa] [oa]
+[30pfj] [oa] [oa]
+[30o] [oa] [oa]
+[S30ofh] [oa] [oa]
+[30o] [oa] [oa]
+[30pfj] [oa] [oa]
+[30u] [oa] [oa]
+[S30ofh] [oa] [oa]
+[30u] [oa] [oa]
+[ua] [Poa] [oa]
+[aYG] [oa] h [oaG] f
+y o a [oak] [oaJ]
+[Tj] [Tuop] [Topa]
+t u p [upj] [upH]
+[rh] [ruo] [uop]
+[etuo] [uo] p [uo] p
+[7rYI] [(a] D [QG] k
+[Qafk] [Pos] [oa]
+[a(G] [oa] h [oaG] f
+[9y] o a [oakn] [oaJB]
+[*jb] [Tuop] [Topa]
+[8tup] [upjb] [upHV]
+[8hv] [ruo] [uop]
+[esfh] [uo] [rpdG]
+[0oaf] [oa] [oa]
+[0h] s f [oah] s f [oah] s f
+[(k] s f [oaj] s f [oah] s f
+[9h] s f [oah] s f [oah] s f
+[*G] s f [opG] s f [opG] s f
+[8G] p s [upG] p s [upG] p s
+[8f] o s [uof] o s [uof] o s
+[6f] p s [uof] p s [uof] p s
+[7G] a d [ypG] a 7 d [(h] a 6 d
+[30h] s f [roh] s f [roh] s f
+[(k] s f [roj] s f [roh] s f
+[9h] s f [roh] s f [roh] s f
+[*G] s f [eoG] s f [eoG] s f
+[8G] p s [euG] p s [euG] p s
+[8h] o s [roh] o s [roh] o s
+[6G] p s [eoG] p s [eoG] p s
+[7G] a d [rpG] a d [rph] a d
+[I80eta]
+[G80edjz]
+[G80edjz]
+[(7edhkz]
+[ua] [Poa] [oa]
+[yaG] [oa] h [oaG] f
+y o a [oak] [oaJ]
+[Tj] [Tuop] [Topa]
+t u p [oaj] [oaH]
+[rh] [ruo] [uop]
+[etuo] [uo] p [uo] p
+[rYI] [YIa] D [YIG] k
+[uh] [Poa] [oa]
+[aYG] [oa] h [oaG] f
+y o a [oak] [oaJ]
+[Tj] [Tuop] [Topa]
+t u p [upj] [upH]
+[rh] [ruo] [uop]
+[etuo] [tu] [eryI]
+[wru] [oa]
+[30] y I p d p I
+[30] y I p d G j I p d G j z
+[30] y I p d p I
+[30] d p I y e Q p I y e Q 9
+[390]
+[390] ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
