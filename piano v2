@@ -37,7 +37,7 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("fur elise x 100 song", "Autoplayf", function()
+Section:NewButton("Liszt Transcendental Etude No 5 Feux Follets", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
