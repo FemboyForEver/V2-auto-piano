@@ -37,7 +37,7 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("wild side", "Autoplayf", function()
+Section:NewButton("fur elise x 100 song", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -46,56 +46,1347 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 134 -- tempo overides the delay
 
-shared.scr = [[ [IG] [oh] -[sl]- [ak] -[PJ]- [ts] [YD] [oh]
-[IG] [ig] [YD] [ig] w 5 w 5 w 5 w 5 [dhkz] --
-[os] - [oa] - [oP] - [oa]- {[os][os]} - [oa] -
-[oP] - [oa]- [os]t -[os] - [oa] - [oP] - [oa]-
-[os]t -[os] - [oa] - [oP] - [oa] -[os] 8- [(wos]-
-( -[(woa]- [qY] -[toWP] Y w [Yoa] [tWY] [Yos]
-[8Y] Y [(Ywos] Y [(Y]- [(Ywoa] Y [qY] -Y [toWYP]
-Y [wY] [oa] [tWY] [os] 8- [(Ywos] -[(Y]- [(Ywoa] -[qY]-
-[toWP] Y [wY] [Yoa] [tWY] [Yos] [8Y] Y [(Ywos] Y [(Y] Y
-[(Ywoa] Y [qY] Y [toWYPD] [YD] [wYD] [(Yoa] [Wt] [(Yos]
-[18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP] [qY] [5wY]
-[Yoa] [tWY] [Yos] [18Y] Y [(Ywos] [8Y] [@(Y]- [(Ywoa] Y
-[4qY] Y [toWYP] [qY] [5wY] [Yoa] [tWY] [os] [18] -[(Ywos]
-[8Y] [@(Y]- [(Ywoa] Y [4qY] Y [toWP] q [5w] [Yoa] [tWY]
-[Yos] [18Y] Y [(Ywos] [8Y] [@(Y] Y [(Ywoa] Y [4qY] -[toWYP]
-q [5wY] [oa] [tWY] [os] [18oh]- [(wos] [8ts] [@(] [oh] [(woa]-
-[4qIG] -[toWP] [qig] [5w] [oa] [tWYD] [os] [18]- [(wtos] [8EP]
-[@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt] [os] [18oh]- [(wos]
-[8ts] [@(] [oh] [(woa] -[4qIG] [toWP] [qig] [5w] [oa] [tWYD] [os]
-[18]- [(wtos] [8EP] [@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt]
-[os] [4qsl]- [Wti] [qig] [%W] [sl] [tiWO] -[^Eak]- [toYP] [EPJ]
-[8t] [Os] [tYOH] [ti] [4q] -[Wtig] [qYD] [%Wig]- [tiWO] -[^E]-
-[toYP] E [8t] [Os] [tY] [ti] [5wdz] [dz] [ryoSL] [wdz] [7r] -[ryoadz]
-[dz] [9ySL] [dz] [oad] y [qi] [dg] [oa] [yo] [5wgc]- [yo] -[@(DZ]-
-[oa] -[29dz]- [ad] -[@(DZ] [dg]- [os] [18] -[(Ywos] 8 [@(Y]-
-[(Ywoa] Y [4q] Y [toWYP] [qY] [5wY] [Yoa] [Wt] [os] [18] -[(Ywos]
-8 [@(Y] [(Ywoa]- Y [4q] Y [toWYP] q [5wY] [oa] [Wt] [os] [18]-
-[(Ywos] 8 [@(Y] Y [(Ywoa] -[4qY] Y [toWYP] [qY] [5w] [Yoa]
-[Wt] [os] [18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP]
-[qY] [5wY] [Yoa] [Wt]- 5 [Ywro]- 5 -[Ywro]- [Ywro] -[*SL]
-[8sl] -[^PJ]- [%OH] -[5oh]- [%OH] [^PJ] -[3uf]- -
-[4g] [%Os] [O5s] [^Osg] [5oah] [2yo] [os]
-[2adh] [D1sh] [@D] [5s] [^Dsh] [(Dh] [^sg]
-[s(D] [^Pd] [4sD] [8s] [5o] [^os][os][5oah] [2yo]
-[ad] [2h] [D1sh] [@s] [5o] [^h] [(Yosh] ^ [(osg] ^
-[4sD] [O8s] [O5s] [^Osg] [5oah] [2o] [os] [2ad]
-[D1sh] @ 5 [^os][os][h(DH] [^g] [(DJ]d[^hl] [s%DJ]
-4 1 [@os][os][4os] [5os] [%sg] [7sg] [D5hk] @ 1
-[2hkz] @ [@sg] [3dh] [4qWDH] %[qW][O5s]
-4[oa][5wr] @[wr][sD] [1dg] [YD8th] [(os][tY][5os]
-%[os][^tu] %[tu]5 [@os] [4isg] [%D][is][5d] [4s]
-[5yoa] [@oa][yoa]a [1oa] [Y1os] @[os][5id] %
-[^osf] %[sf][O5g] [@sh] [4qWDH] %[qW][O5s]
-4[oa][5wr] @[wr][hl] [1z] [8tlYZ] [(z][tY][5hl][hJ]%[Dh][EYo]
-W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
-@[wr][OH] 1 [5ioah] 2 [iag] -[ag%OH] 2 [oah] - [osl]- [oal] -
-[Pol]- [oa]l[os][DZ] [osl]- [oa] -[oP]- [oa] [os][18] [(wos]8[@(]
-[(woa] [4q] [toWP]q[5w][oa][Wt][os][18] [(wos]8[@(]
-[(woa] [4q] [toWP]q[5w][oa][Wt] - [ts] [YD]
-[oh][IG] [ig] [YD] {[ts]1}@58([D18dhlz] ]]
+shared.scr = [[ f 
+D 
+f 
+D 
+f 
+a d s 6 p 0 
+e t u p 3 a 0 W u O a 
+6 s 0 e u f D f D f a d 
+s 6 p 0 e t u p 3 a 0 W 
+u s a 6 p 0 e a s d 8 f 
+w t o g f 5 d w r i f 
+d 6 s 0 e u d s 3 a 0 
+u u f u f f x D f D 
+f D f D f D f D 
+f a d s 6 p 0 e t u p 
+3 a 0 W u O a 6 s 0 e 
+u f D f D f a d s 
+6 p 0 e t u p 3 a 0 
+W u s s a ? p 
+6 0 e f D f 
+D f a d 
+s p 6 ? 
+p [80] [es] u 8 6 s u [4d] [ip] ? 1 d [ip] 8 [6q] [ipd] 4 
+4 6 s [uo] 8 5 1 5 8 0 w t w 0 s u o 5 ? o y 2 y o 5 p a 7 d 
+9 h j w k z r v y [nm] o b [rv] z w k j h 7 d 6 3 ? [tp] u 3 6 [up] t 8 0 u [ts] e 8 6 u t s 
+4 ? [yip] d 4 [pd] i y [8q] 4 6 [8d] [6yp] i q 4 6 [us] t o 8 5 1 5 8 
+0 w 0 8 s o w [od] 5 a 9 w r y s o r w [oh] 9 o h 6 [oh] 
+0 [es] r t u d o e f o q 4 8 q e t e 
+[qos] u 8 [uo] s [os] u 8 1 1 8 [ua] 5 1 [8p] u 5 1 2 o y @ y o 5 ? p a d h j k 
+z v b n [?5] 2 2 [os] o h 6 ? [3o] h o s e 0 e t s o 
+d o [od] q t f p s i t e r s o q s o 6 s o 8 [1s] o 5 8 a 0 
+w p 0 8 o w [5f] D 9 w f r D y f r a w d 9 s $ ? [pj] S G 
+Q * [$6] S j [pG] 2 ? [pG] [dj] ? d p [Gj] [$9] 6 [2G] p [dj] 3 G [2pj] d 6 ? S [pfj] 
+[*0f] [6pj] S G [?3] O H O H a H O G [OH] [%0] 7 3 7 [3OH] $ ? G [pS] j 
+Q * [pS] [$6j] G G 2 [?pj] d ? [pG] [dj] [pG] d j [dG] [pj] 9 2 [$6] 3 p G [dj] G [2p] j d [?6] [S3pf] j [ak] 
+* [0e] L S 6 a k 3 ? ? [?2] f 3 [%D] 7 0 f W D r 0 f u O a O a u 
+r d W s 6 S e a d u S T p e u 
+T u W [Tu] e S T u a d e S T u p e [QS] I 
+T e 0 O u a r W a * q P S i [WT] q a i * O 
+Q a T p 0 O r W p [9I] e [QO] 0 a 
+W r p S [6u] 0 e T S u d T 9 G p e 
+Q e [Oa] f 0 3 $ 3 ? ? ? ? 3 6 8 0 W r u r W Q 
+0 3 % 7 0 W r [SL] u r W [dz] 0 Q e 0 C G e 0 6 x f 0 e 
+T u a k T 0 7 3 [dz] 7 0 W r [SL] W Q * $ [SL] G j * Q e T I Q 
+Q S [*L] G j $ 0 [dz] 3 9 [fx] 6 2 [HV] 6 9 Q e y [GC] Q 6 3 ? f x 3 6 * 
+0 e * [pj] 9 6 2 [HV] 6 9 Q e y [jb] Q 6 3 ? [fx] 3 6 * 0 * p [Qj] 
+$ L S * Q a k e 2 j p 9 e k a Q ? z d 
+7 Q L S 9 7 j p r Q 9 
+3 H O 0 f r D W 0 f u D r f 
+[Wa] 0 d 7 s u u 
+[6u] [?f] 6 [0d] p 8 6 p f d p [80e] s p 8 6 5 ? [oa] 
+s [79] o a o 6 ? p 0 [8u] 6 0 8 e u 6 i Y u 
+6 ? i 3 I o O 6 ? p * [0e] o p 6 o [*i] [0e] 
+f [Tu] [eg] f 9 d e y u i p d f g f d p g 
+d u g [ud] y r W 0 f O 0 [Of] 7 % 3 $ [23] d ? f ? ? ? [3d] s 6 ? 6 e 0 s [fj] 8 6 s j f 
+6 ? j [sf] 3 [?fj] s [sh] 5 ? ? j s ? h g s 4 ? s q 8 4 [sgl] 6 8 q l [sg] e t e a k 7 @ a k ? 2 a k 4 
+7 [sl] 9 q [ak] 9 0 3 ? f x 0 3 % u 7 f 0 W r s l W Q 0 [OH] % 6 s [?p] [fj] 6 
+0 8 6 f e D t f u D t e f u t p D e t f a e r 
+6 d 0 0 s [68] [SL] 6 ? p * [60] 6 p I 2 ? p p [$9] 6 
+2 p I p $ ? p Q * 6 $ p $ I p 3 ? S u p 7 [%0] 3 S 6 [u?S] 
+p u 0 e * 6 p I p 2 ? p [$6] 9 p 2 I p $ ? @ p [*Q] 6 
+$ p $ I p 3 ? [%0] [7L] S 3 6 [?S] L * 0 e f x 6 
+2 ? [dz] J [SL] 6 9 $ a k 2 [pj] $ ? f D [*Q] 6 f D $ f D 3 ? 
+f 0 a 3 % 7 0 d e r u s O a O u s W r [ph] [6h] p 
+0 s e p t u s t e p 0 4 8 q 
+e r t [qs] p [oh] 8 [1sh] o 8 [0w] 8 o s d [wf] [0t] h l 8 z 
+x [tb] [wv] ? 0 m ? 8 ? ? ? ? w m v 5 x c z l w h f y r d s o w 9 [os] 7 5 2 s o ? o h 3 6 
+? [oh] D e 0 s 6 8 0 e p t s u p t y e 0 f [8p] q 8 d p 4 8 p q s p e t 
+q e t i e t q 8 s o 6 8 o h s 5 1 [sh] o p 5 o 8 s d f [890] h w k [tz] c v [um] ? o ? ? ? [os] ? u m c 
+[tx] z w l 0 h 5 6 f d 2 s o ? 2 5 7 9 w r f y o i y D r [wf] 9 5 D 9 
+w f e r D y o p f a o D y r e f w 9 5 a 7 7 9 w d [57] 9 5 7 s 
+[?1] ? ? 3 [58] [uos] 1 f 2 [13] s o u f u o f s 4 ? i g [ig] i g g i 8 6 q 4 u f 6 4 d y 
+u f 1 ? Y 5 [38] 1 [tuo] [1s] 4 ? i [ps] g i [ps] g [psg] i [isg] p 6 [8q] [uf] 4 [yd] [uf] [?1] ? 
+5 8 3 t s [13] s t [ts] p 4 ? t s p i [ts] p i s [tp] i 8 [6q] y d 4 u f [?1] y d s 
+t s 1 5 [38] f 3 1 f f [?5] [dg] ? a 5 g [7a] d 9 w f a r y d [wr] y o h a 
+d G a o h y r w G 9 5 9 w h r y d r w q 9 g 7 5 D 5 8 [ts] 1 
+d D g D d D d s d 
+^ ? 4 P o [8s] 5 1 o p [od] D o [og] [?^] h o g h [?%] D d s 
+[^d] 4 ? 2 [24] ? P % ? [oh] 2 g [(W] % 8 D [^d] ? P q E ^ 9 
+[?%] [Dsl] H d z [(W] J 8 % D Z ^ ? d z 9 [qE] P ^ J % o ? h $ i g W 8 ( S % Y D ^ ? y d 
+E [9qoh] ^ 6 ^ [?P] [dJ] 4 g P ? ? ? 4 3 5 6 7 8 9 0 q w ? ? e r t y u i o p a s d f ? [?g] h [?j] k l z x c v b n m ? ? ? ? ? ? H 
+[?1] ? [Dshl] ? [sD] l h 8 5 D Z 1 @ 8 d z ( w t ( P J % @ [sl] ? H D ? % H [sD] l 8 ( W D Z t [dz] Y O t 
+E W P J * ( ^ [sD] h l ? ^ s [hl] D 9 D Z q E z d y i P y s l H E 9 P J [?@] s l ? ( P J @ $ 6 ( o h 
+w Y T E w P J 9 2 $ d J H g d P u y I E 8 1 5 @ s l [sl] H t J [8(] [DZ] t z d Y f o Y [PJ] % 
+? [sD] [Hl] D [sH] l % [(D] Z 8 W [td] z J G Y t [Wt] [PJ] * ( ^ ? s l s l ^ q [DZ] 9 E [dz] Y i y E g c 9 
+P J [?@] ! h v Z j ( [@h] * c g 2 ? k g c z k g [79] 5 d a o 8 5 1 Y D 5 Y D 8 h 
+( g w ( d W D [%s] ( D s W s h t g s Y t d s W ( D s ^ D s q s h E 
+s g y i y d s E [sl] @ ( J D E w D h ( 9 J d 2 [89] [1s] D 8 [sD] [(s] w h 
+[8sg] t w ( d s % [sD] ? % [sD] s h ( 8 s g % W ( d % ^ ? 4 [sl] ^ s l 9 [DZ] 
+q E ^ 9 [dz] q J % s 3 l H ! ? [PJ] 1 ? [sl] ? [DH] 8 1 8 Y w i ( 8 y 
+t w ( Y 8 t 5 1 @ 5 8 y 1 @ 8 @ [1E] 8 1 @ o 8 ( Y w i 8 W 
+t w y ( 8 Y 1 @ 8 t ( w ( y 8 E 5 1 h 8 G ( w h 
+( 8 G w t h Y G o Y h t G 8 h ( t Y d o Y t g w 
+D ( 8 s [tY] [1o] ? ? 
+5 q 6 8 ( w t Y p s D h k Z v o h 1 ? t s 
+5 [@8] 1 o h 4 [?1p] [sg] i ? q 4 6 8 q w e t i o p 
+[OD] [%s] ? [(W] 8 % ^ ? d o q E ^ 9 s [?1o] 
+5 1 8 0 3 w 5 8 t u 0 o w t s f u h [ol] s l s t w [sl] 8 w t 
+u o h v u q 7 4 [jlc] g 8 q e t i p s g s p i t e W 
+( [%Z] [DH] l ( W t Y O s D H s O I Y t E z [dhJ] ^ E Y 
+P i y E q 9 ^ o 4 I 
+2 o ^ I 4 o ? y [?^] i ? Y [?1] t 
+1 @ 1 1 1 1 
+@ 1 ? [?8] 1 8 [@(] 1 8 
+1 8 1 8 1 8 ( @ 1 8 ? ^ [4q] ? 
+[4q] % 8 W q 4 4 8 q 4 q 8 [%q] 4 
+4 W q 8 6 4 [8t] [59w] 8 5 [89] w 8 r 5 5 [7w] 5 w 
+[?5] q Q 5 ? [5w] ? 1 [?s] o ? o h 1 5 8 
+s o 1 G 8 5 h s 8 G [ws] [(t] 8 [sD] ( 8 s 1 s h 8 [wt] ( 8 s [8s] 1 G s [8h] 
+t [(w] s G ( 8 [sD] 8 1 s s [8h] [(wt] 8 s 8 1 s G [8s] h [ts] ( [wG] ( 8 s D 8 [1s] 
+s 8 h [(wt] ( 8 s 8 1 s G s h 8 w t s G ( 8 s D 4 ? g 4 g l [8q] 4 g 4 
+? g k [4g] l [8q] g k % 4 % H g 4 ? g 4 g l q 8 % g 4 g [4k] ? g l 4 g [qk] 8 % [4g] H 
+5 ? h h z w 9 5 7 9 h w k r y o h a d a g o y r G w 9 5 h 9 w 
+G e r h y o G p a o h y G r e q h 9 5 9 G w r y h r w [59] d 7 w 
+r g y o E y w r o [wr] D o w r q 4 P [is] D q [Et] 
+q d i t e [qd] i W ^ [?P] i $ ^ 9 q ^ [PJ] d q g 
+E q 9 ^ j % [1h] f s 8 [0w] 8 g [sj] 0 [wt] 8 0 j s g q 4 s g 
+q e t j [glc] i q c [gl] j [4c] [gj] l q [gZ] e t Z q L c i t Z 
+z [qe] Z v E c ^ Z q E y z i P y E d D ^ 9 d q E S ^ d g e D Q 9 6 d 9 Q 
+e s y I p y P e Q 9 s 8 2 d 6 9 Q e d y e Q 9 p w s 5 9 w P 
+E y p E 8 1 t 5 y 8 t ( y w t ( E [qw] 8 t 4 8 y q e Y t 
+q 8 q 4 8 q 6 4 ^ % ? w o 4 ^ 9 q ^ o @ ? Y E 
+@ ( ^ @ D Y [o^P] ( w E Y ( d q 8 [4p] [is] 8 q e 
+t e q 8 [id] 4 6 8 q e t e [id] ^ ? [iP] 2 4 ^ 9 q E y 
+i P J [Pd] g y E q 9 ^ [PJ] d g ? 2 [PJ] d ^ g ? J P ^ d g ? 4 ^ a k ? 2 4 ^ ? 2 ^ s l 
+? 2 ^ 4 [?2] ^ 4 ? 2 4 L S ^ ? 2 4 ^ 9 [dz] q J E ^ 9 q E y i [Ph] i y G E ^ 9 h q E 
+T G i y E [Ph] i E E d ^ q 9 E g q ^ 9 D 1 1 1 
+1 1 1 2 1 ? @ 1 1 1 1 1 4 
+1 5 1 1 1 1 1 % 1 5 1 4 1 
+@ 1 2 1 8 1 [18] 8 1 [18] 1 8 8 1 9 2 1 8 @ ( 
+[18] 1 8 1 8 1 8 [18] [4q] 8 1 5 w 1 8 1 8 1 8 8 1 
+1 8 W % 8 1 5 w 1 8 Q 4 q 1 8 @ ( 1 8 2 9 1 8 [18] t 5 t 
+5 t [18] t 5 t 5 t y [18] t 5 r t 8 1 Y 5 t t 5 [8t] 1 5 t [5t] 
+i 8 1 t r 5 t [8o] 1 t 5 [5t] t 8 1 t 5 5 t O 8 1 t 5 r t 8 1 P t 5 E t [18P] 
+t 5 r t 8 [1a] t [5r] t 8 [1a] t 5 [YO] [8t] 1 s @ [5t] [Yos] 1 P Y [to] s P t [Yo] s P [?1] [tY] o s [Yto] ? s [1y] [?d] ? t s 
+1 ? D Y S t s O s t O 1 ? t s O t s s t 1 ? [ig] t s 4 ? [ph] ? t s t s t s 4 ? ? ? 3 [ts] 
+H O 4 ? s t % ? J P P J 5 ? P J ? P J w P J 9 5 7 [PJ] 9 [wJ] P r J P y r a k H w a k H 9 
+7 a k 5 a k 5 ? a k 2 ? a k ? $ [ak] a k 5 [?a] k a k $ [?a] k a k [5a] ? k a k 
+a k 2 ? [ak] [ak] 4 ? o h g @ ? s l [dz] 1 ? ? D Z 8 $ 1 [@D] Z 8 5 c g [7dz] ? 6 
+7 r [wd] z 7 9 [DZ] [8s] l 1 1 [58] [1@] z d 8 @ 5 @ 1 k a 8 l s ( [wt] [dz] ( [DZ] 8 1 5 @ [dz] 8 
+[DZ] t w 0 g c 9 2 [hv] 9 Q E y v h q w ( h J @ ^ v Z ( J Q h Y E h w d p i ( o 5 i y w E @ ? ? @ 
+5 4 g c @ L h v 4 ? H V q 8 4 % V H 8 % G 5 4 2 [dz] ? 2 5 7 [DZ] 9 7 8 g c 5 1 [hv] 5 
+8 ( t w v h ( 6 ? t Y 6 I p 8 e s ( D 8 G 9 l [?%] D Z % [(W] [DZ] 8 % [gc] [?5] d z 
+5 [9wd] z 5 [DZ] [?1] l s 8 1 [@h] 8 G 8 h w t G Y o h Y [tG] 
+Q 9 h 8 1 @ G 5 8 0 h w G 5 ? h [5d] w 9 g 7 7 5 D 
+1 ? 8 [??] 8 9 7 ? 0 ? ? ? ? ? q 1 w 2 e 3 4 r 5 [6t] [78] y 9 0 u i q [wo] e p [6r] [ta] [ys] 0 [ud] f [ig] q s d f J h w t [8s] [(Dhl] D 
+D Z [DZ] [dz] 8 1 [@5] J f 5 1 [@s] l 8 Z [(D] [wt] ( Z D 8 [dz] % d z ? @ [sl] % H 8 ( W D Z t 
+u O [DZ] 5 d [?z] ? f w 9 5 a [dh] k 7 9 w r y o 
+[?1] [?s] [?l] D h [19] [80] @ q 5 2 w e r t y u ^ i o 0 q [wp] e [ra] t s y [ud] i o [pf] s W ( t [8w] Z G ( 8 w t Z D [dz] o y t 
+[sl] t w ( [DZ] 8 Z D 5 @ 1 [dz] [59] 8 @ s l % ? s [!l] % 8 [DZ] W ( t Y O 
+D [HZ] l 5 [??] [dz] [2J] w 9 5 [ak] 7 9 w r y o [rh] w G 9 5 h 9 w G r y h w 
+y o y d w r g o y w r D t h 8 w f g t h u f g 
+h 5 o w p a y s d r f g f 6 s e d f u t [eu] i o 3 p o 0 
+i [wro] s 0 a s [4p] q s a [et] p q o i o 1 i [8u] i w 0 o p 
+8 a s 4 p q s a t e s q a p 5 a s w d s y r d f w g 
+h 8 f [ws] d t f [ud] s 7 d a s W d f r d [us] a s 6 
+[ep] a u s t u i 3 o p o 0 i o r s w a s 4 p 
+q s a t p e o i o 1 i u 8 i o w p a 0 s p 4 
+q s a t e s [qa] p w 9 a 5 9 s w e [wd] r y S o p a d o y f r 
+e g w q 9 7 h 5 2 G ? 2 h 5 7 G 9 h [?4] G h G 
+@ ? h G h G 2 ? h w o 
+o h o h [hv] x f [dz] 1 ? f [shl] ? 
+8 5 1 5 8 0 w t u o s u t l [fx] h w 0 8 l [fhx] 5 1 5 8 
+g c 0 w t 0 8 [hv] ^ ? 4 [hv] 4 ^ 9 q c [gJ] z E y i P y E q 9 ^ q 
+E t g [Jzc] y i c [Jgz] P s d P v h i y t f x q d z 8 4 s l 8 q e t y e O t i q p 8 6 s 
+4 g j 1 l ? c [1b] m 4 c l 6 8 j q g d e t e o h q 8 [oh] 4 6 q [gc] e t e q f x 8 6 8 d z 
+5 1 s l 5 8 0 w t u o s o u t w 0 8 5 1 Z [hv] J 1 ? 
+[Zhv] J 8 B J 5 [13] [24] [0w] t q 8 [JB] v [hZ] J [?@] J h v Z J h [^(] @ h g g d p i 
+o i @ ? y E w ? 1 ? ? 8 5 1 3 [hv] 5 8 v h Z 0 w 8 9 0 [HV] w t u o u [JB] 4 ? [JB] 
+V H q 4 % 8 q W t i O s g s O i E E ^ q E [HV] y i P 
+[dB] J g d P h v i y [gc] ( ^ @ [DZ] 5 ^ ( w E Y ( w E Y o P o Y E w 
+E ^ E P J y [PJ] i y E [HV] ^ q E ^ [hv] ( [gc] ^ @ Z D ^ ( 
+w E Y ( h Y G 9 h E G y h 
+o G P h o d y g E w f [18] [os] 0 w o 
+8 [oh] [oh] [4q] [oh] f f d q 8 d s 4 o f 
+f [30] o d o [wt] d o s 0 s t w o 0 o [of] f [9o] 2 e q 
+9 e [qy] 9 q o [qosh] 4 8 [qo] 4 8 6 
+[wo] h 5 [of] f o w 9 d [5o] d o w 9 [os] 5 o w 9 o f [0e] [6f] o o 6 d 
+e [0d] [8o] 6 [os] 8 [0es] 8 o [6o] 8 o o f w [579f] o [9w] 7 5 7 
+9 w 7 [5w] 7 9 8 [4qw] 5 t t t [8q] t 6 t 5 9 7 y y 
+[79] 5 6 0 [8t] t t t [60] 8 t [59] [7t] 7 y y t 9 [57] [48] 
+t t t [468] t t [59] 7 y y [79] 5 [60] [8t] t t 6 0 8 t 
+8 t 5 [79] t 7 y [5y] 9 7 t s 8 q [46] y d f u [8q] 6 4 t s 5 y d 
+w [579] [yd] f u [79w] [ts] 5 [yd] 0 e [68y] d u f 0 [et] [6s] 8 s y [9w] [57y] d 
+[9w] [57] [ts] O [yd] [?4] [yd] 1 4 ? u f 1 [?4] t s 4 [??] y d [yd] [?5] 2 5 [?t] s 5 ? y d 5 [?d] y 
+y [6d] ? 6 ? [uf] [?6] t s [?6] [yd] 5 ? y d ? 5 ? t s [?5] t s ? ? y 5 d [4y] ? d 
+[?4] t s 4 ? t s 4 ? y d [5yd] ? 5 ? ? 5 ? t s 5 ? [yd] 6 [yd] ? 6 ? u f [?6] [ts] 
+[?6] s t 5 ? y d ? [?5] y d 5 ? [oh] ? o h 5 ? [?D] 5 ? o h ? 2 ? G 2 5 h 5 7 9 G w 
+r y [oh] r w 9 d f 5 9 w r y g o r w D 9 7 % ? s O s O 
+h g s Y t D s W E W d ^ E d i y d E g P E D 
+t d w 8 s w ( t s Y y o i s a Y ? t ? 8 ( m v w t Z ( 8 z l h 8 D 1 @ d s o s [29] d D 
+h ( [@l] z Z v * m w ? 5 ? ? % s 2 W % s 8 ( W s h t Y O s g I t E W Q ( D s 8 
+^ $ ? [sd] ^ 9 q s [Ed] d y i P J y [oh] E 9 [PJ] 8 [ak] 5 1 l s 5 8 s f 0 l w t y h [0f] s 
+9 s 5 P o 3 u t 1 ? r q 0 8 1 ? w E t u o ? 2 s f h l [?3] h J f s 5 ? s s % ? 
+? s 2 % s h 8 ( W [sg] t E O Y [sD] t E ^ ? d ! [Wd] E ^ * d E y J i P 
+h y [EJ] 9 8 [1l] h J g [18] d g D s [18] D s P 1 8 s i o 8 1 p o i Y 8 
+1 i Y t Y [18] r e r [18] q @ w E @ [?@%] [ts] [oh] % [(W] [8ig] % Y D 
+^ ? 4 y d d y E d y [^u] 9 E [PJ] y i [oh] y E P J ^ 9 [ak] E y i y h E 
+G P y h E G ^ Q ( E h y i G y E i P h E E d Q ^ 9 g E q 
+^ D 1 8 Y y w Y ( o O 8 o 
+t w ( ^ w y t E 
+y w Y i 9 Y w E ^ 
+^ q y t E y q o O ^ 9 o q E 
+^ ? y ^ t q y 9 
+^ E q 9 [8o] s h w o 
+t s h w o s ( h o s w h h t o w H O o ( 
+P E h o Y P h E o P w h o P E h ( h o Y 
+g ( i [^y] o w d y E o d w y o 9 d y o w 
+d E d y [9D] Y ^ g i q P g E i P y g i 
+E P g q i P g ^ ? P i ^ ? D Y 1 8 o s [(h] w o s w t 
+h o Y s [Yo] h o Y s h [(h] [wt] 8 o 8 ( H O [@(] o h P 
+h o Y E w P h o [EY] w P h [EY] w ( o P h [EY] ( h w w o ( g 
+i [?^] y 4 o d w 9 y o d E y ^ o [Ed] w y o d 
+E [^w] d w y [^D] Y ^ g i E P g y i P E h G i h 
+G y h G i P h y d E g E ^ q D ^ 
+? [1k] a 1 5 l s 8 h f 0 l f [sh] w t 0 8 w t [80] t 8 0 0 
+q [ak] 8 4 8 q e t j [sl] g q t [jl] [sg] i e q q [dz] 8 6 8 s l 5 1 a k 5 8 
+9 0 w [sl] t [fh] y u [sfl] h t w 0 [89] w q 9 5 9 w r y o [dh] a r w 9 [odh] a 7 
+O 5 H 2 p ? j G 5 4 [PJ] [ak] [?1] s l 8 5 1 3 5 s 8 f [hl] 0 s [wfl] h t 0 8 5 3 
+4 ? [ak] ? q 8 4 6 8 [sjl] g q w e g [sjl] t i o p i [dz] t w s l q 6 ? d z w ( 6 8 f x 0 
+e f x t u t e d z 0 8 5 2 ? [sl] 2 5 7 9 w r y o y r w 9 
+4 9 [fx] w e r y o p d [hz] k a o [hz] [dk] y r e 0 7 3 [fH] k x H [dz] k 
+0 [Wr] u [Hk] [dz] O [ua] [Ix] f e p u [jl] f s z [pj] [hk] o i w l h E j o z j [ad] k [oj] 
+I Q l k j [pd] I [jx] [Iz] [Qj] Q l j q k j i p s l j p 
+i l j t e q 8 4 5 ? [hk] w 9 5 l h [79] w l h e r y o p a 
+z h l h [?1] k h ? 8 5 l h 1 5 8 l h 8 0 w t u h o s o G u h 
+t w G 8 0 w t h u o G u t h w 8 ( d t w ( 8 g D 8 1 s o 8 [(w] 
+8 1 o o w 8 o 8 [1o] Y s Y s [8w] ( s Y [Ys] 8 1 ( [wY] [8P] [Ys] 
+[?%] O Y W ( % 8 % ? [YO] W Y O [%(] 8 O Y [?%] O Y Y s [Ys] W ( % 8 s Y s [%Y] ? 
+[WYd] ( [%8] Y D [?@] Y o P ( ^ @ @ ? Y P o [^(Y] [o@P] Y [oP] [?@] [YP] o Y D P 
+o Y D ( ^ @ Y D @ ? [YD] S [^(] i @ g g i ^ ? i P d E [^q] 9 ^ ? [oh] q E ^ 9 
+[oG] ^ o h E [oG] y i o h y E o G p ^ 9 q E h y i y d E [qg] [^9] D 8 [1D] [5l] s h @ 
+t [(w] P 8 J w [8(] [OH] [4sD] ? s 8 q 4 % o h ^ 8 4 % ^ ^ ? [ig] E [^q] [9YPD] o 
+Y P [oD] [?@] [@(] [Yo] ^ [PD] 5 Y D [@(] ^ 5 i g @ 5 o h 5 o 8 1 s [@l] H t [(w] P J 8 8 0 [4O] 
+? [sDH] ? ? s q % [48o] h g 8 4 % ^ i [?g] Y D [qE] [YD] ^ 9 ^ Y D @ ? Y D [oP] ^ ( [YD] @ P 5 o 
+@ [OD] Y 8 1 [5s] l H Q Q t ( P J 8 9 4 ? O [sH] [??D] q 8 [4%] [^o] h 4 % 
+^ ? [ig] S Y D [qE] [^9] Y D P Y D @ o [?P] ? Y [oP] D @ [^(] [YD] [5P] o @ [YP] D o Y [PD] o ^ ( 5 @ [YD] [@P] o ( Y 
+P D o @ Y D P ^ ( D w d E ( h Y o G P o h Y ( w G E Y o h P o 
+d Y ( g y 9 D 8 [1s] 5 o 8 s 
+5 o 8 s 5 o D [8s] [0f] w h q i 
+y 9 q i ^ y 9 q i 9 y 7 r i 9 y 5 w 7 
+t 8 [15] w 4 8 [15] t 8 [1w] 5 8 1 8 5 1 [18] u 5 8 [5y] 1 5 t t 5 ? 
+5 r [5r] 9 7 [57] 5 7 9 r [57] [579] i 5 r [8y] 1 5 @ t 1 [58t] 1 1 [58] 
+u 1 8 5 y 1 t t 5 ? 5 r 9 7 r 5 [79] w 5 r 7 w 9 5 7 o 8 r 5 
+1 t 5 8 8 9 0 w t s u o h u t s o w 0 [oh] 8 5 s o 1 5 h 8 1 G 5 8 
+1 3 h 5 8 [13] G 5 8 3 1 h 5 8 3 1 d 5 8 3 1 5 8 g 3 1 5 8 D [6tu] p P 
+a s S [0up] d D f 6 [pd] g G h H [qy] e [dg] j J k l [?6] 3 [fjL] z Z x 
+t e [jl] c x l Z z [et] u [fjL] l k J j s f H k j [3H] [af] h G g f 0 [Orya] D 
+g f 6 D [ps] d S s 0 [eua] t s d s a [0uO] r s a s Q Y p a r s a s 
+[0O] u a f D d [OS] y s a P [6p] t u P a s [0etS] [up] d D f 6 d [pg] G 
+h H [qyd] [gj] e J k l L [?6] [fj] z Z x [0tc] e l j x Z z L [tu] [efj] l k J 
+s f j H k j 9 2 [dJ] g k l L y [Jz] E g q 9 Z x c 0 [3z] H x c C 
+v [rylV] 0 b B n q b 4 l 8 V v C [ic] l [etj] x Z z [18] [jL] g l k J 
+u [ed] [0j] g H g h G [PD] [29] g f D d [yiEP] q 9 S g d [et] 0 a u p s f s [0W] P [ry] 
+a f a [et] 6 p u P a s 0 [3pS] u d D f 6 j s p ? H h G 
+g f D d H h H h H 
+h H h H D H 
+[%W] O H G G f D S L [!*] D D s S [Ip] D f S D [uf] O G D f I G Y H f G [uTH] j H L 
+[IG] e H G L [WTuf] G f L D Y Q f D L S W u H x % j ( s t G Z H * [TO] f L G 
+% [WO] D l f ! * [SL] e p 6 j W [%O] H o w 5 ^ h S [WO] % P H ! [*T] o S @ [(D] [To] Y * 7 ^ [Oa] % r Y ^ 5 
+% ^ [To] u 7 % ^ 7 [rYO] * ^ 7 * [uTO] ( 7 * ( [rO] Y 0 ( W * [uTO] ( * W 7 r O Y * 
+7 W T [^YP] 7 ^ w r a [%YO] 0 r ( D Z 5 j 0 E ( [Dk] [%H] 0 r ( [YD] 5 P 0 E ( Y [Oa] [%W] 
+u T o Y r O o u P I Y a p I s u O S I W s Y D T [uS] D s S D [Ip] f S D O u f 
+G D f G I Y H f G T H j H L [IG] [eT] H G L W f [Tu] G f L D Q Y f D L * W S u 
+H x % j [ts] G Z 6 H 0 T p G D L f r i T q O S k d I Q p S 9 y j G j T * L b 6 e C 
+L $ Q j G * ! S [29] p I y e 4 [ry] O $ 3 4 $ I y % 4 $ % i 6 $ % [6y] e I 7 6 
+7 4 y r O $ 3 4 $ I % 4 $ % i 6 $ % 6 7 I T 6 7 8 I [pD] * 7 8 * S ( 8 
+* s ( 0 * ( 0 [uS] O Q 0 Q 8 I D p * 7 8 * p S ( 8 * ( I s 0 * ( q P t S o Q 0 
+q Q T S p W q Q S W [ia] e Q W e S p I r W e t [pD] I T r t T f Y O u t T Y O [sG] u 
+T Y u S H D I Y u I [SD] j O i I O S [fH] p O I u Y T r S [fHL] e W Q 0 L [fx] H 
+( 8 7 6 [HV] [Lx] % $ 3 @ [?L] [!x] ? ? ? [$Lb] [?j] x [?%] [tIO] s 
+! [?T] [uS] O * % ! * 0 W * 
+S W T S u H O u h T H W h 0 H 
+* D T G * f ! S * W S 
+0 S * f S T S W f 0 G 6 H S 0 
+e S T S u a T a H e 0 3 
+7 0 W r W f a [0f] a r D a 
+7 Q r Y D a I D a Y S r f 
+Q ! * W [Of] 0 f O * f O [TS] O 
+W [Of] 0 O G [OH] 6 0 e S f [TSf] u k a T 
+H [af] e 0 3 7 0 W r 
+f a W 0 f a 7 a [DG] 7 $ ? D G a $ 7 ( Q r 7 ( Q r Y I 
+a Y [DH] a r Q ( 7 * H [aD] Q r 7 ( * Q r [7(] a [DH] * Q r ( 7 * H [aD] 7 $ ? @ $ H a D 7 ( [qD] H a r e 
+7 ( Q H [raD] ( 7 Q r [DH] a 7 ( * Q r H a D [7(] P O T * ! T [!S] * O i * [!TS] [iO] 
+P O T [!*] [*T] ! S O i * [!TS] i O 8 P O [!*T] * S [!O] i [*T] ! S 
+[!*] S [iO] % ? t [%(] Y [8tO] s ( % t [Ys] O P O t ? % P [?%] t s Y O % ? t [YOs] 
+P O t % ? P [?%] [tY] s O [?%t] [Ys] O P O [?%] t % [?ts] Y O 8 1 E P 
+8 1 t s * ! T T i [!S] [?O] [TS] [iO] ! ? J S H [!*S] S T q [*W] * S [qW] 
+J H ! [?S] L S * [!H] g 4 * S ! % [4gH] J ! H [?!] [SL] H g ! * 4 % [*S] [!L] [4%] g % ! S H g 
+% ? [sl] % W [7D] [sH] W [8%(] [sD] H J H % ? s J s [Dl] [8WH] % ( W ( % 8 s [DH] l J s H 
+s % ? s 8 [DHl] W % ( [%(] W 8 [sl] D H s J H s % ? s [?%Dl] H [18P] $ J 8 1 s @ l [!*] S L [gH] 
+H [SL] [gH] T W * q W L [TS] H i O H i h T * q H W T i h O i H T * q h W T 
+i O H i T h * H W T * D W [TH] * D f G H 
+D f G H D f G H D f 
+G H D f G H D f G H D 
+f G H D f G H * W D * W * f 0 W G * H 
+W 0 * 0 W D * 0 W f * 0 W G * 0 H W 0 * W D * 0 W * 0 f W * G 0 W H [*0] W * 0 D W * 0 
+f W G q * H W q * S W [*q] W g * q G W H * q W [*q] S W q * g W q * G W H * q W 
+* q S W q * g W G * W q H * W q S * g G * ! O H W * 0 [*0] W 0 [*W] 
+[!TS] * ^ $ * ! * ! ! * % [uf] I G * [!OH] 5 Q ( [0*W] [0*W] * T [!S] * ! * 
+! f u ! * ! [IG] % ? Y S [%(] W O ( % % ( r a [TS] ( % [YD] [%(] [WO] 7 7 ( % [%(] [ra] 7 [TS] ( 
+% 7 [YD] ( [%W] 7 O ( 7 % [7%(] [ra] [TS] ( % 7 Y D % ( [WO] 7 % r a 7 ? I G Q ( 7 [(Q] 7 
+Q 7 ( [rY] [Ia] Q [7(] O Q ( 7 [(Q] 7 u f Q ( 7 Y D [(Q] [7I] G O [(Q] 7 0 [7Q] ( Q ( 7 [Qra] ( 7 
+( Q 7 Q ( [uf] 7 [*D] Y * [!S] T ! * W O ! * e p [!*] [ra] T S q Q W [qO] * e p 
+W a r * T S P * ! W O % * ! 4 % * e p ! 4 % * [ra] ! 4 @ % * [TS] P ! 4 @ * ! 4 @ [WO] * ! [@4] % * ! [ep] 
+@ 4 * ! @ 4 * [ra] % ! 4 * % ! 4 ! ? [OS] ! * % ! % * [0O] f W 
+[*0] f O W T * 0 f [WO] T [*0] O H * H O ! 3 % * ! 3 [OG] % * ! O f 3 ? 0 [OH] 7 3 
+7 O H 0 W r O H u W Q O G 0 3 % 7 0 [OH] W r W O G 0 O % f 6 3 ? 3 6 [pS] f 
+* 0 e S [pf] T u T [Sf] p e 6 [*H] 0 p f e [TH] p u T G p e 0 * f G * [7w] 7 a [DH] 
+Q r ( [aD] H G 7 H D a [?%] l % j H [(W] 8 G % f D S ! * O f 
+T * 0 O f [WS] 0 * S O f * [!OH] S f % * H O 0 W [0OG] * O f 3 ? a H 0 7 
+3 [aH] 7 0 H a W r 0 W r G a u O H a O u [aG] r W Q f a 7 4 ? 3 [Sf] p 6 * 
+S [pf] 0 f [6eS] p e H [pS] f T H p u T G p e 0 * f p 7 ? ? H [aD] 
+7 [@$] a [DH] ? [aH] D ! % ? l j H % G W f t D Y O S t s W p 7 O 
+I % u @ ? Y T t e W Q 0 ( * 8 6 % $ 3 @ ! 1 
+? ? H 
+h H h H h H 
+h H h 
+H h H 
+D G 
+f * ! O [SH] f T * W 0 f [u^OS] ? ! E * 7 [OSf] u I G ( @ G [oh] 
+I G w ( u f % ? Y D f u W [%(] 8 I G * ! [OH] T * W 0 S L ^ ? E ^ [*q] T S D Y 
+[@(] f u I G [w(E] 9 f u ? % u f [YD] W % ( 8 P a k [pj] * ! H O 0 W * 
+[?^uf] ? E ^ 0 * [uf] u I G D ( @ o h $ D [IG] E ( w I G % ? u f Y D [uf] W % ( 8 I G O 
+* ! O H G T [*0] W [SL] ^ ? % [QE] * 7 [TS] Y D ( @ u f [IG] E ( w f u [?%] D Y 
+a k W ( % 8 p j * % ! [OH] % * ( 0 W T Y u T H W h 0 ( [WH] 
+0 * h W 0 * H 0 W * h 0 W H * 0 W D * [0W] G * [Sf] 
+S [!f] * W S G * [SH] T [SJ] W S H [7G] D 
+Q a D r Y a I S r D f p S e u [pS] T 
+[eS] p 0 s * S % D ( O [Ws] t O Y 
+W S O ! O f % * [OG] 0 [OH] W J * H 
+G ? $ D 7 [(a] Q S r D [6f] p 0 D e S 
+% s ( P W s ! S u O % O S u 0 S O u W 
+* 3 a O r u a u O r W P O 
+7 I Q ( Y r Q T Y [6u] 
+0 T T 0 t * T % Y W t 
+( W 8 % a 3 [rO] u 0 r W [ua] O 0 
+P r O I 7 Q [rY] [(r] Q S T D Y 
+* f u W D T S [Os] % ( P W s 
+S ! % H h H W h 0 [*H] T h * H 
+h 8 ! H * % ! h % H ? % D G ( 8 % % f [?!] S D 
+[Sf] G S [SH] f S [SH] ! % [@^] P h P D h P @ ^ 
+[1%] G s [sD] [sG] [1%] % ! S D f [!%] G H f 
+! % H f f L [30] f k 7 % 0 H W r f W W H % l D ( W H D t Y D l t l [!*] L 
+Z L x [*T] W [LC] [LV] L x L V u O T Y ( J v J Z [(v] J Y v E w ( C 
+C t [(W] [8l] Q 8 Z l ( C t ( [8W] ( W [(T] [*WL] Z W * x [WT] C * V e 6 x 6 e V e * 0 ? W % [^m] ( 
+V t O Y m t ? [!*] L x ? V x L L H f S ! * L H f S S O u T [!*] S P u 
+T T E w 0 * ! ? O o O o 
+O o O o O Y I 
+u ! T * u Y W T O 0 I [8t] 
+W Y ( W * T W u Y 6 e 0 t 
+[%W] ( W t * S O [Of] W D O [OS] T 
+u H k Q S T J S S [Ij] p G ( j 
+Y H h % H ( W t H Y t W [Hx] ( 8 * % ! [HL] 
+% * ( 0 W T Y u T W 0 ( % O [?H] [!S] f O H S O H f S O S [fH] O 
+[SH] f [OH] S f ? ! [oh] D O H $ ? p [SG] j [Gpj] S H O $ ? [oh] 3 [OH] ? H O u f 3 ? [TS] 
+@ ? [IG] [IG] [IG] [?@] i g I G I G [?@] e p [ep] [?!] [WO] O W O W ! ? t s O 
+1 ? O H ? O H O 1 [?H] O H O ! ? O H O H [OH] [OH] ! ? [OH] [OH] ! ? [oh] G [OH] 
+$ ? a k a k p j * [6$H] O [pj] p j Q [$*] 6 T S [TS] 3 p ? j p j 3 ? H O o h ? 
+[OH] [?3] [TS] S T S T @ ? u f u f f u @ ( % 8 [OH] [@P] % 8 ( O H W t [DZ] Y ( W t Y D Z 
+O a D H V O J I Y t W [HV] ( H V [@8] % $ ( 8 H @ V ? % V ? ? ? V V Z 
+H % ? V Z H H O H [?%] D O O I y W % ? O 
+W % % 8 ( W t Y t W % 8 [OS] ( W % 8 ^ ( W % ( S O % $ ? @ 
+S O % ? 1 @ % ? 1 S O ? @ % ? [OS] @ % ? [OS] [?!] S O 
+[*O] [!S] % 4 O [!S] [%*] [!O] S [18O] S @ O D 
+[(W] t O D 8 ( 8 O S [?^] S 4 O S O D D ^ [EO] [*q] [^*] [Og] 
+% [?g] O [Os] W [%(] [O8s] % s O ? $ [OS] 1 
+[OH] O D O [?S] $ % ? O D O D G O D O g 
+% ? [Os] [?^] [OS] 4 [OS] [OH] O D ^ [?O] S ! % ? 2 O D 
+[OD] [%W] [(OD] 8 ^ g [%O] % [?Os] ? W $ [?T] 1 O [WT] W O W [TY] 
+O $ ? T W ? [?%] W Y [WY] Y W ( 8 [(Wi] % 8 ^ ( t W ^ 
+[?ET] ^ q [EO] * Y ^ [*q] ^ T % ? Y t @ % Y t 8 ( W t Y % 8 ^ 
+( W i % 8 ^ ( W t Y t W % H 8 W h r y r H W % 8 [(h] W t H 
+Y t E W D * % ( % G W ^ 8 ( ( f 8 % * [!Suf] O 
+W [*(] * [6u] f [?p] d S [*e] 0 6 6 G I [7D] ? a a r Q ( O [*H] 
+7 O H [?3] ? ^ 0 9 3 % $ 7 0 W r u W * ! @ * % ! [WO] 3 * 
+! 3 6 5 @ 3 [OH] ? 3 6 0 e a k * 7 ? I G D $ 7 ( Q r H ( j * H G 3 [?H] 0 
+3 % $ 7 f 0 j f W r a W f Q a 0 O a % 3 7 O $ u * % ! L S % * H 0 W S L 0 S k % @ ? H @ 
+% ^ ( W ^ f 7 G ? $ 7 ( Q r ( H Q $ S * H Q E T E S e D 0 
+6 f S p 0 e T u G p T f e 6 0 * D e * S Q a * S $ * Q I D p E S D T [EG] 
+J L W C B ? ? Q ? [$B] C Q L J T G [EC] L J G Q S P $ I G $ [IP] I G ? 
+$ ? H $ ? h [%H] ? [?%] h H ( 8 % % 8 h [WH] ( % 8 
+[(WD] % 8 W [QG] t f [sl] [Wg] % T i W [gSL] * a [gk] ! 
+[Ti] W [gSL] W % [sl] g [Ti] W [SL] g * ! [ak] g i [WT] S L [$Q] l j s I L S J [rG] [!*J] P H 
+I E S L Q $ l s G j % I E [SL] G J [!*] P H [EI] L S % W [sl] i r T L S * ! Z D l i r T L S 
+W s l % i T r L S * ! Z D [Hk] i t L S [$sl] Q j I E S L * ! G [JC] I E T S L j [$Q] s l 
+I E S L H [*G] ! C I T T S L W l s g [Ti] [Sg] L * [ak] g T i W S L % [sl] g T [Wi] S L g 
+! a k g i W [SL] Q l s [Gj] I [ET] L S J G * J P H E I T S L $ [sl] j G I E [SL] T J ! J P H I 
+W L S W l s i T W L S * Z D k E i o L S H % l s [Wi] [SL] H ! [DZ] k H i T L S [Qs] l j 
+I E [TS] L J * [GC] J I E T S L j $ [sl] j [EI] L [TS] ! G C E L S W 
+T i H h W H i T W h T H W D * 
+[*W] G * f 
+[!*] [OS] [Of] 0 W * D O * W [OS] * % 
+? a D k H k [aH] D % ( W J P r Y [OH] 
+? [7D] Y D Y 7 ( Q S r a ? $ P 
+J Q P J $ * Q E H T S * % ! f [u%O] S * 
+( 0 W f [uOS] T Y u T D W 0 ^ W 0 ^ S 0 7 3 Z D 7 0 
+w [rDZ] u o a f a L S o u r w [ak] 7 $ ? $ H O 7 ( Q G I r 
+7 ( Q r [YD] r Q [TS] ( * 8 % [ra] 3 $ ! ? [PJ] ! $ ^ * P J $ ^ * 
+Q E t H I E Q * S ^ $ * Q $ ^ * Q $ ^ * Q $ ^ * Q 
+$ ^ * Q $ ^ * Q I $ ^ * Q $ ^ i * Q $ ^ I * Q [$^] i * Q ^ $ I * Q $ ^ * i Q $ ^ 
+* I Q $ ^ * Q $ ^ T % * Q ^ $ * Q $ ^ u * Q $ ^ % * Q ^ $ * Q $ ^ y * $ 
+5 ? r I w 5 [79] [5r] [79w] r I 5 ? 2 
+r 5 ? 6 ? T e [eI] 0 [6*] T [*60] e 6 * [0T] e e I * 0 6 T e 
+6 [?7] [ry] r I Q 7 9 [7r] Q [9y] [Qr] y 9 7 [rI] Q 9 7 [ry] 7 9 
+u [eT] 6 ? [eI] e T 0 * 6 u I p S D * [60] g j L x C b 0 [6*] C x L j [60] G D S p 
+5 r ? 2 I w 9 7 5 [59] [7r] w 7 5 [79] r w I w Y 9 [57] [wr] 7 5 
+[?6] e T e I Q [6*] Q * 6 T e Q [*6e] T [eI] Q * 6 [6Q] [*T] e Q 9 7 y 
+r [rI] 9 [7Q] Q 9 7 [ry] 9 [7Q] y r [rI] Q 7 9 Q [9y] 7 r 
+* 0 T u I T 0 * [0T] [*u] [*0] T u I T 0 * T u 
+Q $ * I [eT] I T E I I T I 
+G g G I S f 
+d 
+G 9 j e [IG] 
+k y e p G 7 f 
+Q [yd] G r Q G G y 
+5 f a w r f a u [rf] a d w a f 
+u r f a w G G u a 0 f a 
+r [uf] a r f [wa] 0 d 7 5 [Sf] ? 6 S f 0 9 
+6 G * [0e] G 6 h e j 6 ? z 7 d G 9 Q d r L 
+Q d 9 G d w k 5 9 d w G r d j y d r h w 
+[9d] 2 G p 6 d 9 p Q h e p Q G 9 [6p] S f ? 
+p 6 S * p 0 6 S p 0 d * f G 7 z ? d d 7 G 9 
+Q d r L Q d 9 G d w 5 k d 9 [wG] r d y j 
+r d w h 9 d 2 G 6 p 9 d p Q h e p Q 
+G 9 p [Sf] ? p 3 6 G * 0 g * G 
+6 g * [0G] e g T u G e e S 6 * 0 e f T u T 
+d e 0 * [7a] ? [IG] Q [(r] 7 S [!*] [OH] 
+T q [*W] * H J 0 3 k f W r f k Q $ J T [QG] [!*] H ^ 
+[WT] q * * [30] W r k J [$Q] $ G [@(] h 
+E ( w D W H % D J D Y W r D k 7 ? a ( Q r ( 7 S 
+D * D [?P] ! ^ q 9 ^ [Pd] E q 9 ( @ Y [YP] 
+E [(w] ( i q 4 [is] t e q s q d W % O D ( ( 
+D O E ^ q 9 [Od] ^ P [4qs] p e [ti] e q 
+W % [OD] E ^ [Od] [^P] [5w] a w E y r o s o 8 
+w [od] t [oD] Y W D % ( W t Y O g W h 9 
+2 h 6 9 Q e G d 9 Q e y I p I y e Q 9 
+j 9 6 2 H $ 9 Q j e Q 9 H 2 $ 6 9 Q j e Q 9 2 f 6 
+9 $ 2 6 9 $ 2 h 6 9 $ 6 9 $ 2 9 2 $ G 
+p d f ? 2 G G 
+e y I d f G 
+Q f [pS] [Sj] j [Sf] T I 
+p O G j k L G r 
+G z I [Gz] a I S 
+d G a x G e j L I 
+p I T e Q * 6 $ ! ? z G 
+L G G j [5w] j G ^ k h w r y I k h o 
+a d a o I y j r w h Q h y 
+I y [Gj] d e Q 9 j [dG] 6 $ Q 9 6 $ d Q $ 0 f 
+7 G a 3 [aG] 7 0 Q w r u I [oa] h u t r w Q h a f 0 7 5 3 ? 
+? j a ? ? ? f S 6 3 ? 2 W [36] 9 0 e y u p e 0 d 
+f j z x b x u y z j f S p T e u G T 
+g e G 6 * 0 e T g u T G e 6 * 0 e T S u e T u 
+p u f T e u d T r Q 7 a Q r G y a I 
+y G r I a k k r y a I y a k y r k n [Ia] y k n r k n y I y I [ak] n [kn] [ry] I [yI] [ra] Z ? [yI] [rZ] ? a I [Ya] [?Z] r 
+[aIZ] ? [rY] Z [?Y] a [rI] [?Z] Y [Ia] r [YIa] [?Z] r r [YIa] Z ? Y r I [?Z] [?Z] [?Z] ? Z Z ? ? Z ? ? L L ? % ? k n 
+k n Y ( k n r k n Y [(r] W r W [(Y] B J [JB] [?7] V H H V [(Y] r h v [rhv] Y W r V [(H] W H V ( @ B J B J [Yo] w [DZ] E i [DZ] [EYo] w Y [EZ] [wD] 
+Z D 5 [fx] 6 [fx] T Z [PD] Y [DZ] [TP] Y T L S S L % a k a k Y O [ak] a k [YO] J [PJ] [rt] J P 3 H O O H 
+[ry] o h [oh] r y r H [EO] O H @ J P [PJ] [wEY] D D Y E w E Y D Z Z D Z o P [?SD] [?Z] ? Z [?Z] [?L] L ? 
+[?%] [lm] l m I [lm] e Y [lm] [YI] j b t e [jb] 8 1 V H H V [HV] I Y e C [IG] Y t [GC] e G c * [!f] x e T 0 S u p T [0e] [upS] 
+T ( e u D p [eT] ( [uO] D e T * u f p [eT] * u f w [ip] T ( [eu] [QD] [wp] e T ( u p D w T [0e] [uS] p 0 [eT] [uS] p [(W] r w Y [OD] a 9 y e [uf] w [*Tig] o 
+I G t 8 [ro] h 7 8 [EO] H ^ [6e] j p W % P J w 5 a k Q $ [sl] q S L 4 0 3 [^d] [Jz] 5 h D [hJ] [@(] Z ^ [2$] 9 [fx] 8 g c * ! 
+[GC] 8 1 v [7h] ? V [^H] ? C 6 ? ! 5 [jb] % ? B J L 5 [?kn] ? $ ? [?L] 3 [?z] ? ? B @ [?Z] ? 
+% ? O [rY] W % 7 ( W r Y O a D H a O Y r 
+W D % d ( W % D 7 ( W % 7 d ( W r D Y r W d ( % 7 ( W % [7D] ( W 
+r P Y r W S ( % 7 ( W a 7 % ( W % 7 ( W % 7 ( W [ak] % 7 ( W % ( W a k ( 
+% ( W % a k % G P J [Dh] @ ? P [hJ] D O H ( ^ o h @ ^ ( w E 
+Y o P D o Y [PJ] D h E ( w P D [hJ] E Y [PJ] [Dh] ( w Y E ( [PJ] D h % @ [?J] [PD] h % 7 [aD] [Hk] ( % [7a] [DH] k W 
+r Y r W % ( Y 7 D O a W Y O [aD] 7 % ( [WD] [YO] a % 7 * D Z % ! % S L H g * q W T * q T [iak] 
+O i T W Q P J * 3 ! * q W q O H * % 4 % 4 a D H ? k H D a O W 
+Y r % 7 Y O ( W r [YO] r H O W P J ^ % % a [Hk] D ? [aH] [%Dk] 8 ( a k D h @ ? [PJ] D h 
+( O H @ [5oh] ^ ( W Y o P D P [JB] [Zv] o J Z [vB] Y [EJ] B v Z ( w E Y ( [JB] [Zv] w J [%Z] [?B] v 
+n [kZ] V W ( Z [Vkn] ^ % ( W W [DZ] % 7 [(WD] Z % D Z 7 ( W 7 % [(W] D Z % 7 * Z ? 5 ! % C L ? V * Z 
+q W t i O [Sk] [cV] n O i T * q W ( T J B i O i T [HV] Q 0 Z 7 3 [kx] [Vn] 
+7 0 W r u W O r H P J ( [ak] [@^] ^ ( w [PJ] E ( w Y P J o P [oJ] 
+Y E J ( H h f D E ( S s a P ( O o u 
+Y T r E W w 0 ( * 7 ^ % 5 
+3 @ ! ? ? ? ? ? ? ? 
+Y D 
+d D d D P 
+S a % ( O Y 
+W t Y O ( O Y 5 [YO] w o O Y t P w 
+q O s i t W t i q O s @ P t ( O 
+W ( * W O i O T i * O i 
+O 8 i W O i t P i ( s ^ i T q O 
+E T O i [@O] i O ( i E O S w s P % 
+( [Os] W t s O ( s O [5O] s w P O s t Y 
+S O w D q O t D H i H t Z V V ? ? ? ( V V t Z H H 
+Y D O w * W O s T O s W O s 
+( s P E O Y ( o 
+% O ( D t d W D ( t d W D d ( d 
+( D @ ^ ( P w S E Y a E w % ? 
+[?%] % Y t % Y ? t ? [t%Y] % ? O [tY] % ? % ? O [%t] ? % ? [%Y] [?t] % Y t ? ? % 
+% ? 2 O t [?%] % ? [EP] $ Y ? [??] $ ? ? $ ? [EP] W $ [?O] [$E] [?P] $ ? $ ? [EP] $ ? W O $ ? [EP] $ ? [ts] 
+$ ? $ ? T S $ ? $ ? t s O $ ? W [tO] Y % ? % ? % ? [%Y] [?W] t t [WY] % ? % ? [WO] [?%] [tY] 
+[tWYO] % ? 2 % ? [?%] [tWY] t % ? [?%] W [tY] ? [12] % ? [?%] W O ? 1 % ? [EP] $ [??] ? Q * $ 
+* Q E T E Q Q * ^ P I O I $ ! P I ? $ ! ? ? [Is] ! $ ^ [IS] * Q $ ^ * Q E T 
+I E W Q * ^ $ ? ? J P P J [PJ] [sl] ! ? ? [SL] [gH] * 
+! 4 % * q T W q [OH] ( * L S 4 O H % ? Z D @ % 8 ( W E T O Y I T E [DZ] W [SL] 8 s l ^ 
+? P 4 S J H [^g] [PS] J [gH] [*9] q ^ * P S g J q E [PJ] S g H T u o T [sl] E [HJ] Q * [SL] $ * Q Z D E [YL] S E s l Q $ [^*] Q * [SL] 
+$ ^ * Q ^ $ [PJ] P J [sl] ! ? [?L] S * ! 4 % * q T W q O H S g * [OS] [gH] % 4 [%g] c @ ? [DZ] 
+@ % 8 ( W t Y O t W Q L S ( 8 [DZ] ^ $ ? [gc] ^ * Q E C G T i P g c T E [*D] Z 
+Q * $ S L * Q E T I Q E I P S P I r * [HV] ! * q T [qg] c * 
+W ( D % H ( Z W l H t D Y t D E s W O Y ( 8 % ^ ( W S L % 8 W E q ^ [HV] q E T y i T g c L E 
+9 Q L S $ J * Q E T I T E [SL] Q S L $ q [sl] 4 8 q W [SL] i t W q t i W [HV] q 
+q 8 4 % [8q] 4 % q 4 q 0 3 7 0 W r V H 0 W u O a O 
+u r W 0 a [ru] 0 W a u r 0 a r a 7 Q a a r a [Qa] a 
+[Qa] $ P I Q * $ * Q E T E Q 
+* $ * Q G E g T G E g G Q * g $ G * Q * S ^ 
+Q $ ^ * Q f [$^] [*Q] $ ^ d 7 ? a a 7 
+a r 7 a I Q r [ya] I y a G r Q 7 a Q r y a 
+I y a r Q 9 a 7 $ ? a $ 7 ? 2 $ 7 a ? 2 $ 7 ? 2 $ 7 a [?2] $ 7 2 ? 
+[$a] 7 2 a [dz] ? 2 [fx] ? ? G C z k 7 ? 2 $ [7G] C [kz] 
+9 G C k z Q r 9 7 [dz] 5 2 ? k [dh] z 2 5 7 9 w r y o r [pd] [Gj] d z 9 6 [fx] 
+2 C G 6 9 Q e C G y I [fx] p I G C y Q [hv] e 0 6 C G 0 e T u x f p T 
+e [pj] * d z 6 3 ? f x ? ? C G z k 7 $ ? 2 $ G C [7kz] G [9C] [kz] Q r 9 7 [dz] 
+2 d [5h] ? z k h d a I y r 5 2 ? 2 5 7 [wo] 9 7 9 d y u 6 u f 
+2 3 [IG] 6 9 Q e G y I f p I h y Q G e 0 6 G 0 e f 
+T u e p S f G j L x C b ? ? ? ? ? ? ? b C x L j G f S p 
+G g G g G g G S 
+f d $ 7 a ? [rY] I @ ( Q 7 7 
+I e [$Tp] ? $ ? [?I] [eT] p T e p I ? ? [ra] I ? [yO] r Y I O a D G H k Z C 
+n f u I G O ? 3 h [?o] a 0 7 3 5 7 0 [IG] 3 u f 9 6 2 [yd] [Ip] 9 Q e 
+f [Qu] [IG] 6 3 ? [uf] 3 6 * 0 e w * 7 $ ? [yd] [?6] [TS] [ep] 
+[?7] a [rI] y Q ( 7 * 7 $ [?p] [eTI] [6*] $ e p $ t [eI] p r ? ? a [rYI] 
+r Y 7 I $ ? a @ $ 7 D G H ( [Qk] Z r C n Y I a f G a D 0 h a r u 
+o a G h S Q S j T I p S p [IG] T j 
+[D7k] Q r Y I a I Y 
+G r Q g ( G 7 g G $ * S 
+Q f E a S D 7 Q G Y 
+^ D Q E S % a ( 
+W r $ Q [YD] G r H [0a] r 
+u k a O Q J S T I G S E 
+7 D a Q r Y I Y r f D ^ S P Q E 
+I T k E L r Z I a I Y C a I a Z E 
+I P G I L T P G I P [Wk] D Y [OH] D a J 
+O D k D Q k Y D J I D Y H E D I Z Q C u 
+V 0 r u O a O u r W C r 0 u 
+r Z W u r % k ( Q r Y r 
+[QL] * Z $ L G * Q G E g T G E g 
+G Q * S ^ f d $ 
+[?a] [Gdk] ? a G [dk] L S [SL] $ 7 2 d z z d [GC] [GC] Q r 9 [7v] h C G $ 7 2 ? 
+f x 3 3 6 ? 2 [dz] S L [*0] e 6 a k [Tp] u e a [Gk] d d [aG] k d z [dz] J 
+[*0e] 6 L S [SL] p j [pj] 5 ? 2 a [dk] G [dG] [ak] L S L S w 5 9 7 [dz] [dz] C G C G [ro] y w [hv] Z 
+C G [9w] 7 5 8 f x [?$] [dz] 1 Q $ ^ S L * Q E k a T I E C G Q C G 
+8 6 f x $ f x ! ? ? [dz] $ ! d ? z J L S J L S [??] a k a k 7 $ S [2?L] $ 7 [SL] 9 [dz] Q r d z T p C G u 
+t G C r v h 9 7 ? [GC] $ 7 9 r Q 9 [fx] 7 3 ? d z l 3 6 * 0 [SL] e T p T 
+a k e 0 6 [0C] G e C G r T u f x O a f x S p [dz] u [dz] r L S w L S 9 5 a k 9 w k a r L S y o 
+[SL] r d z w 9 z d 7 [5C] G 2 G C ? [2hv] 5 [67] G C 9 w e r [fx] w q $ [dz] ? Q 
+$ ^ [SL] * Q E T a k I E Q [GC] $ * ^ Q C G ^ $ * Q f x x [rf] I d z E Q 
+d z $ ^ * Q E T L S E Q * $ S L ^ Q * $ 7 d ? 
+G S d r Q a S y p O 
+3 7 0 Q W r 0 
+r 7 d Q G [rS] T d y a I S 
+r d 0 f 3 7 0 G g W 
+[rG] W S 0 f 7 d 7 ? 
+a [rI] y I [rya] d y d y Q 9 r a 7 7 r a 
+6 9 2 [IG] D [IG] G I Q e [9yd] u 
+9 [uf] [6p] S ? [uf] [pS] [uf] p 
+[60] [p*S] u 7 6 [37] 0 [af] o f [oa] a f o 
+d Q o [wr] [oS] 0 I a [??] I a 
+a I d I d [*I] $ $ 9 [Ia] $ [Ia] 2 [?IG] I G 
+2 G p 6 9 Q e [pd] 0 e f [6pS] 
+f [pS] u [pf] S y T [we] 0 * 6 3 ? S p 
+7 0 [3oa] f f a o Q r [af] o d I [uS] 
+a G I g G 3 0 [7g] G 
+S r w f d 
+7 k Q k L [yL] z r z L Q L k 
+k I G y G j r j h 0 h j r h G u h 
+I o a o u 
+6 j 0 j k e k L T L k u k 
+j T j f e f h p h h 9 h G e G f 
+G y h G I f Q G S T G S I G S 
+E J S 7 k Q k L L r z z T L y L 
+k [Ik] G y G j r j h 3 h j h 0 G 
+r h a f G w h k x 0 C v n ? ? ? ? r ? n v C u x k h G w f a 
+6 j e j k u k y L e L j u j f 
+f T G G e h h 0 G 2 h 9 G Q G e f G y 
+Q h G Q * g $ G * Q h E T Q G I P [Sg] P G I T E g Q 
+* $ G Q * ^ $ g $ ? G ! $ ^ S * Q $ ^ f * Q ^ $ * [Qd] I f [29] f I 9 
+2 9 2 [If] 2 9 s f 2 5 [?a] h [9w] 7 o 7 5 [8s] [1u] @ 
+8 0 o [8w] u t e [8q] [tp] 8 a p [we] O 0 [wo] 8 0 9 s w q h t 
+t [qe] [sj] q [sg] e t u h [ws] w f s r y [rd] w a w 8 s Q 0 o Q u 
+w u q p a p w p Q e O [0o] s w [th] q [sj] e e t [sg] w h s 
+t u f s w d e a [ry] w 8 h s G s Q [tsg] 8 D f 1 8 O 1 
+p s [58] p 1 s d 8 1 s h G g s w 0 8 D f [qw] 4 * l f [fl] q 4 ^ [%fl] 8 7 
+4 ^ [18] [sh] 8 G s [0w] g 8 8 D f 8 1 O 1 p 8 s q 4 p [4s] d 
+W % D O ^ * [^E] d q 8 s [wt] i w [9u] 0 8 t 8 1 @ 
+h s 8 [sG] w 0 g s 8 D f 8 1 @ 8 O p 0 w s 8 p s d 8 1 h d s 8 G 
+0 w f g 8 D f [4q] ^ % l d d l l w 5 * x z v ? m ? ? $ 8 1 
+[sh] G s 0 w g 8 D f [18] O p o 4 q s ^ % p s d [WO] [%D] s 
+E [^d] [qp] 9 s o t 8 w t 8 0 t u o u h t w G [80] w h t [80] 
+t w G 8 w q h 9 5 9 w d r y g r w D 9 8 s 8 1 s l h [18] 
+G 8 1 g 8 1 D s [18] D g ? ^ s s l ^ ? h ^ ? G 
+^ ? g ^ ? D s ^ ? D g [?%] s s ? l % [%h] ? ? $ [?%] G % ? 
+[?%] g [?%] D s % ? D g [?5] s s [sl] [?5] h [5s] ? [?5] G s 5 ? ? 5 ? g s 
+5 [?D] s 5 ? D g 8 [1s] s 8 1 [sl] 8 1 h s @ 8 1 s [sG] 8 1 [18] [sg] @ [8D] 1 @ s 8 1 D 
+g [?^] s s [?^] l s ^ ? h s [?^] 4 G [^s] ? 4 [?^] g s ^ ? D 4 2 s ^ ? D 2 4 g [%s] ? ? 
+s s l d W 8 [68] [sh] ( W t Y O I G s t W [sg] % 8 [(W] D a % g w 9 s 5 s 9 w s r [sl] y o r 
+h s w 9 5 9 G [ws] r y g s r w q 9 D s 7 5 2 s ? 2 5 ? s D 5 ? D [os] [5s] [oD] ? 
+5 [oD] s ? D o 5 ? s o 5 ? s o 5 ? 5 ? [oD] 5 ? D o 5 [oD] ? 5 s o ? 5 
+? D o 5 7 5 6 g o 9 w r G [yo] r w g o 9 [57] 5 D o 2 ? ? 2 5 7 9 s o 5 w 7 
+9 7 5 D o 5 4 2 ? ? s o ? 1 [os] h ? w t 
+y u y t w q 
+e u o u 
+8 w t h y G 
+u h [yG] t h w G q h 
+e d u g o f u s 
+e 8 k 
+w t y u y t l 
+w q j e u o 
+u e h 8 k 
+w t y u l y 
+t z w l q j e u o 
+u t l z 
+^ B q E b y i c p 
+i l y z E y i p 
+i y l E z q ^ B q 
+E b y i c p i l 
+y z E y i p i 
+y E s q P p 
+8 o u w t u o u 
+t s o u h [tG] w h 
+0 G 8 h 5 d g @ D 8 
+1 [8w] t Y w t Y w 8 1 5 t 
+Y [18] w t Y 8 1 w t Y [18] w [?^t] Y 
+w t Y w t Y ^ ? w t Y ^ [?w] 
+t Y ? ^ w t ? % W t Y W t 
+Y [?%] W t 4 [?W] T i W T i 4 ? W 
+T 5 ? w t i 5 [?w] t Y ? 5 w 
+t 5 ? y w o [9I] 5 5 o w I 5 
+7 o 9 w I r y r h o w 5 9 7 G I w 7 5 9 [oh] w 7 5 G I 5 ? o h ! ? 
+[IG] ? @ [oh] d o 2 [?g] o ? ? D o 1 ? ? s [?l] H 
+8 [@15] [oh] 2 ? P J d g ^ 4 9 [2i] g @ ? o h ( @ [PJ] 5 H ^ ( w r Y O D 
+g h g 4 ? ! g H q 8 4 % g q W t i W q J d H ^ 9 d g 2 J ^ g d a O 
+i y E q 9 [^9] ( @ [sl] ^ ( [to] h w q [4P] J E y [ig] [5w] o 
+h Y t [PJ] w t Y g h q [gH] t i O s O 
+J d g ^ J g d q E y i E 
+[?W] t t [%W] ? % [?t] W [?Wt] % ? % [Wi] % ? [?%] Y ^ [?E] [?^E] y ? ^ ^ ? E y [?^] ^ ? 
+^ ? Y [?^] i ( o @ t ( @ ( @ O [29] o 9 2 9 2 E 2 t % ? % ? % ? 
+% ? % ? % ? O t ? % o t 4 [t?Y] q 4 % 8 q W t W q s ^ [sh] ^ ? 4 g s 
+^ 9 q E y i P h d J D 5 8 [1D] l @ 5 s l h D s s P o Y t 
+t E w ( 8 8 1 5 8 o ( w I 8 o I t w o 
+( y i w Y 8 
+1 d y 8 w 0 d [8u] o t w 0 s o u 
+6 d u 0 e f p r t p s u t r 
+q a i t e s i t p q i t e 
+t 0 o u t [ws] u t [9yi] 
+q e y e q 9 6 4 2 ? u [?1] 5 8 o 1 u 1 
+[?7] [us] [Wr] 0 [uf] 7 [6f] [?s] p [80e] [pg] 8 6 
+q [4pd] y e d p q s p d p [5w] y r q 
+9 5 9 6 2 6 9 q f e p q 9 s p 6 4 5 2 ? d o ? o a d h k z 
+v n ? ? ? n v v z k h v z k h d a h d a 
+o o y r w h G 
+h d g 
+D 1 d s o 8 w t 
+y Y o Y s y t w ( D 8 
+4 g O s 8 q W t i t W 
+q O s t i o O o i t 
+i P ^ D q E Y i Y y E P d q 
+9 D P ^ 4 ? g i P 
+@ ? o P D h @ ^ ( w E H 
+Y h 9 [dg] P E y i P d 
+P z i z t l h o D 
+o d o l P 
+o Z W c H l i 
+O l H s g s 
+h g E g J Z 
+i P D d z 
+Z s P c [iJ] 
+8 l w t y o Y t h w G ( 
+h [8G] 5 h 1 @ 1 G 5 ? h 5 d [9w] 7 g 7 D 5 
+? 1 t ? i t t Y 5 1 y t 5 [8o] [@1t] t i Y t [18] @ 5 t [Yi] Y y t 8 1 5 @ t 
+t y @ [18] Y t ? 4 t P [68q] [tp] 4 t [18] t t t Y 8 [15] @ y t 
+8 t [@1o] 5 [ti] Y i 8 [1@] [5t] [tY] y % ? t [2Y] O % ? O [tY] ? ^ [?4] E [2yo] E [^yo] [?4] 2 
+1 [?s] o s o s o D 8 o [1@] 5 o d s [(wto] h 8 g D g [18] @ s 5 f D d [8s] [@5] 1 s 
+s D [(wt] 8 d s 4 ? [sJ] 8 q [6s] j 4 8 1 s s s D w [(t] 8 d 
+s [8h] 1 g s D g s t w ( 8 D 8 s d % ? [sH] D % [?H] s f H d ^ [?Pd] h 4 2 [?^] [24] [Pdh] ^ ? 
+2 ^ ? ^ ? 4 2 ^ 2 ? 4 ^ ? 4 2 8 5 1 D s 5 8 ( w t ( d D ^ g ? k 4 ^ 
+q E J g 9 % ? H D @ % 8 W ( 8 h ^ ( g ^ h @ ^ ( w E Y w % $ l D ? @ % 
+8 W ( 8 J ^ H 8 h 1 5 8 g ( t w ( 0 D ^ ? g s 4 ^ Q E D s ( w d 9 s 5 h [9d] w a 
+o 7 y r [6w] 8 1 @ D o 5 8 ( w t ( d D 8 g 2 P 9 q E y P J q q * 4 O H D s % 
+* [qs] 4 q * [oh] ( i g [@^oh] ^ ( w E Y E w W ( l [sD] [%H] W t Y J t H h w q g 9 5 
+D 9 w r d y r s [18] [$s] [Dl] h D s l h 8 1 [sD] l h 5 D s l [18] H s l f [Dsh] [18] l [8sD] [1h] l 5 8 [1h] 5 G 8 1 
+[18] h 5 1 [58] G @ 8 1 5 @ h 8 1 5 G 5 1 h 5 G 1 g 5 ? 4 ! d 5 D w 9 7 5 s 
+7 d w 9 g 5 7 g 9 w t g u w t y u D o s d s o D y t d w D 9 f G 5 d w 
+r y r w s [9d] 5 7 D w 5 7 9 w s h 5 7 w 9 7 5 [9w] g s 5 7 9 w r y r w 
+9 0 [56] w [57] 9 w 7 5 w 5 7 9 w 5 7 [uf] w 9 7 5 [18o] u f d 
+[0w] f o u [od] [5y] ? 7 9 o p 5 a d d o 5 ? 4 5 9 [7d] o [6s] [?u] p [80] * 
+6 p s [?4] i 8 6 d o 5 ? a o o 7 [9p] 5 u d o 6 ? s u 
+[80] 6 0 e 6 8 0 e p a s [68] d q 4 [if] e t q f i w [5d] [oa] r y w [oa] s 
+0 [3oh] W r 0 a o e [6ps] u t p e e p a s [4p] q [qe] t [pd] 
+w [5a] o r w y o 0 3 u u [6ed] [ps] t u t e u p u t e 
+j k i l t q x j t i p s [jx] o y z w h y o a d a p h u r h [0k] z r u 
+O a z [hk] O p o l f j e u u p s f s j [uk] [jl] 9 e y i z h p o k [yh] w 
+y o a d h u r 0 u z [fH] [Oua] [fl] j f u j p e l k j f s a p u 
+8 q 4 p f i e t [qf] p i w [5ad] o ^ r w y a o [30] [oh] w r 0 a o 
+s [ep] 6 u [et] p s q 4 p d e [qt] d a w 5 o r w y 
+u 0 3 u d ? 6 [ps] 6 f D 9 f 8 
+D 6 0 f 8 D 0 6 f 8 D 0 f 8 D 
+0 6 f 0 a 7 3 7 0 3 % $ d 7 0 W r W 0 s % 7 [?6] ! 
+[uf] 6 [?oh] [?6] 6 ? p j [?6] [yd] 6 ? 6 ? [?6] 
+6 ? s t 6 ? [oh] 6 ? 6 ? [ig] 6 ? u [6f] ? [?6] 6 ? [ig] 6 ? 
+6 ? u f [?6] ? 6 [ig] 6 ? 4 ? [uf] [?4] [?4] [ig] [?4] 3 ? u f 
+[?3] 3 ? [ts] ? 3 6 [?ra] [?6] 6 ? 6 ? u f [?6] o h 6 ? 6 ? 
+p j [?6] O [4ts] [?i] p ? 4 ? [?4] [tips] ? 4 ? [oh] 4 ? 4 ? 4 ? i g [?4] 
+2 ? u f 2 ? 2 ? i g 2 ? u f 2 ? 2 ? 2 ? i g 2 ? 3 ? u f 
+0 3 i g % 7 0 W r [uf] W 0 7 % 3 t s 7 % 3 6 ? ? 6 6 ? 6 ? [ts] 
+6 ? r a O 6 ? 6 [?e] p [?6] 6 ? [?6] a k [?6] 6 ? p j 6 ? 
+[?6] [?6] u f 6 ? 6 t [?s] ! 6 ? [ra] 6 ? r a 6 ? e p [?6] [?6] ? 6 
+? 6 6 ? i g ? i g 2 [?i] g ? 2 ? u [sf] p 2 ? 2 ? 2 ? ? 2 ? 2 ? [ts] 
+2 ? t s 6 r [?a] ! @ 6 ? [?6] e p ? 6 [?6] [?6] 6 ? i [psg] ? 6 [ig] p s [ips] [4g] ? ? 
+4 ? [uf] 4 [?s] p 4 ? 4 ? ? 4 ? 4 ? s l ? 4 s l 2 ? a k G 9 6 2 4 p j 6 
+9 0 q e q [gc] 0 g c 3 ? f x 0 [DZ] 3 % 7 f x 0 0 Z D W r u [fx] O a O [DZ] 
+u [fx] r W [0D] Z 3 % $ [fx] 7 0 [3%] 7 Z D 0 0 W f x r u O [DZ] a O [fx] u 0 W r u [ak] 
+p O a O z d u r W 0 [ru] s l W 0 r u 0 f 6 0 a t s 
+d 0 u t h t e g 4 f q p t s [qd] 
+p t h i g 8 f w o t a u s o 
+d t f 9 f e d I p y e I 
+a s d q t i s a o q 8 4 s d 8 g o 1 5 8 
+0 w f d 8 f w t 8 0 t 8 0 s 9 f 2 6 9 [Id] Q e Q p 7 ? 
+p 7 9 a q 9 s 3 s 0 a W r 0 s u g O a O u r 
+f W e 0 6 f 0 e a t u s t d e 0 6 8 [eoh] 0 
+6 8 g q 8 4 f 8 q e p t q e t s i e q d q 8 4 6 8 q h e t e r g 
+8 5 1 f 5 8 8 0 o w t u s o u f t w 8 0 w h t u o u j 
+9 6 j 2 6 9 Q e h y o p d x G G x j G f 
+p S I u u e Q 0 p 
+f D f 2 D 9 f e Q 
+a d I s 
+O * H 
+W u f T G * H e G H G H G [YH] G H 
+G T G f G H * j H W u T 
+* S W u L T * 
+? ? W n b i V T C c * z L [Wk] j H i G 
+g d T S a Q p e I T 
+e Q e * 
+[$y] 9 e Q $ d 
+9 e Q S $ s S 
+s [(S] s S s S s S e s a s Q S D f 5 0 D T 
+W S % O 0 T p W 
+% ( t O Q 
+* T W 0 ( * 
+0 * 7 a 
+3 h o 7 w w 0 
+t r 3 7 w 0 G 
+t f r $ D 7 e Q 
+t r 5 7 w 0 f 
+t r s @ a 7 e 
+Q t I r p [3s] 7 o a w 0 I p 9 
+t o u r [YI] ? 7 t E [uo] w 
+^ [7Y] I ? 7 ( Q 
+r 5 a y 9 r w a i u 
+y $ I Q T u [PS] I T Q Q 
+I [7ad] Q y r o I i [ad] y 
+r q d a 9 4 $ S a Q 
+T u o I u S a T E 
+Q P $ ? ? a 7 
+Q r Y t r u w t 
+r Q [IG] t r 
+a a d a a f 3 ? 3 7 [0ah] 
+w r [0aG] d 1 8 w 0 [8a] 0 t w a 8 d a 
+a h ? 5 w 9 5 G a 9 w y [pd] e 9 6 2 6 9 Q e y 
+I p d s p D d 0 p 7 3 a f 7 0 Q w t u [ah] I o u r [wG] a Q 
+8 5 1 5 8 0 w t u o s a d w a 9 5 a h 9 w r y 
+r a G w 9 7 d p 9 6 2 6 9 Q e y Q 9 2 6 9 2 $ [69] k Q e 
+J Q 9 k 2 $ 6 9 J Q e k Q G 9 2 j 6 $ 9 h $ 2 3 ? [ra] 3 ? 
+r [3a] ? [?3] r a r [?3] a r a [37] t s 7 3 r a 1 5 r a 5 1 e [5p] 1 [15] w o 5 1 5 1 1 5 
+! 1 5 y 5 [?y] a o 5 [?oa] y 5 [?p] y [5yo] ? 5 ? 5 ? ? 5 ? p y ? [?5] [26] [Iya] [26] y I a 
+6 2 [yp] [26] o y [26] 6 2 [26] p y 2 6 [37] 7 3 [37] a [uo] [37a] [uo] [ua] o 3 7 
+[ua] o 3 7 a u o 7 3 3 7 s u [1u] [5a] [5a] [1u] u [15p] 1 [5uo] [15] [15] 1 5 1 5 y 2 
+5 [?yo] a 5 [oa] y ? [yp] 7 9 [5y] o [79] 5 [9yp] 6 9 2 a [yI] 6 9 Q e p y 
+I o y Q p 8 5 1 a o 5 8 a 5 1 a 3 8 a 1 3 5 a 8 a 0 a w a 0 
+a 9 a 6 2 6 a 9 a w a e a [9Q] e y o p I y t Q a 0 3 a f f a r w d a 0 a 
+w r w u a [0w] w 9 a 5 [af] 9 f a w r d a y r a e [90] 8 6 0 w s 6 8 S 5 
+d 1 5 0 9 q [8w] e r t y u 5 i 1 o p a 8 s d 8 0 w d d [0w] 8 d d 9 0 d d 2 d 6 9 d Q d e y d [Id] s p d I 
+y [Qe] a f [?3] a f a 3 d 0 7 [3a] 5 7 0 a 3 [5a] a a h 
+? ? ? ? G [?a] [@a] h 7 $ ? @ $ 7 G a ( a h Q r 7 [aG] ( Q r a h ( 7 7 G a ? $ 7 a h @ ? ! $ 7 
+@ ? [!a] h $ 7 G a @ ! ? $ 7 ? O r Y u $ 7 I O @ ! [$a] 7 f @ [?g] $ 7 k x ? [@C] ! $ 7 n ? ? @ [!?] ? $ 7 ? n ? @ ! $ n 7 C Z [?@] [!k] $ 7 @ 
+( a k Q r 7 ( Q r [dz] Y I Y a r k 0 3 [hkx] ? f 3 0 7 5 [hk] x f f x [hk] [ru] w 0 0 
+[dz] 0 7 5 l 5 1 ? [fhl] x 8 % [1hl] f [3x] 5 8 [fh] l x 0 [fhlx] w t 0 8 5 [GC] 3 5 G 2 ? d [hz] k 2 5 
+7 9 w f x r y o f x r e w 9 7 d z 2 ? ? x f ? 2 $ 6 f x 9 Q f x e y u e [fx] Q 0 9 
+$ [dz] 3 ? ? [fkx] h ? h 3 5 7 0 f [hkx] w r u [fk] [hx] w 0 7 z d 5 8 5 1 l [fh] x 5 8 0 
+[wl] f [hx] t f [hl] x u x f [oh] [sl] u t w [GC] 0 5 2 [kz] [dh] ? 2 5 7 9 w [fx] r y o y [fx] r 
+w 9 z d 7 9 6 2 [fx] 6 9 Q e [fx] y I x [pf] I f x [yu] e Q [dz] 9 6 2 6 
+9 k 9 J Q e y k I p I J y 9 [Qe] k y I G p I j y e 
+9 h Q e Q 9 e u 9 u u [30a] p u [wr] o u 
+0 u u 0 r [Wu] a u p p [0wu] 8 u u w u e Q 9 
+p y I [9e] Q p [yI] Q [9e] p y I a e 0 6 o e u t 
+u t e f u f r [0u] a k [WD] Q j [af] O h a f O u [af] 
+f a y o w k a [aj] o [ry] j a w f a f a d a 9 2 
+d [pj] [Q9e] d [pj] 9 p [9j] [26] d 3 [ak] 6 ? o h u f 0 [6*] u f 
+6 0 * e 3 ? r r e r [37] [9w] 5 e 
+e w e 5 9 [26e] w e e w 2 6 e w 
+[6e] 2 w 3 [?6] [!e] r e 6 [?!3w] 0 e ! [36] ? w 0 [?3] e 
+r r [7e] [35] r 3 7 5 5 [?w] e e 5 [79] w e 
+5 [79] 6 [2e] e e r w [26] e e 2 6 e w 6 [?3] e 
+w e r 6 * e w 6 0 7 0 3 y r r e 7 0 [3r] 
+7 [0u] 9 [57] r e [9w] 7 w 9 7 2 9 
+u u [9we] u e w 9 u [?6] p y ( o w 6 ( e T 
+u I T e 6 * 0 e u T u T e 0 * 6 3 ? 3 6 * 0 u 6 * 0 
+e T u T e 6 [*0] e T u T a e P 6 0 * e a T u P T 
+e a 0 [6*] I 0 e p * o 0 
+3 ? O u r u r u 0 
+r W u r @ ( I Y r Y r Q Y r ( Y r 
+3 u [0O] r u r W u r 0 u r Y [@(I] r 
+Y r Q ( p r Y r ( O r 3 0 u O r u W r [@(] a O 
+u O W r ( u [!*] f O u u O [WT] 0 u * G I T a 
+* I ? 7 a r Y ( r [7I] r Q Y r ( I 
+r Y 7 r a 7 r Q s r [6S] T 0 u 
+T e p T u 0 T I 7 r Q Y r ( O 
+r 7 p r a % r ( Y r W O r Y r 
+! u W % T W * u W 0 Y W p $ e * T 
+e Q T e 6 T e O ? e 7 I e [Qu] 
+e ( Y e I 3 e r 0 e r 7 
+e r 0 e u 3 W 7 r u r 0 u O u 
+W O a 0 O r a u f O D a O f u D 0 [Wr] u O 
+a f O u r D W 0 r u W 0 f 0 9 7 % 3 a 7 0 % 3 7 0 % 3 7 d 0 3 
+% 7 0 3 s [?6f] [psj] 0 8 6 
+8 0 e t u t y e 0 8 6 [psj] f 6 ? O H [?%] o 5 [?h] I $ [?G] [?4i] g [ps] ? D ? 1 i p s d 
+g j l c [48q] 6 b m ? m b c l j g [et] q [rs] i p i [ig] 4 ? ! S [$I] ? G ! [@5] [oh] ? ? O H % ? p j 6 ? h 
+[ps] f j l x 0 [6c] [8e] b m ? ? ? ? m b [tp] u e x y l j f d a 6 [?j] [%O] ? H 5 ? [oh] I $ G ? 
+4 [ip] [?sg] 1 [@Y] ? D 4 [?i] p [!s] g 4 i ? g S [$I] ? G 5 [?o] h [?D] O % [?H] 
+[6pf] [?j] s 6 ? [?6] e ? 6 ? e 6 [?e] 6 ? e 6 ? e e 6 ? [6e] ? 6 e ? 6 e ? 
+e 6 ? 6 e ? 6 [?e] 6 [?e] e 6 ? 6 ? p f s 6 f [?p] s [?6] f [ps] 6 ? [sf] p 0 [sf] [6p] [0s] [6pf] 
+f s [0p] 6 0 6 [psf] [pf] 6 0 s [sf] p [pj] s [pf] 2 ? 
+? h p d d 9 6 2 g d p 6 9 g [pd] 0 q e y u i y t 5 2 ? 2 5 7 d 9 a w 
+r y o h a r w w 9 7 5 d a 6 3 [sf] ? 3 6 8 0 e t u p t ? ? w ? ( ? 
+9 m e n 6 b 8 v x 0 e l k t [uj] f t e r f p 0 9 7 8 6 3 [pj] ? 3 6 8 0 s [pf] 8 9 2 ? h p 
+9 6 2 4 6 g [pd] 9 q g e d p q 9 6 4 2 5 2 ? ? 2 5 7 9 d w r y o h d 
+r w w 9 7 5 z d 8 5 h [flx] 1 5 8 f h 0 w l t x v u m [o?] s v u x t l 0 h f 9 8 5 
+1 5 8 1 [6f] 3 6 j f ? 7 ? l f 6 [?fjx] ? 3 2 ? ? 
+2 [jz] g 9 z [gj] 6 4 2 5 2 5 [?2] 2 5 7 z [9k] h w k 5 7 w [hv] r c y r w 
+9 7 z h k 6 3 [?jlx] 3 6 8 0 e t u p t e 0 6 0 e r t u 
+p a s p u [jx] l t r e 0 [6b] j 0 e e t u p s f s p u t 
+e 0 6 0 e [hv] y u g c t y e x f 0 6 8 [dz] e s l t u t [ya] k p j q 8 O H 4 G 8 q 
+W t i O s g s O i t W w q 8 4 8 q w H W t i o [OH] 
+i t y W w g 6 ? f 6 0 W e r t 0 u p a s f l 
+x b n e 0 [m?] n b l k j f s r a p u p a s p [tua] s p f 
+D f t u D [rf] D r u 0 W f D u f 
+O D f a u r W 0 d r r [Wu] s 0 
+[6tu] ? 3 2 [4i] [?t] e ? ? ? [1u] ? [wt] ? [?1u] t w 
+[1wu] [?t] u 5 [?w] t ? [wry] 5 ? ? W 2 ? [qey] ? [26] [6t] [0e] ? 
+0 [68] s u [3p] ? u d 5 u 3 a 7 o 6 ? a p p a 8 0 s p 0 [6f] 8 0 
+e p 8 6 a [qs] 8 [4p] g S 8 q e p t a e s 8 [5of] 1 5 [sf] o 8 0 w [oh] 0 w q f o s [59] o d a w 
+r y o r 9 6 p d i 2 6 9 q e 0 w s [up] 6 0 e t y t p s 0 7 3 [ud] 7 0 
+w u a o r w a u 6 ? p u 6 e 0 u 6 s o [up] 6 ? ! 5 ? [up] 6 p [?u] a p 4 [?s] i p 
+p [is] [48] 6 [46] s i d i 5 ? [oa] [579] [oa] p 5 7 o o [?6] p 6 0 8 [80] [6u] o 8 4 u q p 
+6 [48qp] i 5 8 [4q] p i 6 a 8 [1i] s @ [18s] u 8 1 s u @ d 5 [?a] o [59] a 7 o 9 [57] p o 
+6 ? o p [60] 8 [80] 6 u o p q [48] 4 p q 8 p g s d [9p] 2 9 [pd] e q [pd] 
+f 8 g 7 [?a] 7 g a r [9q] [af] 7 a d f 8 1 p 2 8 p [et] 0 p 8 a s [?6p] 8 p s 
+0 e 8 6 [pd] 4 ? f u ? u d O 4 1 ? g ? j f ? l f [?3] f k 0 [7j] f 3 
+% $ 7 l f 0 W r f j 0 u k f O a O u r W f Q 0 j 3 % $ 7 0 k W r l W Q f 0 j % [7k] 
+f x 6 ? H e [80] 6 [8e] 0 6 8 6 4 [?lc] [gj] % q 4 8 q 4 [68] q 8 6 4 5 1 [?x] [fl] h ? 
+8 1 [35] f [lx] h [38] [15] [fhx] l 5 [fhlx] ? [dk] [hz] 5 9 7 9 5 7 7 [59] 9 2 d z H g e [9q] [9q] e 
+[qe] 9 0 6 ? [sf] [jl] [60] 8 8 0 6 6 8 0 0 s [jl] f 3 ? d [0z] [%7] 3 [370] % $ [ak] 0 3 7 $ 6 a [?6k] 
+[pj] 0 [68] [80] 6 0 6 8 j k l 0 e 6 [jx] u t e e t u [tu] [ej] k l j t [qi] c s p i 
+[ips] j [ip] k l [8t] x h l u o t [lx] h o [tu] u [hv] t w [hx] k 9 5 9 [hz] w r y o 
+a d h f D f D f D 
+f a d s 6 [?3] 2 p f s s [pf] 
+[sf] p f 6 [80s] p 8 p [0s] f 6 9 [5d] [79] o 6 a [7a] [9o] [5d] [7a] [59] o 7 [5o] 9 [79] 5 o [57] 9 o 9 7 5 o p [sf] [60] 8 [sf] p 
+[60] e 9 d p e 0 6 s p w 5 [ad] o q [oa] d y t r w 9 7 5 2 ? ? 4 1 
+g [ps] s p g g [ps] [4q] 8 6 [ps] g [8qsg] p [46] p [sg] [?1s] f o [of] s 8 [od] 5 1 3 s o 5 8 0 w s o 0 d p 
+[sf] p [?6] f s p [pd] 0 8 6 s 0 3 [Oaf] $ % 7 0 W r u O a f f 
+f [lx] j e [jl] f x j [plx] l x l x [sfj] l [pj] x [lx] j w [hkz] [ohk] z k h d h a o y h 
+r w h q j l x i [jl] x s [jl] x p [ijz] t q e [jl] i w z [hk] y o p 
+a d o i q t i [lc] j p [jl] c c l [sj] p i [lc] j t [jlc] 8 [lx] h w h x t 
+[hz] u h l o u l h t w z j 6 x [jl] 0 e t x j [ul] t z j e 0 8 l 0 7 3 x k 
+7 0 W r u O a f u f [oh] p [?4j] q u f 4 6 8 [uf] q e [oh] t 
+e q p j 8 6 4 5 2 [pj] ? 2 o h 5 [45] 7 9 w p j r [yo] h r w q 9 7 5 6 3 ? 3 6 
+8 [fj] 0 e j f t u j f t k [ef] 0 [fl] 9 ^ 3 f k 7 H 0 Q w h f r u I o u g Y r Q f 
+q 8 4 g s 8 q s l e t i t e s l q s l 8 [46] 8 k 5 j 1 h f 5 8 0 [wh] l f 
+t u o s O l d [fh] o u t w 0 0 [?6] [fl] j [60] 8 f l j h 6 
+[3l] [?fj] f H k [0u] 0 u T [wo] [ep] 4 ? p 4 [qu] 8 6 
+u 4 6 [uo] 5 ? ? 7 9 [up] 6 ? s u p u 8 [0f] [38] h f f j r 7 
+e 6 u f t D f e u D t f e D 
+u f D t e f u a d t t e s 
+[?!] * [Wu] 0 T [OS] O [Wrf] [ua] 
+E [oYD] [wP] [?6] e 
+Q y I [sd] t [?%] W [QY] ( s t I 
+? ! * u [0W] T [OS] O r f [Wu] a 
+E w o [YD] P [?6] e 
+Q d y [?%] W 
+Y ( Q H h H 
+h H O D G 
+f 
+T [Wu] H O W T u S O u 
+S O u [uS] O u S O 
+j S O u u O S H S O [YH] S [YO] 
+S O Y S Y O Y O G Y O s 
+[Os] Y O Y s [yi] [aH] 
+[yi] a [ia] y a [yi] a [yi] 
+a y i [ya] [ij] a i y H H [TI] p 
+I T p G [TI] p G p I T 
+[TIp] I [Tp] T I [pH] T p 
+I p [tI] G I [tp] I [tp] 
+I t p I t p I p t I H [tp] 
+I [tp] G [TG] O u O [Tu] f u O T f 
+u O T O [Tu] u [TO] O [uG] T 
+T O u O [tu] f O u t [uO] t 
+u O t u O t u O t f [iO] f t [tO] i 
+f W Y I t f Y I D W t Y [Is] W t Y 
+W I p t Y [WI] p t O Y I W t k Y I W t j 
+Y [WI] t H * H S f W 
+u Y u W * W u T 
+u W * H S f W [fSH] u W * [Sj] f W 8 [Sfj] 
+W Y H W s D Y H [sD] W Y W 8 W Y 
+W H s Y W h Y H W h Y H W h 8 H 
+W ( h W ( H % 8 ^ ( W h t Y H t W H % 8 ^ ( W H % 8 ^ ( W G % 8 f ( W D % 8 [(S] W s % 8 p 
+( W O % 8 I ^ [(W] u % 8 Y ( T % t e W Q 0 ( * 8 6 % 
+W O Y t O [Wt] Y Y [Wt] O [5w] ? 2 [wE] 9 y y E w 9 E [9w] y 
+^ ? 2 9 [9wE] y [?^] E w [9y] [0E] 5 [?w] y y [wE] 9 E y [9w] [9wy] E ? 6 ? 
+^ 2 9 [wy] E 9 [?^] E 9 w y E 5 ? w E y w y 9 E E 9 w y E w [9y] 9 y q i [wo] 5 
+y [9P] o r [9yP] [Eo] P E o y 9 ^ E y 9 q [4i] [Ey] d 9 P d [yP] E 9 [Ed] P y 9 ^ E y 9 Y [@(] t e w o s h D 
+[wet] s [oh] o [ws] h e 5 w 6 e y 2 9 e y Q [dG] I G I d y e Q I [dG] Q e ? $ Q E ? ^ ! [90] y u q w [?5] w 
+9 0 [Eyu] w 2 ? 9 [Qe] [6yI] d [yI] [ed] Q 6 I y d [?$] 6 ? [?^] 9 0 w y u 0 5 ? w [90] w 
+[Eyu] 2 9 ? 1 [Qe] I [6yd] I d y e Q [Qe] 6 I y d 9 e 2 E t ( 8 1 ^ ? [wY] 6 ? ! ? $ e p ? I [18] e I y 
+[?^] [wo] T i 3 [?E] P y [t$Y] ? y p [ty] p [5y?P] E [?2] 8 I [ey] 1 ^ ? w o i ^ @ [wTY] [TY] [^w] @ T Y [@w] ^ u [^w] [?T] 
+6 ? Q I 2 9 2 ? ? d S 2 $ 6 9 d Q e S y 
+I p d I y e Q p 9 6 $ s 2 P ! [5PJ] ? o h 
+[^5w] 9 h w [^9] 5 w ^ 9 ^ [5PJ] 9 [oh] 5 ? [PJ] ? [oh] [5w] ^ 9 [^9] w 5 w ^ 9 5 [^9] 5 P J [oh] 
+@ ? J P h o G [@(] ^ 5 ( ^ [@5] ( @ [5^] @ [5^] P J o h [?2] [PJ] o h [PJ] [oh] [$9] 2 6 $ [69] [2P] J 2 6 [$9] o h 
+9 [$6] 2 P J $ 2 6 [oh] [PJ] 5 ? j p [5w] ^ 9 w 9 [5^] w ^ 5 9 [^9w] 5 [PJ] p j 5 ? [PJ] ? ( p j 
+* [^w] 5 9 [^9w] 5 w 5 [^9] 9 [^w] 5 [PJ] p j [?@] [PJ] p j [@(] ^ 5 [^(] @ 5 ( [@^] 5 ^ @ 5 P J [pj] 
+2 ? [PJ] [9p] j 2 $ 6 P J 9 9 0 [pj] Q e r u y [PJ] o p a I p j y e [QP] J [pj] [5J] ? J 
+j 5 j 9 h w h E d y d E J w J y o j j P d h P h 
+d o d y J w J 5 j 9 j w h E y h E d w d 9 5 h 
+9 w G E h y G E h w d g 9 ^ D s 1 
+8 w s ( 8 D t d w s ( [5a] s w d r 
+[os] 8 w t Y d o s Y d t [sD] ( 
+6 D s p ( e D s p t 5 d s w a r y s w d y o r 
+p w [9a] 1 s o 5 8 s o 9 ( [oD] [wd] 8 s 
+7 ? a 7 s w d 9 1 s o 8 ( w 8 4 [Os] g 
+q W [tO] D q [Od] i t [WO] s 9 2 d 9 Q 
+e y s Q a [wp] 5 a [9s] [wd] r 
+y r w y 8 w t D Y d 
+^ E s P ^ w s E d ^ 8 D t ( 8 d t 
+8 [8D] w t e D ^ d q E s y P ^ E s q 
+E ^ d 9 E 8 f t h 4 g q G 2 @ 9 [Qe] 9 j 
+5 h w r y w [3H] ^ 0 [Wr] J 0 6 j e 
+[tu] e 4 j q e t i t h 
+e j E l ^ J g q E y i 
+E j e 6 h 5 w y g E f 9 d 
+e y i q [gj] s t i p 
+s p u h 0 9 g e y f e g q 9 d 
+y [9q] h E ^ g E ^ f e q 6 9 d 8 q e 6 8 q e g 6 9 
+[?5] w 0 * % W % f W d 6 
+e 6 * 0 e T u T S e 0 * 6 6 3 ! d [?2] ? 
+j H j H j H j H 
+j H 6 ? j ! f ? ! 6 3 h ? g 
+[adh] g k O o i y Y y r w W w q 9 ( 9 7 5 % 5 4 
+2 @ 2 1 ? 1 ? O g H D 1 D ? 1 o h ? [dgh] [?z] l O o i y Y y r 
+w W w q 9 ( 9 7 5 % 5 4 2 @ 2 1 ? 1 ? 1 O g [DH] ? 1 
+? h o ? [gc] z h H V h v c x g d z D Z d z a k o h O H o h i g y d Y D y 
+d r a w o W O w [op] i q y 9 ( Y 9 y r 7 w 5 % W w 5 q 4 9 2 ( @ 9 ! 8 [?7] 1 w 5 q 4 @ ( 9 2 
+( @ 0 2 8 1 ? 7 ^ E W % w 5 q 4 w 5 q 4 ( @ 2 9 [(Y] y 9 t 8 r 7 t 8 [7r] W % 5 w W % w 5 q @ ( 4 q @ 
+( 8 1 5 8 9 ( w t y Y y t w ( 9 8 5 1 5 8 9 ( 9 
+8 5 1 2 5 8 l s 9 ( z d 9 8 [DZ] 5 [1Z] D 5 8 9 ( w t y Y y D [os] [th] [oD] [ws] h ( 
+9 8 D o [sh] 5 1 [Os] [DH] [5s] 8 9 ( 9 8 5 D [osh] 1 5 8 s l 9 [dz] ( 9 8 [DZ] 5 Z D 1 5 8 
+9 ( w t y Y y [oD] [sh] t [osD] h w ( 9 8 [oD] h s 5 1 D [psj] G $ 8 p s D [9G] 0 j 9 l Z 8 b $ m ? 1 ? ? $ ? 8 
+m b 9 C [0Z] l 9 j D 8 S a $ p ? z d j 7 9 [qw] [tod] h 9 ^ ? ^ S [oh] Q t O H S * 
+[Soh] 6 ? [oh] S 6 [sl] 8 9 q t q i s g 8 % ? % 8 [ig] s q s o [th] q 8 5 [is] g 
+? s u f 5 8 7 * 8 7 9 * ( 9 0 ( q 0 Q Y [aD] q [YD] a w Q W w d [Ey] 
+W w q ( 9 8 7 % 5 4 2 1 5 8 9 ( t 
+y Y y t w ( 9 8 5 1 5 8 9 ( 9 8 5 1 5 8 
+9 [sl] ( 9 z d 8 5 [DZ] 1 5 h 8 G [wh] t 
+Y G o h Y d t g w ( D l 6 s 
+0 k l t e s 0 k l 4 s q k l [et] s q h 
+s s 8 d t s d [uof] g t h f d 5 o w I o y f r 
+d w s a s 6 0 t u e s d [4f] o 
+q s d t f e o q s d [8h] o w f g h u s t g 
+f 5 d s w d f y d s r a s 6 l s 0 k l 
+t s k 0 l 4 s q g l t s e g l 8 z 
+h t z h [uo] x h t c h [5v] h w x h z [ry] h w x 
+z 6 l k l 0 t f e l z [4x] q j 
+[tx] e j x q c v 8 l t x c [uo] v l t c x z 5 9 
+w r w y o a d h d a l o i y r z w 9 l 7 5 6 k 3 6 ? l 
+s f 0 e 8 8 s 6 l 6 ? ? z l 0 e 8 8 6 k l 4 ? s d g [8q] 6 6 4 s 4 ? l 
+z q l 8 6 [4k] 6 8 1 l z t x w 0 8 c 8 1 v x z [0wt] 8 l [?5] k d [79wh] 
+5 d 5 ? l z 7 w 9 l 5 k 6 [?l] f [0e] j 8 f 6 [el] z t u l k l q 
+g i j g [sl] z p l k t l z o x c v s 
+x u z l w k y o y r 
+w 9 5 9 w r y r w 9 5 9 w r y r w 9 5 9 w o 
+9 5 7 I w 7 5 9 o w 7 5 9 w I 5 7 9 w 5 7 9 o w 5 7 9 w 5 7 I w r y o 
+r t w 9 I 5 7 9 w 7 5 9 w o 5 7 w 9 5 7 w 9 y 5 7 w 9 5 9 w i 5 7 w 9 5 7 w 9 
+5 7 w 9 5 7 w 9 Y 5 7 8 5 t 8 o ( w 5 [(w] 8 9 
+w ( 5 [(w] 8 * ( w 5 [(w] 8 
+w ( 5 [(w] 8 o o [(o] w o o 5 o i o w ( o o 8 o o ( w 
+o 5 o o w ( o o 8 o O w ( o I 5 o O o w ( I o 8 s ( w D 5 
+[(w] 4 g g [qg] 8 g % g D q 8 d g @ D D ( [8D] D 5 D d ( 8 s D 2 d 
+d d $ 9 6 d p $ 2 3 d 9 6 5 a w 9 o 4 s w 9 o 8 o O o ( w 
+I [5o] O ( w o o 8 o o [(w] o o [5o] s o ( w o o 8 * o O w ( o I 5 o 
+O o [wI] ( o 8 g s D [(w] h 5 l Z [(w] 4 c c c q 8 c % c ^ 4 Z q 8 z 
+c @ Z Z ( 8 Z Z @ 5 Z 8 [(z] l Z z 2 9 6 l Q e k z w l 5 h y r j k 
+l 8 Q h w t 8 ( [ts] g q t f i g W E h t i H s [qW] i h s t g W H Y 
+( h t Y g D ( w t Y g ( w h Y ( w Y y e 9 d Q y s I d p D I y g 9 e Q D y 
+Q [9g] d t d 8 s o w t s D ( h t l ( w h t D t g q i f g W E q h t i H q W 
+h t i g W H t h ( t g Y D o s g o h Y W ( D t 7 w ( d r S I p d I i D g 5 ^ 
+( w [ry] [ah] d w s 8 1 G [?5] h s [sl] 1 [58] H 8 1 o @ 8 o 1 
+o o 5 ? o o 8 1 o o 5 ? o o 8 1 o 5 ? o o 8 1 o o 5 [?o] o 8 1 o O 5 ? o I 8 [1o] 
+O o 5 ? I o 8 1 @ o [5s] ? [8oD] 1 @ 5 ? ? 4 ? g ? g g ? ^ g ? % g D [?4] ? ? d g D @ ? 
+D D ? 5 D D [?@] d [5s] ? D [2d] ? d d $ ? d [2p] ? [?$d] a 5 ? 8 1 5 o ? ? 
+o 8 1 o o 8 1 o % o [2%] o 9 o [?5] o o 8 o 1 o 5 o ? o 8 o 1 o o 5 ? o 8 o 1 o o 5 ? ? 
+O o 8 1 I o 5 ? O o 8 1 O o 5 ? s 8 1 D o 5 ? 8 1 @ [4g] ? g % g ? g g [?4] 
+D % d ? g @ D ? D 5 D ? D D @ ? d s 2 ? D d p $ ? d f j 6 ? z Z b ? ? ? ? b 
+b 2 9 Z z j k [hv] [?5] ? @ 1 [?l] ? ? 8 1 3 8 ( w t Y 
+o s h G h G h G h d 
+g D 6 s [0p] u [et] 
+s 0 a [wr] o 0 u 3 0 s a r p w 
+a 8 o s o u u t w o s 0 a y 5 o 
+o r y s a w p o 9 i e s p 
+y [ps] e s q p 9 6 4 u u ? 6 s u p 0 8 
+s [up] 6 s u p e 0 8 l j [4s] g q t e 
+q j l s g g i t e l s g 0 3 H a k f 7 0 f W D 
+D r [uD] O f [aD] O f a u 
+r d W s 4 q s p j h s [qt] e s q 
+t e q [et] [qd] 0 [3s] s t j w [sh] 0 w [5ad] 
+d a [wr] y f a w a h 0 3 h a w r a j [ah] 0 e [6s] 0 
+e t d f [4p] q s p [pd] t e f p q d t p [qps] e f p w 5 p s 9 
+p [wd] r f p y r s p w d p 5 4 % ^ 8 t q 8 o [48] [6q] i 
+4 u 6 y 8 q t 7 7 9 5 y 5 y [7w] 9 5 t 7 w 9 [7y] 
+5 7 w 9 u 5 [4q] 4 q 8 y 5 w u 9 5 w i 9 
+9 u w y 5 t t 6 0 0 e 0 e 6 0 
+[5w] 5 4 ? t e q 4 4 o 6 [8q] i 6 4 u 8 q y 6 
+4 t [?5] y y 5 9 7 5 t 6 ? y [0u] 6 8 8 6 
+0 [48] 4 s 8 q d 4 f [9w] 5 [osg] 5 [of] [od] [9w] 5 [ps] 
+s p [?4] p s g h j l x c b m ? ? ? ? t y 
+u [?5o] w w y [79] 5 5 y ? 5 u t w 6 ? 
+t e [?4] [ep] 5 [?o] r 5 ? [ry] t e [?6] t e [eo] 
+[eo] [?4] ? 4 ? t 4 ? t ? y 5 ? ? u t ? 
+[?4] p e o 5 5 y ? w 9 s o [57] 7 o h [?4] h o 
+[?4] [pj] [?3] [oh] [?3] [pj] [?2] o h 
+2 ? f s [?5g] s f [5d] ? ? s [?4] s 4 ? [sj] 
+[?3] h s ? 3 ? f s 6 3 d a ? 2 5 ? h 2 5 [5G] 7 9 w 
+h r y o r G w 9 5 h 9 w r y d o y r g w 9 D [57] 
+1 s Y o 8 ( w t w ( r 7 d o a w 
+r y o y r D [rg] D 8 w t Y o Y t w 7 o 
+w r y o y o r w 8 s w t y Y o d y t 
+D w ( o 8 5 @ 1 D s 4 1 h ? g e [48] t q i e p t s g i j p l s 
+c g b j m l ? ? c [oh] 
+o h w 8 l s w t Y o s D h l z E w Z ^ h w E Y o P 
+l D d h J v Z W l Z % v m ( v Z l W l H t D [Ys] O l t h D s W s * % o 
+P w Y t 5 [*(] w t Y o t D w d ^ q s 4 s h 8 q W t i 
+W D w s 5 o 9 w h r H y h G r h H h [wG] H Q 
+w o Q O w o Q I w o W O o w I Q o w O Q o I w [Qo] O w o I Q o [we] W w o i q 
+( i 9 Y y 7 [8t] [1s] 5 8 [15] t s t [18] 5 s 8 [15t] s s t 
+[18] 5 [8t] [15s] t [WO] Y % ? [tYO] % [?W] [WYO] t ? % [18t] [5s] [18] t s 5 s 8 [1t] 5 s [18ts] 5 [5ts] [18] 
+[8t] [1s] 5 % ? [WTO] ? % [WY] O t [WYO] ? % % 8 1 s l [58s] l 1 8 [5s] 1 l J 8 5 [1s] l 
+s [15l] 8 [18s] l @ 5 % [?O] D H O [%DH] ? @ [OD] H ? % s 8 1 5 [lm] 8 5 [1l] m l [18] [5m] V 5 [8l] 1 m V 
+[1l] 8 m 5 V 8 [1l] 5 m V % [?H] V H V % ? @ H [?@] V % $ 1 8 s o 8 1 4 8 [os] 1 4 8 [15] s o [8o] [15s] 
+8 1 5 % [?O] @ % [?@] O D s o $ [18] 8 [15] % ? O [?%] @ o D 8 o s 1 5 8 5 1 
+8 1 5 8 5 [(w] 8 [sh] [(w] 8 8 [(w] h s 8 [(w] [8s] [(wh] s h 8 ( w s % ? H 
+% ? D a % ? ? % % ? Y [?%] D [?%] 8 s [15] [158] 8 [15] 8 [15] 
+[Dsh] [8l] 1 5 8 ( w t s Y o Y s t s l 8 w ( t ( 8 [wt] k ( J Q * j $ * H 
+Q j e T I e S Q $ [6G] * Q $ 6 * Q G $ 6 g ( f ^ @ D ^ [(d] D Q E Y E 
+Q Y ( ^ I @ ^ ( @ $ ^ ( Y @ $ ( ^ I P w 5 9 9 5 ^ w o E y E P o 
+o [wd] q 5 ^ 9 w [5^] 9 w [5^] [D18h] [sl] 8 [wt] s ( ( 8 % ? [sl] ? ? 
+% k ? ? J $ ? H j $ H Q * $ 6 S * Q H e G T e Q * g $ 6 ( 
+f ^ @ D ^ ( d D Q E Q ( [EO] Y ( Q a ( ^ @ ^ ( O @ D 1 8 s o 
+% ? o D 8 1 s @ 5 1 @ 8 ( w [8(] [Dsl] [th] w t Y 
+o Y [Dsh] l t w ( [sD] h l D s h l 8 5 @ 1 D h [sl] % [OD] H ! ? s ? H O D % [?!] ? s O D [sH] ? % 8 [sD] [$1l] h [18D] s [5hl] 2 
+[8sD] [1l] h 5 [sD] [hl] 8 1 5 D l h s 8 [@15] [sD] h l % ? O H a ? H O [ODH] [18] H [sD] l % @ [8s] D [hl] 1 s D 8 [hl] 1 @ 
+[sD] [hl] 8 [1sD] l h % [OD] % [aH] ? % ? [Dsl] h [Dsl] h % ? s [Dh] l 5 ? [Dl] [sh] ? 2 ? 5 2 D [sl] h 5 7 s [Dhl] 9 w r D [sh] l y u r 
+[Dsh] l w 9 7 5 D [sl] h 5 2 D [sh] l ? [Dsh] l 1 ? [sD] [hl] D [sl] h s [Dh] l D [sh] l [sD] [hl] 
+s [Dh] l [sD] h l [sD] [hl] [sD] h l [DH] [sl] [sD] h l [Dh] s l 2 ? D s [hl] D [sh] l 
+D s h l h D s l 5 [?h] d l h d l l [dh] h d J J d h [hJ] d [dJ] [5h] ? @ 
+d [hJ] ? 5 [5?J] [dh] 5 ? [dhJ] 2 5 ? J [dh] [?$] [dh] J [5d?J] h ? J h d 2 ? 1 J [dh] 5 ? ? [d?J] 4 h ? 
+? [1s] [Dhl] ? D s h l [Dsh] l [?1] [sD] [?h] l D s h l D s [hl] [?1] h D s l s D h l [?1] h D l s ? 
+s D [hl] s D l h s [Dhl] [sD] [hl] D [sl] h 2 ? s [Dh] l D [sh] [?2l] h d l 5 ? h [dl] h l d w 5 
+^ 9 w [hJ] d E y o J h P d f J h P J h [od] E y J [dh] w ( 9 5 [hJ] d 9 w J h d e E y [hJ] d o p [hJ] d P 
+J h d [dhJ] [hJ] d J d 8 s [Dl] [1h] s D l h D s h l [?5] D s h l ? 8 1 [sD] l h s D [hl] 
+s D h l [?5] [sD] h l 8 1 [sD] [hl] s D [hl] D s l h [sD] h [?5l] [sD] [8h] l 1 @ [sD] @ [(h] l w 5 D s l h ( @ s 
+[Dh] l [29] [dh] J d [hJ] h [dJ] [hJ] ? [5d] 9 [2dJ] h d [hJ] J [dh] 9 2 J [dh] [dhJ] 8 1 
+[hJ] d J [?^] [dh] ! [dJ] h 5 ? [dJ] h d [hJ] 2 [?d] J h [dJ] h % [sD] [Hl] ? [sD] H l 
+s [DH] l ? @ [sD] H l % ? D [Hsl] D [Hl] s D H [sl] [?@] s [DH] l % ? [sD] H l [?@] [sD] H l [?%] [sD] H [?l] 8 1 s [DH] l 2 
+( @ [sDH] l [sDH] l [18] [sD] [Hl] s H l 5 ? [dh] l [dh] l h [dl] 5 [?dh] l [dh] l 
+[hl] d 5 ? h d k h [dk] [?5] o s Y o [Ys] o [Ys] [5o] y [?a] ! a o y [oa] y a [?5o] y ? [ya] o 
+1 ? [os] Y ? 8 1 h 8 G ( w t h Y G o Y h t w G 8 ( w t h 8 ( w 
+t G [8(] t w ( 8 h w t 8 ( G [wt] 8 ( h w t ( 8 w G t [8(] w t h o G Y 
+8 h t o Y t s d o D Y g o h t s 
+o Y [oD] s t [sh] o Y o D s t h s o 
+Y s W D Y a r O Y D s 8 o s t [dD] h p o [kl] z Z 
+Y v m ? t ? m v o Z z Y l h o D d s p t h o Y o t s 
+[od] D Y o g s t h s o Y o D s t h s 
+o Y o s D W h a Y O Y s 
+r D a W ( O % D [1s] o 8 
+[oh] [(w] G I 8 o h G I [oh] 5 ? 5 d [79oh] o h 5 7 D 
+3 [oh] S @ [?Y] D 
+[?4q] i [?4] [qi] ? ? 4 [qi] ? 2 ? [9y] 9 q W r y i O a d g H k z c V 
+n ? o o o 1 Y t 
+5 O [1O] O 5 o [?Y] 5 D ? D D 5 s [1o] 5 8 5 9 
+5 o y ( o y 5 o y ? y r 5 O O ? O 5 y o ? % g ? g o g 5 o [?o] a d 
+2 5 7 9 [7o] h 5 h o % h s g [?%s] O [sD] O D O W % ( [8g] 5 [?ad] [fh] d [ah] 
+d h a [7w] 5 g s w [4s] [?D] D s d D s q [48] % g s [ah] [5d] ? d [ah] [dh] a [7w] 9 5 [ag] % [?D] s $ [sD] 
+D s [(W] % 8 d s [?4] s [sd] q 8 % 4 s D d 5 [sh] ? ? d s h 4 ? d [sh] d h s @ ? h s 
+[sG] h s [sG] 2 ? ? [sh] d s 2 g s ? D s ? 
+o 5 9 y w Y 9 i w 5 7 w 9 Y 7 5 [wy] 8 t w ( t 8 w Y ( 8 o t w 
+( 8 i w Y 5 y 9 w y r Y i w 9 o t 7 5 1 t Y 8 8 [5t] @ 8 [@1t] 5 o 
+[4q] i * q i O W i s t q P i ( O @ o ( Y w r i ( o [et] [wE] ( Q i 
+9 Y 2 y 6 9 Q [ey] u [QY] i 5 6 ^ w o 8 1 Y 8 t w ( s 8 s h 
+[5w] [ah] 9 w d a [aD] r y [ag] w [8D] 5 d 1 5 s 8 ( s w ( 8 D s w s h D ( 8 g s ^ D $ s ? d 
+^ 9 d q E D y i g y ( J g ^ @ h ^ ( w D E Y D o P o W ( [%H] W 
+D t H Y l t W Y J H Y J ( E Y h o H P [oJ] Y H Q h E [^g] E g y i 
+y h E H ^ q 9 E ^ 9 j w J 5 j H h G g f [5w] D d S s a P 
+p [5w] O o I i u 5 [wY] y T t r E e 5 ^ w W w w 5 w W 
+w W w w 5 w o 5 9 7 [9o] w o 9 [57] I 
+w o 9 7 I o 5 9 7 y i 7 9 
+[57] Y [?1] [Yts] o ? ? Y [tos] Y [ts] o [?1] [?@] [YD] @ [?Y] D 
+Y D [?@] ? 2 d [Iyp] 2 y [?pd] I d y [Ip] [?2] ! ? S [TO] i [?!] [TO] S 
+i ? [TS] O [?!] i ! [OS] [?T] i [TS] O [?i] ! o [Y1s] [?t] ? [1Y] [?o] t s Y [ts] [1o] ? [?@Y] D o P ? [@Y] D [?P] o 
+@ ? [YPD] o 2 [?yd] [Ip] 2 ? I [yp] d [?2] [Ip] [yd] ? [?!] T S I p T S ! ? T S 
+5 ? o h ? ? [oh] [oh] 1 ? Y [ts] o P [@58] Y t [1s] o @ s [1Y] t [ts] Y O [?@] D [YO] @ Y D o P Y o [PD] 
+^ ( 5 Y [oPD] @ [YP] D o 2 P Y D o 2 ? [yd] p I [?2] [Iyp] d [yI] p [?d] 2 2 ? I [ypd] I [2yd] p ? [?!T] S [iO] T [iOS] ! ? i [TO] S ! ? ! [?T] [OS] i ? 
+[?!] S [TO] i S T O 1 [?t] Y ? o s 1 Y t o s s [tY] o 1 8 [@5] [5Y] o s t [1@] s t Y o Y s o t @ ? [YP] [oD] @ Y D [oP] Y P [oD] ( ^ 5 Y [PD] 
+@ [YP] D 4 [ips] [?g] q i g [ps] 4 6 [ip] [sg] 8 q e t [ig] s p o e i g s p % [?H] O [?5] o h 2 [%H] O ? [oh] 5 ? D 
+% ? O H 5 o ? h D % ? O H 5 ? [oh] p [?%] O H 5 ? o h O % H ? 
+[5o] [?h] 2 [?%] [OH] 5 ? o h D ? % [OH] 6 [?p] [!j] ^ ? J P 
+[?7a] k h G h w G y h o G a h 
+d G a h d o y g r D 
+s d 8 f t u 
+f [og] r f d 
+s s t o 
+s f h i s j p 
+h x t I p y x 
+z z l z [ro] k y h h 
+[Wu] H r [kx] y [iz] H r x t u l e j 
+[tu] [wr] u k l 
+u k t [Qt] [ul] j e Q u t u [qt] 
+e z l j k [eu] 0 t l j 
+k j q t [uk] l j 
+t y w l [dh] y t r w 9 7 5 2 ? 
+k [dh] 2 5 7 9 w r y o y r w 9 h 5 w G r y 
+r h w G 5 9 7 w h r y r w d 9 7 5 2 ? g 2 5 f 
+1 [?u] o t [uo] t [1358] t 3 1 u o t [?3] [uo] r u o 
+[37] 0 5 r 5 [3uo] r 6 ? u p t u p [60] 8 7 8 0 t 6 p u 
+t 8 q 4 [ti] 4 i t q [wi] 5 [9t] 9 u 5 y t 8 1 @ s [fh] 
+[8w] 0 s 8 f h s 7 0 3 [fh] a [fh] r w a o u h f 
+a e 6 [0fj] s a f j [eu] t s e f j s [4qg] s t g [qe] 
+g [5w] f d [ry] w s s 8 1 8 0 w t s l u o u 
+0 7 3 7 0 Q w r u I o k f u l f r k q f 6 h f 3 ? [fj] 3 6 8 0 e 
+t u p t e [0f] s 8 9 q 8 4 g s 8 q e g s t i t e [sg] q 8 f s [46] d 8 [5f] 
+1 s 5 8 0 w t u [sfl] h o u t w 0 0 7 3 7 0 Q w r u I o [fhk] u 
+Y [fl] r z f q w k [(f] 0 6 [fj] 0 e t u p u t e 0 8 6 f q 8 4 g 8 q 
+e g t e w 9 g 5 9 f w r d y [rf] w h 9 [7G] h 4 1 G h G 
+? 5 h G h [?$] G 5 ? h G $ ? h G 5 ? h 2 [?d] 
+[?4] g @ D ? 1 t ? Y t o [@8] 5 1 [1O] t @ [ts] 4 ? % 8 4 
+4 % O [@(] o t o ( w O o i 9 [2o] i o [Wr] q 9 E r 8 1 t Y 
+( w o t O 8 t [8qts] 4 W t q O ( @ o t [Ewo] O ( o i 
+9 [2o] o I o W r q 9 E r 1 8 t Y o [(w] O [8t] [qs] [4t] 
+t [qW] q O ( @ o w [(r] o O ( o i o 9 2 i o [qW] 9 E r 
+8 1 t Y t 8 o ( [wt] 8 O t [4t] s ? 8 [%q] ^ [4%] O @ ? o 
+( h 8 5 H h @ g h [29] g h r q w P 9 a r w 
+8 [sh] w t h s 9 Q r [sh] q 9 w r 9 q w r [sh] s w 8 s o w 
+t u s o s u t s w [4a] i 8 s i q w 
+e t q s i e 6 [pa] 0 e s p r t u 
+e a d w 5 f s o 9 w g o f o r y d o r o w 9 
+1 s o 5 8 0 s o w s o t s 8 o q 4 a o 
+o 8 q s o e t e s o q 8 6 o u 0 u o e s 
+d f t h l u x v [tm] ? ? e ? 0 ? ? m B v x 5 l z h 9 f s w o p u r y 
+r w s o 9 t [?6] 0 e r 
+t 0 e 6 ? t [?5y] w r t y 9 7 5 w e 5 
+w [4o] w t w i 8 w u 6 w [5y] w 
+9 r w % u W i 0 W 6 u e r 0 e 
+8 t e 0 y e [5r] w 0 e w 7 t w 0 e w 
+e 4 q 8 w q 6 e q w 8 q r 5 9 w e r 9 
+y o p a 7 d h j k j h w d l 6 [sf] s 0 e r t u 
+e r w 9 z k [dh] 5 9 w r y o a d h d a o y [oh] r q 8 4 h v 8 
+q e C G t i v h p s C G p v i h t d [qz] e i t e q [gc] w [DZ] 9 5 [dz] 9 w r 
+y o a d [af] x o y r w [gc] e 0 6 l [fx] j 0 e r t u p a s [jz] 
+p u t r l j w 9 [5k] h 0 w r l h u o a f h f a o k h r 
+i t [qj] g t i p j s p H i t j q t i H p s S j p i H t 
+w j y H o h a G g f o D y d S w s a y P p O 
+r o w I i u Y y T t r E e W w Q q 0 ( 9 * 8 
+7 ^ 6 % 5 s 
+w 5 7 7 [9w] o o 8 1 w 0 8 s q 4 p i t e q 
+s w 5 a s d [wry] o a 8 s 1 0 [8w] e s q 4 a d w [5o] a 
+1 [8s] [0w] 8 d f g w 5 g r y f w f w d o y 8 h f 
+w t u l f j g q t i [gl] t w k h y z o h w [ry] k h 8 [hl] ( t 
+u o l t h [hk] w [hz] y o h w y E [hk] 8 l h t u o z t x c w h E y c h 
+o x h a x h d [hz] a o h y r t G w 9 h 5 9 w G r y [rh] j t w 9 [0G] 5 [68] 7 h 
+9 7 5 h 9 w d 5 7 9 w g 5 7 8 9 w 7 5 9 w f 7 5 9 w 7 5 8 9 w 7 5 9 w 7 5 [9w] 
+7 5 9 w [57] a w p O p e s u t [tu] d s a u t s f e u t t u g f D [tu] f 
+e k j [uH] t j e k j u t H j l e u t [tj] u u l [tj] [0hk] r [Gj] u h [ru] f j G u r 
+h k 0 [rj] G u h h r f u G u G j r f 0 h [jk] w u r j h [7h] G [Qr] f 0 E a p O p e s r 
+[tu] [tu] d s a t u s f e [tu] [tug] f u D t f k e j [tu] H j k e j [tu] H j l q 
+e Y j [eY] e k 0 l e t k 9 j q r H j 8 0 e f 9 g q r d 0 s 
+9 e t a 0 s a s a W y Q p 0 p e 0 6 0 e t u p f u 
+t D e 0 6 0 f e t u D t e f 0 6 0 e a t u t d e 
+0 6 8 0 s 6 8 0 e 6 8 0 e [68] p e [68] e 0 6 8 9 7 3 7 
+w Q w 0 w 0 ( w ( 9 0 9 * 0 * 8 * 8 7 8 ^ 
+7 3 7 w Q w 0 w 0 ( w ( 9 0 9 * 0 * 8 8 
+7 8 ^ 7 r 3 o u 7 w Q w 0 w 0 ( w ( 9 0 9 * 0 
+* 8 8 7 8 ^ 7 r 3 o u 7 w Q w 0 w 0 ( w ( 9 0 
+9 * 0 * 8 8 7 8 ^ 7 r a 3 7 [oh] w Q w 0 w * 8 
+w 8 7 [pj] 3 [ak] 7 w Q w 0 2 [pj] d G 9 t [oh] r w t [pj] G d d ( 
+5 [ad] k 9 r e r w [er] w Q r Q q w q 0 w 0 ( 0 
+( * 9 ( * [pj] 6 s [fl] ? 6 3 0 w Q w 0 t w 0 Q w 0 a k 
+[?7] [DZ] j Q e W e Q Y e Q W e Q x f 3 ? [fx] h 
+7 w Q w 0 o y f w h [tG] h 0 f d z [3H] 7 h w [sl] Q h w 
+f 0 o y f w h t G h 0 f 3 [ak] 8 f s 0 0 j p 9 f 0 s 8 u r s 0 f 8 D e f 8 
+s [3a] k S 8 f s 0 ( p j 0 f s 8 r u D s 0 f 8 D e f s 8 3 o h s 8 [ep] i r g s t 
+p e o t p s i a [es] p 3 f u 7 p Q I W D Y e p Q I u Q I Y O 
+Q p I 3 f o u 7 w Q w 0 y [wo] t 0 u o I u 3 
+d 7 o w u Q s w o 0 u y o w u o t 0 u 0 8 a 3 u 0 t ( p 0 u 8 t 
+r t 0 u e Y 8 u t a 3 8 u 0 t ( p 0 u * 8 t r t 0 u 8 Y u t 8 o 3 
+t 6 e 7 i 6 t e w 8 [6e] [qt] r 6 t e 3 u $ e 6 Q Y 5 e 6 $ Q 0 * Q 
+8 7 w ( Q 7 u w 3 7 w Q w 0 w 0 u 7 I 3 o 0 p 
+a s w d [0r] f G [uh] j o k l a z x f a o u r 0 r 
+u k r J w k J k ? 
+7 G Q r j [Yh] I 
+0 j r h I G o 
+f u f 8 j s w t h s 
+u I G f o u d 9 d e 
+y I s p s I d y a o 
+5 9 w r y o y 
+r a o 8 a o w t a o u a o I o 
+k [ta] u k a 0 r u I o 
+a h [9G] e f y I G 
+p I S h S 0 [Sf] 6 0 
+e [yh] u e T p S f S p u T e 6 0 * e T [ak] u T 
+e 0 6 * 0 [ak] e 6 e T u T [ak] e * 8 5 [afk] [1h] 5 
+9 p j q p j 8 [0wt] [pj] t w [oh] 0 8 [oh] 9 6 2 [IG] 6 9 Q o h e y t Q [IG] 9 $ 
+2 [yd] ? ? r a 3 ? ? a k 0 7 p j 3 7 0 [pj] w r u w o h 0 7 5 o h 2 ? G I 9 
+2 [oh] $ 9 [dz] Q e Q 9 o h 2 5 8 d z 5 1 x f 5 8 0 [wdz] t u o i u h t 
+w 0 8 [oh] 9 6 o h 2 6 9 G Q e y f I p I G y Q 0 [3h] [0o] [ra] 
+w h 0 o u a r h w 0 o y [9G] I e [yh] o G 
+y o e d Q k 9 k y e k J Q 
+9 k y J [ek] Q G j 9 
+Q y h w y r r y 
+9 r y y r 0 y r y r 9 
+0 Q h k h w G [ry] r y 9 
+y r G k [ry] G [0f] t w f h w t f 9 d r y w y w 
+a [*k] T j S u p f S k e u T [Sj] [Sh] T u f S 
+6 e u T e T u h T u j h G [9d] y [Ip] 
+[Ip] t p I [dG] j p I G [rd] o y d o [yG] d 
+e s I t s I a t p a w y r s y S r w d y r 
+f r y G 9 d Q y e f G [Qy] e 9 h Q e y I p h v I y [kn] Q 
+[hv] w 9 C G 5 y r w r y w w r y [29] [ry] Q [GC] y r r Q [kn] C G 
+[8fx] 1 w 0 8 0 w 8 f x [80] w [hv] f x [dz] 7 ? 7 w 9 [9w] 7 7 [9w] [ak] 6 ? k n 
+e [9Q] [jb] [Qe] 9 Q 9 6 k a 6 ? n k [8e] j [60b] 0 e [68] [80] 6 [hv] Z 6 ? f x 0 [68] 
+8 0 6 [680] [80e] [80] e 0 [8e] h v 8 b j [hv] C 9 [2G] [Qe] 9 Q e 9 9 [Qe] 
+e 8 Q Q e Q [ed] G [Qj] d 8 e G w 7 [9d] [9w] d [9w] 7 G w [79] d 
+9 [8Q] 6 s Q 6 8 s 9 Q 6 a w p 9 5 a 9 w r y o r p w o 
+9 5 w I 5 7 9 w u 5 7 9 y 6 u i 2 I 9 o O e Q p 
+P 9 y a Q s 9 [2S] $ 6 9 d Q e Q f 9 2 $ [6D] 9 Q e f Q 
+[9g] 6 $ 2 G 6 9 2 $ 3 f ? a 0 [57f] 3 a 3 5 d [8f] [1s] [sh] [sf] 
+w [80] d G f 8 d f d 5 [?h] w h [79d] 5 7 5 d h 9 2 j d h j k Q e 9 
+9 h f 0 3 [af] d f [wr] a 0 0 d a 8 f 1 [sh] f 8 w t 0 d f 8 0 d f 
+h [wd] 5 y h [rd] w h 9 d 2 j h Q e j d k 9 Q e y h I p I y e 9 Q 
+y I p k I J y e Q 9 k e y 9 Q y J I p I k y [9Q] e y G I p 
+I j y e Q h 3 ? x [fh] k 0 3 % [7fh] k x 6 3 
+L x [fh] f h [lx] 1 ? [fh] [lx] [58] [13] 3 [1f] [lx] h l [fhx] 3 ? ? 3 f 
+[?3] [DZ] ? ? [DZ] 7 ? @ $ 7 0 Q r 0 w 5 9 w 
+r y o [kvn] z r w 7 v k [zn] 0 7 v [kn] [3x] 7 0 w [hv] r 0 w r [hv] u o a o p j b r k n 7 
+[(Q] r Y I a [jb] r Y i a D G D [GC] a I Y T r Q ( 7 
+[?3x] f [hk] 0 7 3 5 7 0 w r [fx] [hk] w e 5 ? [fkx] h w 9 5 7 9 w r y r [fx] h 
+8 5 1 l [fhx] 5 8 0 w t u o u Z D G k 7 $ [?Z] D [Gk] $ 7 0 Q r Y I 
+a Y r 0 7 3 7 0 w r u n [kx] v o a o w [kv] [xn] 9 [5vn] [kx] 9 w r 
+y v h o r h v w 9 7 [jb] 8 5 1 [kn] 5 8 0 w t 0 [jb] 7 $ @ G ? k C 
+Z k G G D a I G 7 ? D a I I Y $ r Q 7 ? @ $ r Y 7 I ( Q I 7 ( a Q D G r Y I 
+a Y T r Q ( 7 $ ? [7r] E ^ 7 r [^E] 
+6 e % W w 5 [$Q] q 4 3 0 @ ( 2 9 * ! 
+[18] 8 w 8 t u t o s f s h l x l v m ? m v l 
+x l h s f s o u t w 8 4 ? 8 e t i t p s g 
+s j l c l b m $ ? ? m b l x l j a f s p t y t e 
+8 [?5] 7 w r y r o a d [?$] a h k z [?3] k v n ? 2 ? b C z 
+z j G d d p I y y e Q 8 5 ? 8 q W y y i O d s 
+g H z l c V ? v c k z h g s d o i t Y w 
+q 7 h 
+G h G h d g 
+D ? ? m ? b ? m ? u t e b ? b m u t e x n u [et] 
+x B l b x V [ti] e l v l C j u t e c x l x j Z l z t [0e] j L j l f t u [ek] 
+f J s j f H s h s G p [?g] s f p D s 0 [6d] p S p s 0 6 u a [60] u 
+P t p u O q 6 t o t I e 0 i 6 t u e Y t y ? e T e t 0 r 3 
+0 E 8 e 0 W e 0 t q ? u r y i f a y [qd] g x k y q z g 
+[tz] q j l g d p s [?6] i y e t q ? % u r y i f a [wy] d g y q x k y 0 z f 
+[0tz] j l f d p [?6s] u y e t r 7 ? p u O a j f [uH] W r k O b x S V 
+k a [YV] r p Z C k j D G r 7 a O Y I r p [30] u O a k f O r H k [Eo] b x O r V 
+k 0 [?W] u u r W 0 % 7 3 ? ? ? f D f 3 
+% 7 0 D 0 W r f u O a O u a r W 0 r u 0 W d r u 0 u r 0 s 
+[?6p] 3 6 0 8 [80] 6 [68] 0 8 0 6 
+p u [up] [*6e] 0 p u [up] o [9w] 5 p o [wy] r p r w y [ry] w w y r p p y 
+w r p o p i [4q] 8 i o [qt] e p q e t e t q q [et] W p [ep] t q p o p 
+0 3 % 7 u 0 [3%] 7 u 7 0 % u % 3 u f 3 ? ? u 3 f ? [3u] [?f] 3 ? u f 3 ? [uf] @ 6 ? j 
+[*6e] 0 f [6e] [*0] 0 * e 6 e [*0] 6 [60] * e j [0ej] [6*] k L [*e] [60] z [wx] [5h] h [wr] y [ry] w 
+[ry] w [wr] y r [wyx] y [rx] w c r w v b 4 [ql] c q [et] e t q q e t [qe] t 
+q [et] [cb] l e t q [cb] l [qet] [lc] b e v [qt] l c l w t 8 [lv] c l u o t u [lx] [to] l x v m v x [wt] 8 l 
+l h f s l 8 1 h J f s s o u t 9 6 2 d 6 9 d p 0 9 q f p e g p y u i y e q 0 9 6 
+2 f p 6 9 9 0 d p 6 3 s p ? 3 6 s p 8 d 0 e f t u t e w 0 6 8 e t u d f t y 
+e s 7 a ? a ? S 7 D 0 Q r 7 [(Q] * r Y I Y T r G Q ( D 3 ? f a 
+3 ? u u ? 3 u 3 ? u 3 ? 3 u ? 3 u ? 3 ? u u 3 6 ? [pj] S f 
+e 6 * 0 [pS] j f e [Spj] f T u [pS] f j T [pj] S f e 0 * 6 [0p] [Sf] j e 6 S [pf] j w o h [9d] a w [59] [pj] ^ a r y o h r [pj] 
+w 9 7 5 4 2 ? 2 5 p j 7 p j 9 w p j [57] 6 o h 4 [?p] j ? q 8 o h 4 6 8 [pj] q w e t 
+e w q t p j q q p j 8 4 6 [pj] 8 q 4 [oh] 6 3 [?p] j 0 % u f O 7 a O [%0a] [3u] f 7 [uf] [Oa] ^ W f r D 0 
+W r f u O a D O f u 0 W r u D O a O f u 0 [Wr] a u O a d O 
+u r W s 0 6 p 0 e t u 
+p 3 a 0 W u O a [6s] 0 e u f 
+D f D f a d s 6 p 0 e 
+t u p 3 a 0 W u s a 6 p 0 
+e a s d 8 f w t o g f 
+d 5 w r i f d 6 s 0 e 
+u d s 3 a 0 u u f u f f x 
+f x x ? D f D f 
+D f D f D f 
+a d 
+s 
+? 6 j f s p 6 
+0 t e 0 u k t e 
+u l w k y o a d a o j 
+h 8 h l w l h t l h u o z h u [tx] h w 
+z k h 5 9 w [er] y r w e l j 6 
+0 l j e l [rj] t [jz] u j x e u 0 z h r 
+u k I o j a h u i q k g t i 
+k [pg] s l p i k s j g s p i 
+t e q h o H e 6 [fj] s p 0 e t u 
+t k e l u w k h y o a d a 
+o j y h 8 l h w l h t u l h o z h u 
+t x h y C 9 [jz] e y I p I y f 
+d g s p 4 8 s p g q g s p e t h [sf] i [qsj] 
+j s e 6 [sh] 0 h s e f s r f s t d u d s w s w 
+9 a 5 9 w r [ah] y o y r j a w 9 7 5 h a 2 ? 2 5 k a 
+5 7 9 w r h a y o y r w 9 j a 7 5 5 2 ? ? h a [?2] d [ip] g 
+2 3 6 9 0 q e y u i o h y e [pj] q 0 9 l s 5 2 ? d [ah] k 2 
+5 7 9 w r y o e y r w o h w q 9 [pj] [57] o h 9 6 [id] [2p] g 6 9 q e 
+y i p d p i y [oh] e q 9 p j 5 s l 2 ? z d G 2 5 7 9 w 7 5 4 9 
+w [57] [oa] d h 3 % ? [fx] d z [?36] s [fj] l e 0 6 8 0 e r t u p a p [dz] 
+u t r [fx] 9 ^ v h 7 3 [ak] 7 p 0 Q w t u I [opsl] u [ak] r w Q p j q o h 8 
+4 [dgk] a 8 r q y i e a d t g q k z i c n p ? s ? ? ? i n s g s 
+p i t [ak] q t p [sl] i t e z d q 8 4 [pj] 
+4 1 ? 1 4 6 8 6 4 
+q 8 p 6 4 8 w 6 
+W t e [?6] t e 
+[?6] ? t [4q] [?e] 
+t y [?1u] [wt] u t w u t w 
+[58] [1i] w t 1 u w [ry] [?5] y r y r 
+7 [9t] 5 r 5 [6t] ? e 
+0 6 8 t 6 y q [48] t e 
+[68] 4 1 8 t 
+y w u 0 8 i u w 5 9 y 
+y r o y t 
+r 
+? 5 ?  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
 
