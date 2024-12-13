@@ -100,7 +100,7 @@ W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
 
 end)
-Section:NewButton("wild side", "Autoplayf", function()
+Section:NewButton("katyusha", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
