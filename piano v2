@@ -100,6 +100,69 @@ W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
 
 end)
+Section:NewButton("wild side", "Autoplayf", function()
+    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 134 -- tempo overides the delay
+
+shared.scr = [[ [IG] [oh] -[sl]- [ak] -[PJ]- [ts] [YD] [oh]
+[IG] [ig] [YD] [ig] w 5 w 5 w 5 w 5 [dhkz] --
+[os] - [oa] - [oP] - [oa]- {[os][os]} - [oa] -
+[oP] - [oa]- [os]t -[os] - [oa] - [oP] - [oa]-
+[os]t -[os] - [oa] - [oP] - [oa] -[os] 8- [(wos]-
+( -[(woa]- [qY] -[toWP] Y w [Yoa] [tWY] [Yos]
+[8Y] Y [(Ywos] Y [(Y]- [(Ywoa] Y [qY] -Y [toWYP]
+Y [wY] [oa] [tWY] [os] 8- [(Ywos] -[(Y]- [(Ywoa] -[qY]-
+[toWP] Y [wY] [Yoa] [tWY] [Yos] [8Y] Y [(Ywos] Y [(Y] Y
+[(Ywoa] Y [qY] Y [toWYPD] [YD] [wYD] [(Yoa] [Wt] [(Yos]
+[18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP] [qY] [5wY]
+[Yoa] [tWY] [Yos] [18Y] Y [(Ywos] [8Y] [@(Y]- [(Ywoa] Y
+[4qY] Y [toWYP] [qY] [5wY] [Yoa] [tWY] [os] [18] -[(Ywos]
+[8Y] [@(Y]- [(Ywoa] Y [4qY] Y [toWP] q [5w] [Yoa] [tWY]
+[Yos] [18Y] Y [(Ywos] [8Y] [@(Y] Y [(Ywoa] Y [4qY] -[toWYP]
+q [5wY] [oa] [tWY] [os] [18oh]- [(wos] [8ts] [@(] [oh] [(woa]-
+[4qIG] -[toWP] [qig] [5w] [oa] [tWYD] [os] [18]- [(wtos] [8EP]
+[@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt] [os] [18oh]- [(wos]
+[8ts] [@(] [oh] [(woa] -[4qIG] [toWP] [qig] [5w] [oa] [tWYD] [os]
+[18]- [(wtos] [8EP] [@(ts] -[(woa]- [4q] -[toWP] q [5w] [oa] [Wt]
+[os] [4qsl]- [Wti] [qig] [%W] [sl] [tiWO] -[^Eak]- [toYP] [EPJ]
+[8t] [Os] [tYOH] [ti] [4q] -[Wtig] [qYD] [%Wig]- [tiWO] -[^E]-
+[toYP] E [8t] [Os] [tY] [ti] [5wdz] [dz] [ryoSL] [wdz] [7r] -[ryoadz]
+[dz] [9ySL] [dz] [oad] y [qi] [dg] [oa] [yo] [5wgc]- [yo] -[@(DZ]-
+[oa] -[29dz]- [ad] -[@(DZ] [dg]- [os] [18] -[(Ywos] 8 [@(Y]-
+[(Ywoa] Y [4q] Y [toWYP] [qY] [5wY] [Yoa] [Wt] [os] [18] -[(Ywos]
+8 [@(Y] [(Ywoa]- Y [4q] Y [toWYP] q [5wY] [oa] [Wt] [os] [18]-
+[(Ywos] 8 [@(Y] Y [(Ywoa] -[4qY] Y [toWYP] [qY] [5w] [Yoa]
+[Wt] [os] [18]- [(Ywos] 8 [@(Y] -[(Ywoa]- [4qY] -[toWP]
+[qY] [5wY] [Yoa] [Wt]- 5 [Ywro]- 5 -[Ywro]- [Ywro] -[*SL]
+[8sl] -[^PJ]- [%OH] -[5oh]- [%OH] [^PJ] -[3uf]- -
+[4g] [%Os] [O5s] [^Osg] [5oah] [2yo] [os]
+[2adh] [D1sh] [@D] [5s] [^Dsh] [(Dh] [^sg]
+[s(D] [^Pd] [4sD] [8s] [5o] [^os][os][5oah] [2yo]
+[ad] [2h] [D1sh] [@s] [5o] [^h] [(Yosh] ^ [(osg] ^
+[4sD] [O8s] [O5s] [^Osg] [5oah] [2o] [os] [2ad]
+[D1sh] @ 5 [^os][os][h(DH] [^g] [(DJ]d[^hl] [s%DJ]
+4 1 [@os][os][4os] [5os] [%sg] [7sg] [D5hk] @ 1
+[2hkz] @ [@sg] [3dh] [4qWDH] %[qW][O5s]
+4[oa][5wr] @[wr][sD] [1dg] [YD8th] [(os][tY][5os]
+%[os][^tu] %[tu]5 [@os] [4isg] [%D][is][5d] [4s]
+[5yoa] [@oa][yoa]a [1oa] [Y1os] @[os][5id] %
+[^osf] %[sf][O5g] [@sh] [4qWDH] %[qW][O5s]
+4[oa][5wr] @[wr][hl] [1z] [8tlYZ] [(z][tY][5hl][hJ]%[Dh][EYo]
+W[Yo][wsg] [s(D] [W4qdg] [%D][qW][5d] [O4s] [5wroa]
+@[wr][OH] 1 [5ioah] 2 [iag] -[ag%OH] 2 [oah] - [osl]- [oal] -
+[Pol]- [oa]l[os][DZ] [osl]- [oa] -[oP]- [oa] [os][18] [(wos]8[@(]
+[(woa] [4q] [toWP]q[5w][oa][Wt][os][18] [(wos]8[@(]
+[(woa] [4q] [toWP]q[5w][oa][Wt] - [ts] [YD]
+[oh][IG] [ig] [YD] {[ts]1}@58([D18dhlz]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
+
+end)
 Section:NewButton("Rush E", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
