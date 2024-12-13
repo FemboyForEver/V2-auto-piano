@@ -299,7 +299,7 @@ m V
 v l V v
 c ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%202%20al%C3%A9atoire"))()
 
 end)
 Section:NewButton("Rush E i got distracted", "Auto", function()
