@@ -4725,91 +4725,146 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
  
-shared.scr = [[ [4iP] 
-[Pg] 4 4 ^ 4 4 
-^ [4iP] [$is] [4iP] 
-[^Pg] 4 4 ^ 4 4 
-^ 4 $ [4iP] 
-[^Pg] 4 4 ^ 4 4 
-^ [4iP] [$is] [4iS] 
-[i^P] 4 4 ^ 4 4 
-^ 4 $ 4 
-[^E] [ETi] [ETi] [^E] [ETi] [ETi] 
-[^E] [ETi] [^I] [ETi] 
-[4q] [et] [et] [4q] [et] [et] 
-[4q] [et] [4T] [et] 
-[^E] [ETi] [ETi] [^E] [ETi] [ETi] 
-[^E] [ETi] [^I] [ETi] 
-[@Y] [QEY] [QEY] 4 [Wyi] 
-$ [EYI] [EYI] @ [ET] 
-[1t] [tuo] [tuo] [2t] [Ituo] 
-[3t] [tuo] o [1t] [tuo] t 
-[Y4ei] i i [ETIio] [ryIO] 
-[Ytip] [4i] $ [6i] 7 
-[^PSg] D 4 g [iPD] 
-[i$PS] [Yps] 4 S s 
-[^P] [Ti] i 8 [eY] 
-* [Ti] [^u] [Ti] 
-[^P] [yi] O ^ P [yiO] 
-[2I] [Ey] i 2 I [Eyi] 
-[@Y] [QEY] [QEY] 4 [Wyi] 
-$ [EYI] [EYI] @ [EYI] 
-[8I] I [EY] i 4 I [ei] 
-[^T] [ETi] [ETi] 4 [iTP] 
-[!P] P [ri] O ! P [tiO] 
-[$I] [ET] [ET] $ [IPS] 
-[8S] S [uP] s 5 S [Pus] S 
-3 s [uPS] [1a] [Pus] 
-g [4ipD] [5iPD] [ia%D] 
-[6isD] [4i] $ [5i] 6 
-[^PSg] D 4 g [IPD] 
-[i$PS] [Yps] 4 S [Yps] 
-[^P] [Ti] i 8 [eY] 
-* [ETi] [^u] [Ti] 
-[^P] [yi] O ^ P [yiO] 
-[2I] [Ey] i 2 I [Eyi] 
-[@Y] [QEY] [QEY] 4 [Wyi] 
-$ [EYI] [EYI] @ [EYI] I 
-8 I [EY] i 4 I [Yei] 
-[^T] [qET] 4 [iTP] P 
-* P [ri] O * P [riO] 
-[$I] [ET] $ [IPS] S 
-1 S [uP] s 1 S [uP] s 
-[D4pg] [4i] S [4p] 5 6 
-[^P] [Ti] [Ti] 4 [Ti] 
-^ [Ti] [*p] [iTP] 
-[@YIs] P ^ p 
-[$YIP] s @ S 
-[^ETP] i [8etY] 
-[*ET] [T6ip] [^P] 
-[@YIs] P ^ p 
-[$YIP] s @ P 
-[i*TS] [Y8ip] 
-^ p P 
-[@s] [YI] P ^ [YIp] 
-[$P] [YI] s @ [YIS] 
-[^P] [ET] i 8 [eY] 
-* [ETi] ^ [iTP] 
-[i$TP] I I I [i$TP] 
-I I I [u$TP] P s 
-[1uP] s s a s 
-[D4psg] [$EYi] I 
-[7G] [Ira] [Tf] [$y] [uG] [iadf] I 
-[5id] [Ioa] S [$i] d [uIPS] 
-[7a] [ry] [TI] [*y] u [Tei] I 
-[9i] [ryI] [7i] [ryI] 
-[7a] [rYI] [Tp] [7Y] [ua] [YIp] a 
-[o@P] [era] I [@p] o [Iera] 
-[3uo] [wr] u $ [rYI] 
-5 [ruo] 3 [ruo] 
-[!o] o [Tru] [yI] [$Y] [uo] [uETI] I 
-[7yi] [rQI] [$i] [Iya] 
-[2a] [Itya] [up] [2I] [oa] [IOtp] p 
-[5oP] [rya] [5P] [oad] 
-[!d] d [Iia] [oS] [%O] [pd] [iaPS] a 
-[sf$PSG] [IS] [$sd] [PS] 
-[7ad] [yI] a $ [yI] 
-[7yI]  ]]
+shared.scr = [[ [up] [up] [up] [pf]
+[6e] [30] [30] [6e] [30] [30]
+[6e] [30] [4q] [30]
+[6e] [30] [30] [6e] [30] [30]
+[6e] [30] [4q] [30]
+[6e] [30] [30] [6e] [30] [30]
+[6e] [30] [4q] [30]
+[6e] [30] [30] [6e] [30] [30]
+[6e] [3u] [4i] [3up]
+[6pf] 3 3 6 3 3
+6 [3up] [4ua] [3up]
+[6pf] 3 3 6 3 3
+6 3 4 [3up]
+[6pf] 3 3 6 3 3
+6 [3up] [4ua] [3us]
+[6up] 3 3 6 3 3 6 3 4 3
+[6e] [etu] [etu] [6e] [etu] [etu]
+[6e] [etu] [6i] [etu]
+[30] [wr] [wr] [30] [wr] [wr]
+[30] [wr] [3t] [wr]
+[6e] [etu] [etu] [6e] [etu] [etu]
+[6e] [etu] [6i] [etu]
+[2y] [qey] [qey] 3 [teu]
+4 [eyi] [eyi] 2 [et]
+r [YI] [YI] r [YI]
+[@7r] [YI] I [7r] [YI] r
+[W3yu] u u [etuI] [ETuo]
+[ryuO] [3u] [4i] [u$I] [6p]
+[6psf] d 3 f [upd]
+[Y4ps] [Oya] 3 s a
+[6p] [tu] u 7 [wy]
+8 [tu] [6y] [tu]
+[6p] [tu] o 6 p [tuo]
+[1i] [et] u 1 i [etu]
+[2y] [qey] [qey] 3 [twu]
+4 [eyi] [eyi] 2 [eyi]
+[7i] i [ey] u 3 i [wu]
+[6t] [etu] [etu] 3 [tup]
+[1p] p [Eu] o 1 p [Eruo]
+[4i] [et] [et] 4 [ips]
+[7s] s [Yp] a $ s [Ypa] s
+@ a [Yps] P [Ypa]
+f [O3ud] [$upd] [P5ud]
+[%uad] [3u] 4 [$u] %
+[6psf] d 3 f [ipd]
+[Y4ps] [Oya] 3 s [Oya]
+[6p] [tu] u 7 [Wy]
+8 [etu] [6Y] [tu]
+[6p] [Tu] o 6 p [Tuo]
+[!i] [eT] u ! i [Teu]
+[2y] [qey] [qey] 3 [Twu]
+4 [eyi] [eyi] 2 [eyi] i
+7 i [ey] u 3 i [Wyu]
+[6t] [0et] 3 p p
+8 p [Eu] o 8 p [Euo]
+[4i] [et] 4 [ips] s
+s [Yp] a s [Yp] a
+[O3df] [3u] s [3O] $ %
+[6p] [tu] [tu] 3 [tu]
+6 [tu] [8O] [tup]
+[2yia] p 6 O
+[4yip] a 2 s
+[6etp] u [W7ryu]
+8 [tu%O] [6p]
+[2yia] p 6 O
+[4yip] a 2 p
+[8tus] [7yuO]
+[6tu] O p
+[2a] [yi] p 6 [yiO]
+[4p] [yi] a 2 [yis]
+[6p] [et] u 7 [Wy]
+8 [etu] 6 [tup]
+[Y4tp] i i i [Y4tp]
+[4i] i i [Y4tp] p a
+a a P a
+[O3adf] [Y4eu] i
+[^g] [iEP] [tD] [4T] [Yg] [uPSD] i
+[u$S] [iIP] s [4u] S [Yips]
+[^P] [ET] [ti] [8T] Y [etu] i
+[*u] [ETi] [^u] [ETi]
+[^P] [Eyi] [tO] [^y] [YP] [yiO] P
+[!Ip] [WEP] i [!p] I [iWEP]
+[@YI] [QE] Y 4 [Eyi]
+$ [EYI] @ [EYI]
+[1I] I [tEY] [Ti] [4y] [YI] [etui] i
+[^Tu] [Eqi] [4u] [iTP]
+[!P] [riTP] [YO] [!i] [IP] [rioO] O
+[$Ip] [ETP] [$p] [IPS]
+[1S] S [uiP] [Is] [5o] [OS] [Pups] P
+[D4pasg] [is] [4aS] [ps]
+[PS] [Ti] P 4 [Ti]
+[Ti] [!p] [iTP]
+[@s] [YI] P ^ [YIp]
+[$P] [YI] s @ [YIS]
+P g [ETf] [ig] [1S] P [et]
+! g [ETf] g [pS] P [iTP]
+[@s] [YI] P ^ [YIp]
+[$P] [YI] s @ [YIP]
+S [Tig] f [1!] g [ipS]
+! [Pig] f p g [iTPS]
+[@s] [YI] P ^ [YIp]
+[$P] [YI] s @ [YIS]
+P [ET] i 1 [Wt]
+[!S] [Tis] S s [iTP]
+[uTIP] [$I] [$I] [$I] [uTIP]
+[$I] [$I] [$I] [u$TIP] [$P] s
+[8uP] s s a s
+[18uPS] [18uP] s
+[PD4qig] [4q]
+[4qetu] i
+[af$QIG] [$Q]
+[$QETi] [$QETI]
+[7G] [ad] f $ G [adf]
+[5d] [ia] S $ d [uPS]
+a [ry] I ! [Eu]
+2 [ryI] i [ryI]
+a [Yp] p $ a [YIp]
+[@o] [eY] I 7 o [eYI]
+[3u] [wru] $ [erY]
+5 [wru] 3 [ruo]
+[2o] o [ru] I $ o [uEI]
+y [Qr] [Iya]
+[2a] a [tI] p 2 a [Itp]
+[5o] [ry] 5 [oad]
+[!Oiad] d S d S
+[!Oiad] d d S I I
+[3uoad] d S d S d
+[3uoad] d d S I I
+[I7ya] a a S [I7ad]
+[I6ya] a a S [I6ad]
+[%Iya] a a S [%Iad]
+[5oadg] [5ioad]
+[ad$IG]
+$ [ryI]
+[$Pdfh]
+[o$PSG] g
+[7G] [ad] [ad] $ [ad] [ad]
+7 [adG] [$sfh] [adG]
+7 [adG] [$sfh] [adG]
+[G7dk]  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
