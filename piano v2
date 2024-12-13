@@ -4715,7 +4715,7 @@ O [TOS] s a [IP] p [IP] Y [YI] [EY] I P o P d
 5 h o o [5oh] [DG] g f D f
 O [TOS] s a [IP] p [PI] Y [YI] [EY] P [5yo] [EY] P [5yo] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
 
 end)
 Section:NewButton("prince ali", "Auto", function()
