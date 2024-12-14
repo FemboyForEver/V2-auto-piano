@@ -8561,7 +8561,7 @@ z [b] c [b] [z] b [c] [b]
 [%Wa] 7 0 r W u [rs] O
 [ud] y r W [0f] 9 7 0 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("Fur Elise", "Auto", function()
