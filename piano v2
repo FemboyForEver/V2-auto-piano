@@ -7880,7 +7880,7 @@ shared.tempo = nil -- tempo overides the delay
 
 shared.scr = [[ s s d f 8 [to] 8 t 8 t 8 [tf] [d5] [ws] [d5] [wa] 5 w 5 w [s6] e [u6] e 6 e 6 [se] [a3] [p0] [a3] [a0] 3 0 3 [o0] [p4] [qo] [p4] [sq] 4 q [g4] q [f1] 8 [f1] [s8] 1 8 1 8 4 q [g4] q [g4] q [f4] [qf] 5 [wd] [s5] w [s5] w [d5] [wf] 8 [to] 8 t 8 t 8 t [d5] [ws] [d5] [wa] 5 [wh] h [l5] [wh] [s6] e [u6] e 6 e 6 e [a3] [p0] [a3] [a0] 3 [h0] h [l3] [h0] [p4] [qo] [p4] [sq] 4 q 4 q [f1] 8 [f1] [s8] 1 [h8] h [l1] [h8] 4 q [g4] q [g4] q [f4] [qf] 5 [wd] 5 w [s5] w [d5] w [f6] e [f6] e [f6] [ge] [f6] [ed] 5 w [f5] w [f5] w [f5] [wg] 4 q 4 q 4 [qf] [g4] [qf] 8 t 8 t [s8] t [d8] t [f6] e [f6] e [f6] [ge] [f6] [ed] 5 w [f5] [wf] [f5] [wf] 5 [wg] 4 q 4 q 4 [qf] [g4] [qh] 5 w 5 w 5 [wf] [d5] [ws] 8 t 8 t 8 t 8 t 5 w 5 w 5 w 5 w 6 e 6 6 e 6 6 e 6 6 e 6 3 0 3 0 3 0 3 0 4 q 4 q 4 q 4 q 8 t 8 t 8 t 8 t 4 q 4 q 4 q 4 q 5 w 5 w 5 w 5 w 5 s s d f t [uo] o s f s o u w r y o a o [ya] [sr] e [ut] u p s p u t 0 w r u [of] u [rf] [wg] q [se] t i p i t e 8 0 w t u t w 0 q e [tg] i [pg] i [tf] [fe] w [rd] [ys] o [sa] o [yd] [rf] 8 [to] 8 t 8 t 8 t 5 w 5 w [a5] w [a5] [ws] 6 [ue] 6 e 6 e 6 e 3 0 3 0 [f3] 0 [f3] [g0] 4 [sq] 4 q 4 q 4 q 1 8 1 8 1 8 1 8 4 q [g4] q [g4] q [f4] [qf] 5 [wd] [h5] w [h5] w [h5] [wh] 8 f ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
 Section:NewButton("World's Smallest Violin", "Auto", function()
