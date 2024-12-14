@@ -37,7 +37,7 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Faded", "Autoplayf", function()
+Section:NewButton("kiss me", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -48,7 +48,7 @@ shared.tempo = 89 -- tempo overides the delay
 
 shared.scr = [[  ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("Liszt Transcendental Etude No 5 Feux Follets", "Autoplayf", function()
