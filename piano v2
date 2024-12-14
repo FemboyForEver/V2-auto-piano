@@ -536,7 +536,7 @@ _k 7 O [$D] f [7D] a 6 u [3D] f [6D] a [30] u D_
 _7 f [0H] k [!_] O [%S] D [!f] k [7ra] H [$Z] x [7Z] k [6efSH]
 G ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/drowning%20love%20bpm"))()
 
 end)
 Section:NewButton("attack on titan", "Autoplayf", function()
