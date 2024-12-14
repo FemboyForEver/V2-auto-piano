@@ -7444,118 +7444,124 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
-shared.scr = [[ [Eyi?] [Eyi?] [1tuo] 
-[1tuo] [E1uo] [tuo] [!Tip] [u?] i 
-[2eto] [2eto] [2etyi] 
-[E5ti] [E5ti] [5ryio] y 5 u 
-[E5qyi] y [5qE] [yi] [5q] E [5qy] y 
-[60et] o [60u] [ei] [60] u [60et] 
-[^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
-[E18ti] [E18ti] [E18tu] e t 
-[4e] q e q [4e] q e q 
-[4e] q e q [4e] q e [qt] 
-[6eT] 0 e [0y] [T6eu] 0 e [0e] 
-[T6ep] [0TP] e [0p] [T6eo] 0 e [0u] 
-[9eyi] q e q [9e] q e q 
-[9e] q e q [9e] q [9e] [qi] 
-[6wtu] 0 w [0y] [6wt] 0 w [0e] 
-[6wy] 0 w [0t] [6wt] 0 w [0e] 
-[^Et] q E q [^E] q E q 
-[^E] q E q [^E] q E [qp] 
-[^ETP] q E [qp] [^ETo] q E [qi] 
-[^ET] * q [*q] [^qw] * q [*q] 
-[5qe] 9 q 9 [5q] 9 q [9wE] 
-[5q] 9 q [9t] [5qt] 9 q [9y] 
-[6wet] 0 w [0i] [6wti] 0 w [0o] 
-[6wto] 0 w [0i] [6wtu] 0 [ti] w [0to] 
-[^Eeyp] q e [qo] [^Eey] q e q 
-[7r] w r [wy] [7ryu] w [yi] r [wyi] 
-[E8yi] w E w [8E] [wu] [Ey] [Twu] 
-[6*] 9 0 [6e] p [Eyip] 
-? ^ ? [^y] [Ey?] ^ ? [^p] 
-[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
-[etuo?] 6 ? [6t] [et?] 6 ? [6o] 
-[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
-[Ewyi?] 5 ? [5E] [wE?] 5 ? [5i] 
-[E1wu] 8 1 [8i] [E1to] 8 1 [8i] 
-[E4to] q 4 [qi] [E4to] q 4 [qo] 
-[4eto] q 4 [qp] [4etp] q 4 [qp] 
-[Eyip?] ^ ? [^y] [Ey?] ^ ? [^p] 
-[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
-[etuo?] 6 ? [6t] [eT?] 6 ? [6o] 
-[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
-[Eqyi?] 5 ? 5 ? 5 [i?] 5 
-[E10wy] 8 1 8 1 8 [1u] 8 
-[48ei] [8e] [8e] [48w] 8 [48q] [8q] 
-[48q] w [48] q [48w] 
-[^*W?] [*W] [*W] [^*w?] q [^*W?] [*W] 
-[*W] [^*w?] [*w] [*w] [^*q?] [q*E] t 
-[4e] q e q [4e] q e q 
-[4e] q e q [4e] q e [qt] 
-[6eT] 0 e [0y] [T6eu] 0 e [0e] 
-[T6ep] [0TP] e [0p] [T6eo] 0 e [0u] 
-[9eyi] q e q [9e] q e q 
-[9e] q e q [9e] q e [qi] 
-[6wtu] 0 w [0y] [6wt] 0 w [0e] 
-[6wy] 0 w [0t] [6wt] 0 w [0e] 
-[^Et] q E q [^E] q E q 
-[^E] q E q [^E] q E [qp] 
-[^ETP] q E [qp] [^ETo] q E [qi] 
-[^ET] * q [*q] [^qw] * q [*q] 
-[5qe] 9 q 9 [5q] 9 q [9wE] 
-[5q] 9 q [9t] [5qt] 9 q [9y] 
-[6wet] 0 w [0i] [6wti] 0 w [0o] 
-[6wto] 0 w [0i] [6wtu] 0 [ti] w [0to] 
-[^Eeyp] q e [qo] [^Eey] q e q 
-[7r] w r [wy] [7ryi] w [yi] r [wyi] 
-[E8yi] w E w [8E] [wu] [Ey] [Twu] 
-[6*] 9 0 [6e] P 
-[Eyip?] ^ ? [^Eyi] ? ^ [Eyi?] ^ 
-[Etuo?] ^ ? [^Etuo] ? ^ [Etuo?] ^ 
-[etuo?] 6 ? [6etuo] ? 6 [etuo?] 6 
-[2etyi] 9 2 [9etyi] 2 9 [2etyi] 9 
-[Eyi?] 5 ? [E5yi] ? 5 [Eyi?] 5 
-[E1tu] 8 1 [E8tu] 1 8 [E1tu] 8 
-[E4to] q 4 [Eqto] 4 q [E4to] q 
-[4eti] q 4 [qi] [4i] q o 4 [qp] 
-P o i o 
-i u i o 
-p i u i 
-y y u [Ei] 
-? 5 ? [5o] [Ewu?] 5 [Ewy] ? [5weT] 
-? 6 ? [6T] [weT?] [6weu] ? [6weu] 
-[2qeu] 9 2 [9y] [2qeu] 9 [qey] 2 [9eyi] 
-1 8 1 [8i] [1yi] 8 [yo] 1 [E8yip] 
-? ^ ? [^P] [yo?] ^ [yi] ? [^Euo] 
-[tuo?] ^ ? [^i] [tu?] ^ [ti] ? [^tuo] 
-? 6 ? [6p] [ti?] 6 [tu] ? [6ti] 
-2 9 2 [9y] [2y] 9 [tu] 2 [E9i] 
-? 5 ? [5o] [Ewu?] 5 [Ewy] ? [E5wu] 
-1 8 1 8 1 8 [1i] [8i] 
-[E48i] t i [48E] t y [48tP] [T6up?] 
-[6u?] [6y?] [6T?] p [Eyip] 
-? ^ ? [^y] [Ey?] ^ ? [^p] 
-[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
-[etuo?] 6 ? [6t] [et?] 6 ? [6o] 
-[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
-[Ewyi?] 5 ? [5E] [wE?] 5 ? [5i] 
-[E1wu] 8 1 [8i] [E1to] 8 1 [8i] 
-[E4to] q 4 [qi] [E4to] q 4 [qi] 
-[4eto] q 4 [qp] [4etp] q 4 [qp] 
-[Eyip?] ^ ? [^y] [Ey?] ^ ? [^p] 
-[tup?] ^ ? [^o] i [tuo?] ^ ? [^o] 
-[etuo?] 6 ? [6t] [eT?] 6 ? [6o] 
-[2eto] 9 2 [9i] u [2eti] 9 2 [9i] 
-[Eqyi?] 5 ? 5 ? 5 [o?] 5 
-[E10wy] 8 1 8 1 8 [1u] 8 
-[Eyi?] [Eyi?] [1tuo] 
-[1tuo] [1tuo] [!Tip] [u?] i 
-[2eto] [2eto] [2etyi] 
-[5tyi] [tyi] 5 [5ryio] y 5 u 
-[E4qyi] y [4qE] [yi] [4q] E [4qy] y 
-[60et] o [60u] [ei] [60] u [60et] 
-[^ETqi] T [q^E] [Ti] [^q] E [^Tqo] i 
-[E18ti] [E18ti] [E18tu] t [^qey?] ]]
+shared.scr = [[ [qsgjl] q [tisl] q [5wdhkz]
+y r w 9 [5wdhkz] w [yodz]
+w [%WHsfl] [H0afk]
+0 [ru] [sl] 0 [6edfjz] e [updz]
+0 [6esfjl] p u t e
+[9ysgjl] y [ipsl] e [9ydgjz]
+e q [9psj] 6 9 [ak] 9 6
+[9sgjl] j 9 [eysg] l [9dgk] [dgj] 9 [sdg] [eyj] [9sgj] [(j]
+[0adh] [hz] 0 [ruhk] [fhl] 0 [0k] l k [rufh] 0 0
+[Hqsgl] H q [tisg] l [qsgH] [sg] q [Hgl] [tiz] [qgl] [QH]
+[5wdhl] [5wdhl] [5wdhk] 5 9 w r [tf] y [oh] a
+[tuos] [uos] [uos] [uos] [uos] [uos] [uos] [tuos]
+[tuos] [uos] [uos] [uos] [uos] [uos] [uos] [uosh]
+[uafOH] [Oaf] [Oaf] [Oafj] [Oafk] [Oaf] [Oaf] [Ouaf]
+[Ouafgkc] [Oaf] [Oaf] [ufx] [OHadz] u [0u] [rak] 0
+[6esfl] e [un] m [psn] [u?] ? [em] [pn] m [sfn] v [ez] [0l]
+[6ek] l k [eh] [upd] s a [eo] a s [ed] h [upj] k [6fl] 5
+[0adk] 0 r [oasj] u [ah] r 0 [ry] [0s] 7
+[0afj] 0 [ru] h 0 [adh] 0 [ru] 0 g 0
+[qosh] q [t?] ? [io?] [tm] b [qv] [tc] v [iosc] l [qj] [8h]
+[qg] h g [qs] [tip] o i [qt] i o [qp] a [tis] d [qf] 8
+[qsg] q t [Oif] t d q t [Ois] q 8
+[qiO] 8 q [tv] [Wqy] c v q c [Wtl] [tH]
+[9eul] j [9j] [ex] [tj] [ej] [tl] [yij]
+[tuj] [9x] [ej] [yij] [uoc] [9x] c x [ez] [ipl]
+[0rok] h [uh] [osl] [osh] [0h] [uk] [adh]
+[adh] [0l] [uh] [sh] [oal] [uk] l [ps] k j u [psh]
+[qtufl] j [ij] [pdx] [ipj] [qj] [tl] [ij]
+[QIyj] x [Qj] [ypj] [Iadk] y [sl] e [9ak]
+[5wsdhl] [oa] y [wo] [5ws] [oa] y [wak] [5wpj] [H0afk]
+[rup] [O0a] [O0uaf] [fx]
+[qfjx] d [qj] [tis] d [qpj] [tis] [pj] [qs] d [tij] q [fx] q
+[qfkx] f [qk] [yod] f [qkz] [yol] [dz] k [qd] f [yol] q [dz] q
+[0dkz] f [0k] [rud] f [0oh] [rud] [oh] [0d] f [ruk] [0dz] w
+[6edz] h j [ex] [uph] j [el] [upk] [sjl] [eh] j [upk] l [6ak] [8h]
+[9sjl] d [9j] [eys] d [9ig] [eys] [ig] [9s] d [eyj] [9sl] q
+[5wak] d f [wk] [yod] f [wsl] [yo] [dz] k [wd] f [yol] d [wsl] r
+[8tdz] g h [tl] [uog] h [tsl] [uog] [dz] l [tg] h [uol] g [tsl] [wg]
+[8tdz] h v [tg] [uoh] [tfx] [uoh] [fx] g [th] c [uo] v [tx?] w
+[qxbm?] t y p t y [pjb] t [yjlxb] p t y p t [yx?] t
+[qxvn?] y u a y u [az?] [ylm] [uzvn?] a y u s y [dz?] y
+[V0zn?] y u a y u [aHV] y [ukzHV] a y u a y [uz?] y
+[ezvb?] o p f o p [dlm] [okn] [plxvm] s o p a s [alm] o
+[9lcbm] t y p t y p t y p t y [pz?] t y [tjlzb]
+w y u a y u a y u a y u [akn] y u [lm]
+[8x] 8 [8h] [wtfhz] 8 [8h] [tfhl] w [8h]
+[wtfh] [8fhz] 8 [wtfh] [8fhl] 8 [tfhz] w 8 H
+[8sgH] [8H] [8H] [WHtigz] 8 [8H] [tigWHZ] 8
+[8H] [WHtigz] [8H] [tigWH] [H8gl] W t i [of] i [tfh] W
+[8t] t t [8t] t [8tuos] t t
+[8t] t t [8t] t [8tuos] [9yipd] h
+[0ufH] u u [0uj] [Huk] [O0uaf] u [uaf]
+[H0ugkc] u u [0ufx] [Hudz] [O0uaf] u r [Wak] 0
+[6esfl] j e [uph] j f [eh] j [ef] f [upj] h [ef] 0
+[6e] j e [uph] j f [eh] j [ef] f [upj] h [sf]
+[0uoa] h 0 [ruf] a [pd] [rf] [uo] a [0d] d [rh] f [td]
+[0up] h 0 [ruf] a [od] [rf] [uo] a [0d] d [rh] f [id] 0
+[qto] j q [tih] j f [qh] j [qf] f [tij] h [qf] 8
+q j q [tih] j f [qh] j [qf] f [tj] h [uf]
+[qti] H q [th] H [ug] [qh] [Wy] H [qg] g [Wth] H [qg] 8
+[qW] H q [tih] H [Osg] [ih] [Od] H [qg] g [Oisl] H [Osh] g
+[9psf] 9 9 [ey] [9dg]
+[sf] 9 [9dg] [eyfh] y e [9gj] (
+[0fh] 0 [0fhl] [rufhl] [0fhz]
+[fhz] 0 [0fl] [rufhk] [fl] u r [fl] 0
+[qfjx] q [qz] [tifj] Q
+Q [Qpj] [Iyadk] e [sl] e [9sfl]
+[5w] w [yo] [5w] w [yoak] [wpj] [H0afk]
+O p [Wrua] [Wrua] s [Wrud] [O0af] g [uh] r [H0gc] [7j] [0k] l
+[qfjkx] q [tia] s [qf] [tig] j k [ql] x [tic] [qb] n [qm]
+[qzn] v z [qx] [yoz] l [qk] [yol] [dk] [qd] f [yodh] q a [qs]
+[0oa] f [0od] [ru] [od] 0 [ru] [od] 0 [oaf] [ru] [0oa] w
+[6eps] d e [tups] a [eps] [tu] e [tu] [6o] [8ip]
+9 o [ip] 9 [eya] s [9d] [eys] d f [9d] o [eyg] f [9d] [qs]
+[5wya] o a [wp] [yok] l [wz] [yoa] s d [wk] l z [yov] z k [5hz] 7
+[8lx] v m [8v] [wtlx] z [8l] [wtz] [hk] h [8k] h [wtsf] h [8f] [5d]
+[8os] 8 w t [uosh] [8hl] w t [yz] u o [sx] f
+g c z l z
+l k l z
+[0yoa] x l k l
+[eups] f [sj] [dk] [dgl]
+9 [yu] [yup] [yugz] [yupdk] [yu] [sj] [yup] [eyuadH]
+0 [ru] [ruO] [ruaH] [ruaOH] [rudk] [ruO] [rudk]
+[6eadk] [tu] [tupsj] [6psj] [0e] [adk] e [tu] [pj] [6e] [esfl] W
+[5w] w r [yo] [8tuf] [tuosfl] o [udz] t w [8fjx] 0
+q q [ti] [qgc] 8 [qdgz] [sl] i t [qdhz]
+q q [yo] [qsl] 8 [qadk] [sl] o y [Hqdgz]
+0 0 [ru] [0fx] 7 [0sfl] [ak] u r [0dz]
+[6esfl] e [tu] [euf] 0 [6epsj] [ak] u t [esgl]
+9 9 [ey] [9dz] 6 [9adk] [pj] y e [9adk]
+[5w] k [wz] [yov] b [wn] [9z] [5wv] z [wk] y [osl] y [wsl]
+[8tg] [th] w [8l] [wtsg] [th] w [8l] [8tsg] [7rpaf]
+[6eia] [%Wip] a [0yuO] f
+[isfb] l z b l z [pb] l [pz] b l z b l [fz] l
+[ioafn] z x n z x [dn] [sz] [dx] n z x m z [d?] z
+[uadn] z x n z x [on] z [ox] n z x n z [dx] z
+[psdm] v b ? v b [s?] [av] [sb] m v b n m [sn] v
+[ypsb] l z b l z [ib] l [iz] b l z b l [sz] l
+[wyan] z x n z x [sn] z [dx] n z x m z [s?] z
+[todm] c v m c v [sm] c [dv] m c v m c [sv] c
+[todm] v ? c v ? [fc] v [f?] c [sv] [o?] [uc] t [wfx] 8
+[qfjx] d [qj] [tis] d [qpj] [tis] [pj] [qs] d [tij] q [fx] q
+[qfkx] f [qk] [yod] f [qkz] [yol] [dz] k [qd] f [yol] q [dz] q
+[0dkz] f [0k] [rud] f [0OH] [rud] [OH] [0d] f [ruk] [0dz] w
+[6edz] h j [ex] [uph] j [el] [upk] [sjl] [eh] j [upk] l [6ak] [8h]
+[9sjl] d [9j] [eys] d [9j] [eys] d j [9s] [eydz] s [9d] [qpsj]
+[5w] d f [wk] [yod] f [wk] [yod] f k [wd] f [yoak] d [wf] [rsgjl]
+q q [tisl] q [5wdhkz]
+y r w 9 [5wdhkz] w [yodz]
+w [%WHsfl] [H0afk]
+0 [ru] [sl] 0 [6edfjz] e [updz]
+0 [6esfjl] p u t e
+[9ysgjl] y [ipsl] e [9ydgjz]
+e q [9psj] 6 9 [ak] 9 6
+[9sgjl] j 9 [eysg] l [9dgk] [dgj] 9 [sdg] [eyj] [9sgj] [(j]
+[0adh] [hz] 0 [ruhk] [fhl] 0 [0k] l k [rufh] 0 0
+[Hqsgl] H q [tisg] l [qsgH] [sg] q [Hgl] [tiz] [qgl] [QH]
+[5wdhl] [5wdhl] [5wdhk] y r [wk] l 9 k [5dh] [qsfj] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
 
