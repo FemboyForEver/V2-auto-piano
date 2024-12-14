@@ -8712,7 +8712,7 @@ e q [9psj] 6 9 [ak] 9 6
 [Hqsgl] H q [tisg] l [qsgH] [sg] q [Hgl] [tiz] [qgl] [QH]
 [5wdhl] [5wdhl] [5wdhk] y r [wk] l 9 k [5dh] [qsfj] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("bella ciao", "Autoplayf", function()
