@@ -130,7 +130,7 @@ u - y - t,
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("fairytale alexender", "Autoplayf", function()
+Section:NewButton("fairytale alexender transposition -7", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
