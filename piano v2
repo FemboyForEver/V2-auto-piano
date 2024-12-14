@@ -1245,7 +1245,7 @@ shared.scr = [[ S
 [2qeyd] 9 4 e ^ q 9 [pj] e 6 4 9 2 q [!WT0uf] 0 3 W 6 * [pj] 0 6 3 [ig] 0 ! q
 [10et] 3 0 [ig] e 6 0 8 [oh] 6 0 3 [pj] e 1 0 [Qryoh] 9 2 6 $ 9 [PJ] 7 [ak] Q $ 9 2 6 9 ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("remember me", "Auto", function()
