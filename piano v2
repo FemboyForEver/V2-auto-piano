@@ -1329,55 +1329,56 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ [IG] [oh] [sl] [ak] [PJ] [ts] [YD] [oh] [IG] [ig] [YD] [ig]
-[?D5hkz] [5hz] [qD] [5hz] [qD] [5hz] [qD] [5hz] [qD] [5hz] [qD] [5hz]
+shared.scr = [[ [$QIG] [5woh] [8tsl] [7rak] [^EPJ] [18ts] [@(YD] [5woh] [$QIG] [4qig] [@(YD] [4qig]
+[Y5wiad] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad]
+[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
 [Yos] [Yoa] [oYP] [Yoa] [Yos]
 [Yos] [Yoa] [oYP] [Yoa] [Yos]
 [Yos] [Yoa] [oYP] [Yoa] [Yos]
 [Yos] [Yoa] [oYP] [Yoa] [Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5 [@Yoa] [Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5 [@Yoa] [Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5 [@Yoa] [Yos]
-1 [Yos] @ [Yoa] 4 [oYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa]
-[Y1to] 8 t @ o 7 [4I] ^ 5 i [@7] Y
-1 t 8 E [@t] 7 4 ^ 5 [@7]
-[Y1to] 8 t @ o 7 [4I] ^ 5 i [@7] Y
-1 t 8 E [@t] 7 4 ^ 5 [@7]
-[O4is] q i % s 0 [^a] ( 8 P [%0] O
-4 i q Y [%i] 0 ^ ( 8 [%0]
-[?iad] [iad] [5S] [iad] ? [7iad] [iad] [2S] [iad] 9 4 q
-[5oag] w [4oaD] q [@oad] ( [2oaD] 9
-[Y1os] 8 @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa] [Yos]
-1 [Y8os] @ [(Yoa] 4 [qoYP] 5 [@Yoa]
-@ 8 @ 8 4 [S] [8s] [^P] [%O] [5o]
-[%O] [^P] [30u] 3 [4YO] [%s] [5s] [@s]
-[5yia] [2o] [^s] [7d] [8oPD] @ 5 [2s]
-[!PSh] [5g] [D] [5d] [4sOD] 8 4 [$s] s
-[5yia] [2o] [^d] 7 [8oPD] @ 5 !
-[1uos] 5 [*g] 5 [4YOD] [8s] [4s] [$s]
-[5yia] [2o] [^d] 7 [8oPD] @ 8 [7s] s
-[^OSh] [4g] [o@PD] [^d] [os%D] 1 2 [@s]
-[4s] [5s] [%g] [6g] [5osD] ? ? 1
-[2oa] [@Os] ( [4ig] [5woh] [4sODH] [(W] [8s] [YO] [(W]
-[5yia] [qr] [yi] [9YD] [qrig] [PD1oh] [(Ews] [5s] [Yo] [w(E]
-[1uos] [0wE] [uo] 5 [E0ws] [O4isg] [(WYD] [8yd] [(Wts]
-[5yia] [qra] [yi] [9a] [qra] [Y1os] 5 [E8y] 9
-[wtu] 8 [5ig] [1oh] [4sODH] [(W] [8s] [YO] [(W]
-[5yia] [qr] [yi] [9sYD] [qridg] [PD1oh] [(Ewd] [os] 5 P [w(E] [To]
-^ [qWT] [Ti] @ [Yo] [(ws] [?%Oisg] [^YD] [8yd] [(ts]
-[Wra] [(ts] [rOH] [Wt] [tWY] [wro] [D5oah] [7yi] (
-[wiO] 7 ( [Y5ro] ? [Yos] [Yoa]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[YDtosh] [8ts] [woh] [8ts] [tsYIDG] [YDtisg] [wtosYD]
+[(Yts] [wyoP] [(Yts]
+[YDtosh] [8ts] [woh] [8ts] [tsYIDG] [YDtisg] [wtosYD]
+[(Yts] [wyoP] [(Yts]
+[OHisgl] [qig] [tsl] [qig] [OHiagk] [igOPHJ] [tisgOH]
+[WOig] [tosD] [WOig] [O8tis] [O7rus]
+[5wiad] [iad] s [5wiad] [5wiad] [iad] s [5wiad] [5w]
+[5woag] [4qoaD] [@(oad] [29oaD]
+[Y18os] [Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa] [Yos]
+[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
+[Yos] [Yoa] [oYP] [Yoa]
+[4qig] [8tsl] [4qig] [%WOH] [8tsl] [*TSL] [8tsl] [^EPJ] [%WOH] [5woh]
+[%WOH] [^EPJ] [18uf] [qtiO] [YOts] [WYOs] [YOqs]
+[wyoa] [9yo] [wos] [rad] [tosD] ( w [9s]
+[8sfh] [wsg] [tsD] [Pwd] [qsOD] t q [Qs] s
+[wia] [9o] [wad] r [tosD] ( w 9
+[8os] w [tsg] w [qsOD] [Ots] [Oqs] [QOs]
+[wia] [9o] [wos] [rad] [tosD] w t [rs]
+[EPSh] [Pqg] [(PD] [EPd] [sWOD] 8 9 [(Os]
+[O0s] [Oqs] [Owg] [WOg] [woaD] 5 7 8
+[9ad] [s(D] [qdg] [Dwh] [4sgH] q [iO] [8s] 4 [yia]
+5 w [9oaD] [5oag] [D8sh] [tos] [wos] [os] 8 [Pus]
+8 E 0 8 s [O4sg] [qD] [8d] [4s]
+[5yia] [wyia] [9yia] 5 [Y8os] t [wios] 8
+[8uos] E [P0of] [8h] [4sODH] q [iO] [8s] 4 [yia]
+5 w [9ios] [5oad] [8oD] [tid] [Ys] w [yP] 8 [tuo]
+8 E [0yi] [8uos] [%WOsg] [18D] [29d] [@(s]
+[YO30s] [YO4qs] [5wsDH] [%W] [5w] [?7adh] [29] [?7g]
+[5w] [29H] [?7] [?5h] [Yos] [Yoa]
 [oYP] [Yoa] [Yos] [Yos] [Yoa]
-[oYP] [Yoa] [Yos] 1 [Y8os] @ [(Yoa]
-4 [qoYP] 5 [@Yoa] [Yos] 1 [Y8os] @ [(Yoa]
-4 [qoYP] 5 [@Yoa] 1 [8s] [(D] [wh]
-[QG] [qg] [(D] [8s] [?D7dhkz] ]]
+[oYP] [Yoa] [Yos] [Yos] [Yoa]
+[oYP] [Yoa] [Yos] [Yos] [Yoa]
+[oYP] [Yoa] [Y18os] [8s] [(D] [wh]
+[QG] [qg] [(D] [8s] [Y5wiad]
+[5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/Wild%20side"))()
 
