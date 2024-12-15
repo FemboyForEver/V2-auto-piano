@@ -11216,180 +11216,180 @@ shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
 
-shared.scr = [[ [29y] i p d [^y?] i P d 
-[5P?] d f J 
-[S6pfj?] e E e W e T u 
-P [6weT?] 
-2 9 q e q e y e t E e 
-[2p] 9 q e q e y i i o 
-[5i?] o i u [0d] w E y w E y u E 
-[!E] e [6T] 0 w u [o?] o [6i] * w T 
-[2u] y [9y] u y q T e y o [qi] e y e t E e 
-[2p] 9 q e q e y i i o 
-[5i?] o i u [0P] w E y w E y u E 
-[!*E] e [0y] w e T [6o?] * w e u 
-[29qeu] y [6wey?] T [29qey] 
-[3t] 0 w u E o P s f [18h] g f d [ws] E t u P 
-[4qP] p [ep] t P i p O [18p] e t i 
-[!e] * 0 T w u o p S [6f?] S [0j] w e T p 
-[29f] d [qd] f d e S y d f [eg] y i g 
-[5g?] [0P] w E y w y f u g f D f g f h g f 
-[6f?] p [9p] q e q e y O p P p s P 
-[!*p] p p P p o [0o] p o w i e i o i u [6p?] w e T u 
-[2eu] y [6wey?] u y T [29qey] 
-[3t] 0 w u E o P s f [18h] g f d [ws] E t u P 
-[4qP] p [ep] t P i p O [18p] e t i 
-[!e] * 0 T w u o p S [6f?] S [0j] w e T p 
-[29f] d [qd] f d e S y d f [eg] y i g 
-[5g?] [0P] w E y w y f u g f D f g f h g f 
-[6f?] p [9p] q e q e y O p P p s P 
-[!*p] p p P p o [0o] p o w i e i o i u [6p?] w e T u 
-[2eu] y [6wey?] u y T [29qey] 
-[9d] [qeyz] 6 [qeyJ] 
-9 [qeyj] 6 [qeyg] 
-[9f] [qeyd] 6 [qeyS] 
-[9d] [qey] 6 [qey] 
-[9d] f [qeyg] f [6d] f [qeyg] f 
-[9d] f [qeyg] f [6d] f [qeyg] f 
-[5g] [Ewyf] ^ [wyED] 
-[wf] [Ey] 5 [Ewy] 
-[0h] j [wyEJ] j [^h] j [wyEJ] j 
-[5h] j [wyEJ] j [0h] J [Ewyj] h 
-[6g] h [qeyj] h [9g] h [qeyj] h 
-[qg] h [eyj] h [6g] j [qeyh] g 
-[*p] a [weS] d [6f] g [weh] j 
-[0J] j [weth] g [6f] d [wetS] f 
-[9f] [qeyd] 6 [weuS] 
-[9d] [qey] 6 [qey] 
-[9d] [qeyz] 6 [qeyJ] 
-9 [qeyj] 6 [qeyg] 
-[9f] [qeyd] 6 [qeyS] 
-[9d] [qey] 6 [qey] 
-[9d] f [qeyg] f [6d] f [qeyg] f 
-[9d] f [qeyg] f [6d] f [qeyg] f 
-[5g] [Ewyf] ^ [wyED] 
-[wf] [Ey] 5 [Ewy] 
-[0h] j [wyEJ] j [^h] j [wyEJ] j 
-[5h] j [wyEJ] j [0h] J [Ewyj] h 
-[6g] h [qeyj] h [9g] h [qeyj] h 
-[qg] h [eyj] h [6g] j [qeyh] g 
-[*p] a [weS] d [6f] g [weh] j 
-[0J] j [weth] g [6f] d [wetS] f 
-[9f] [qeyd] 6 [weuS] 
-[9d] [qey] 6 [qey] 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[qP] p [etP] s [8d] f [qetg] h 
-[6j] [qet] 4 [qet] 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[9P] p O [qep] a [6S] d [qef] d 
-[9g] [qe] 6 [qey] 
-[5J] j [Ewth] j [0J] j [Eyuh] j 
-[wJ] j [Eyuh] j [5J] j [Eyuh] J 
-[6j] h [qeyg] h [9j] h [qeyg] h 
-[qj] h [eyg] h [6j] h [qeyg] j 
-[*p] a [weS] d [6f] g [Tweh] j 
-[0J] j [Tweh] g [6f] d [weuS] f 
-[9f] [qeyd] 6 [weuS] 
-[9d] [qey] 6 [qey] 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[qP] p [etP] s [8d] f [qetg] h 
-[6j] [qet] 4 [qet] 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[9P] p O [qep] a [6S] d [qef] d 
-[9g] [qe] 6 [qey] 
-[5J] j [Ewth] j [0J] j [Eyuh] j 
-[wJ] j [Eyuh] j [5J] j [Eyuh] J 
-[6j] h [qeyg] h [9j] h [qeyg] h 
-[qj] h [eyg] h [6j] h [qeyg] j 
-[*p] a [weS] d [6f] g [Tweh] j 
-[0J] j [Tweh] g [6f] d [weuS] f 
-[9f] [qeyd] 6 [weuS] 
-[9d] [qey] 6 [qey] 
-[G29djz] [QGj] e y [Gj] 
-[$QGdk] j [Qdh] E y G 
-[5woaG] f [wf] G f r D y u f h 
-[30k] w r y u 
-[!*ahk] [pS] [weupS] [hx] 
-[6hx?] [Sh] [QSeuh] [Sh] 
-[29pdh] G [eyIG] h G f d f 
-[29dG] [eyI] [6?] 
-[G29djz] [QGj] e y [Gj] 
-[$QGdk] j [QEydh] G 
-[5woaG] f [wf] G f r D y u f h 
-[30k] w r y u 
-[G6dz?] j [QGeypdj] h 
-[S6hk?] j [Seuoj] S 
-[9eyof] [Id] d f [Id] [6uoS?] 
-[I29yd] 
-[yd] [IG] [pz] [yd] [IG] [pj] j 
-[yd] [IG] [pk] j [ydh] I P G 
-[ydG] u o a f [yf] u o a h 
-[yd] [of] [ah] k y u o a 
-[Sek] u o p j [Sej] u o p k 
-[Sek] u o p j [Sej] u o p h 
-[edh] y p G [edG] y p g 
-[edG] y p 6 
-[2d] [6G] [9z] [Iypd] G j j 
-[yd] [IG] [pk] j [yd] [Ih] P G 
-[ydG] u o a f [ydf] u o a h 
-[ydfhk] u o a y u o a 
-[ed] [yG] [pz] [edj] I p j 
-[Sek] u o j [euoj] S 
-[I9euf] d d [6euopS] 
-[I29ypd] 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[0s] d s a [Ewts] f [8h] J [Ewth] f 
-[qP] p [etP] s [8d] f [qetg] h 
-[6j] [qet] 4 [qet] 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[*P] p O [0wep] S [6f] h [0wef] S 
-[9p] p O [qep] a [6S] d [qef] d 
-[9g] [qe] 6 [qey] 
-[5J] j [Eyuh] j [0J] j [Eyuh] j 
-[wJ] j [Eyuh] j [5J] j [Eyuh] J 
-[6j] h [qeyg] h [9j] h [qeyg] h 
-[qj] h [eyg] h [6j] h [qeyg] j 
-[*p] a [weS] d [6f] g [Tweh] j 
-[0J] j [weTH] j [6H] j [weuk] L 
-[9z] [Qey] 6 [Qey] 
-9 [Qey] 6 [Qey] 
-[9d] [Qeyz] 6 [Qeyk] 
-9 [Qeyj] 6 [eyQG] 
-[9f] [Qeyd] 6 [eyQS] 
-[9d] [Qey] 6 [Qey] 
-[9d] f [eyQG] f [6d] f [eyQG] f 
-[9d] f [eyQG] f [6d] f [eyQG] f 
-[5G] [wryf] 7 [wryD] 
-[0f] [wry] w [ry] 
-[0h] j [ruk] j [wh] j [ruk] j 
-[rh] j [yuk] j [0h] k [ruj] h 
-[6G] h [eyj] h [9G] h [eyj] h 
-[QG] h [eyj] h [6G] h [eyj] G 
-[rf] G [yuH] G [Wf] G [yuH] G 
-[0f] G [ryuH] G [0f] G [ryuH] f 
-[Tej] [Spfj] [5w] [Spfj] 
-[S30pfj] [Sphj] [6?] [Top] 
-[9d] [QGeydz] 6 [QGeydk] 
-9 [QGeydj] 6 [eypdQG] 
-[I9pf] [QIeypd] 6 [eypQIS] 
-[I9pd] [Qey] 6 [Qey] 
-[9d] f [eyQG] f [6d] f [eyQG] f 
-[9d] f [eyQG] f [6d] f [eyQG] d 
-[5G] [wryoaf] 7 [wryoaD] 
-[0oaf] [wry] w [ry] 
-[0h] j [wryk] j [7h] j [wryk] j 
-[0h] j [wryk] j [0h] k [wryj] h 
-[6G] h [Qeyj] h [9G] h [Qeyj] h 
-[QG] h [eyj] h [6G] h [Qeyj] G 
-[5f] D [wryf] G [0h] G [wruh] j 
-[*k] j [weuH] j [6H] j [weuk] L 
-[Q9eyz] 
-[S6pfj?] 
-[I29ypd] ]]
+shared.scr = [[ [6ep] s f j [qp] s g j
+[9g] j k c
+[H0fkx] u i u Y u O a
+g [0yuO]
+6 e t u t u p u o i u
+[6f] e t u t u p s s d
+[9s] d s a [rj] y i p y i p a i
+[%i] u [0O] r y a [0d] d [0s] W y O
+[6a] p [ep] a p t O u p d [ts] u p u o i u
+[6f] e t u t u p s s d
+[9s] d s a [rg] y i p y i p a i
+[%Wi] u [rp] y u O [0d] W y u a
+[6etua] p [0yup] O [6etup]
+[7o] r y a i d g h k [5wz] l k j [yh] i o a g
+[8tg] f [uf] o g s f D [5wf] u o s
+[%u] W r O y a d f H [0k] H [rx] y u O f
+[6ek] j [tj] k j u H p j k [ul] p s l
+[9l] [rg] y i p y p k a l k J k l k z l k
+[0k] f [ef] t u t u p D f g f h g
+[%Wf] f f g f d [rd] f d y s u s d s a [0f] y u O a
+[6ua] p [0yup] a p O [6etup]
+[7o] r y a i d g h k [5wz] l k j [yh] i o a g
+[8tg] f [uf] o g s f D [5wf] u o s
+[%u] W r O y a d f H [0k] H [rx] y u O f
+[6ek] j [tj] k j u H p j k [ul] p s l
+[9l] [rg] y i p y p k a l k J k l k z l k
+[0k] f [ef] t u t u p D f g f h g
+[%Wf] f f g f d [rd] f d y s u s d s a [0f] y u O a
+[6ua] p [0yup] a p O [6etup]
+[ej] [tupb] 0 [tupc]
+e [tupx] 0 [tupl]
+[ek] [tupj] 0 [tupH]
+[ej] [tup] 0 [tup]
+[ej] k [tupl] k [0j] k [tupl] k
+[ej] k [tupl] k [0j] k [tupl] k
+[9l] [yipk] q [yipJ]
+[yk] [ip] 9 [yip]
+[rz] x [yipc] x [qz] x [yipc] x
+[9z] x [yipc] x [rz] c [yipx] z
+[0l] z [tupx] z [el] z [tupx] z
+[tl] z [upx] z [0l] x [tupz] l
+[Wf] G [yuH] j [0k] l [yuz] x
+[rc] x [yuoz] l [0k] j [yuoH] k
+[ek] [tupj] 0 [yuaH]
+[ej] [tup] 0 [tup]
+[ej] [tupb] 0 [tupc]
+e [tupx] 0 [tupl]
+[ek] [tupj] 0 [tupH]
+[ej] [tup] 0 [tup]
+[ej] k [tupl] k [0j] k [tupl] k
+[ej] k [tupl] k [0j] k [tupl] k
+[9l] [yipk] q [yipJ]
+[yk] [ip] 9 [yip]
+[rz] x [yipc] x [qz] x [yipc] x
+[9z] x [yipc] x [rz] c [yipx] z
+[0l] z [tupx] z [el] z [tupx] z
+[tl] z [upx] z [0l] x [tupz] l
+[Wf] G [yuH] j [0k] l [yuz] x
+[rc] x [yuoz] l [0k] j [yuoH] k
+[ek] [tupj] 0 [yuaH]
+[ej] [tup] 0 [tup]
+[rh] j h G [yioh] k [wz] c [yioz] k
+[rh] j h G [yioh] k [wz] c [yioz] k
+[tg] f [uog] h [wj] k [tuol] z
+[0x] [tuo] 8 [tuo]
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[eg] f D [tuf] G [0H] j [tuk] j
+[el] [tu] 0 [tup]
+[9c] x [yioz] x [rc] x [ipaz] x
+[yc] x [ipaz] x [9c] x [ipaz] c
+[0x] z [tupl] z [ex] z [tupl] z
+[tx] z [upl] z [0x] z [tupl] x
+[Wf] G [yuH] j [0k] l [Oyuz] x
+[rc] x [Oyuz] l [0k] j [yuaH] k
+[ek] [tupj] 0 [yuaH]
+[ej] [tup] 0 [tup]
+[rh] j h G [yioh] k [wz] c [yioz] k
+[rh] j h G [yioh] k [wz] c [yioz] k
+[tg] f [uog] h [wj] k [tuol] z
+[0x] [tuo] 8 [tuo]
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[eg] f D [tuf] G [0H] j [tuk] j
+[el] [tu] 0 [tup]
+[9c] x [yioz] x [rc] x [ipaz] x
+[yc] x [ipaz] x [9c] x [ipaz] c
+[0x] z [tupl] z [ex] z [tupl] z
+[tx] z [upl] z [0x] z [tupl] x
+[Wf] G [yuH] j [0k] l [Oyuz] x
+[rc] x [Oyuz] l [0k] j [yuaH] k
+[ek] [tupj] 0 [yuaH]
+[ej] [tup] 0 [tup]
+[L6ejxb] [TLx] u p [Lx]
+[j_TLC] x [Tjz] i p L_
+_[9ydGL] k [yk] L k I J p a k z_
+_[7rC] y I p a_
+_[z%WGC] [fH] [yuafH] [zn]_
+_[0zn] [Hz] [THuaz] [Hz]_
+_[6efjz] L [upSL] z L k j k_
+_[6ejL] [upS] 0_
+_[L6ejxb] [TLx] u p [Lx]_
+_[j_TLC] x [Tipjz] L
+[9ydGL] k [yk] L k I J p a k z
+[7rC] y I p a
+[L0jb] x [TLupfjx] z
+[0zHC] x [Huadx] H
+[eupdk] [Sj] j k [Sj] [0adH]
+[S6epj]
+[pj] [SL] [fb] [pj] [SL] [fx] x
+[pj] [SL] [fC] x [pjz] S g L
+[pjL] a d G k [pk] a d G z
+[pj] [dk] [Gz] C p a d G
+[uHC] a d f x [Hux] a d f C
+[uHC] a d f x [Hux] a d f z
+[ujz] p f L [ujL] p f l
+[ujL] p f 0
+[6j] [0L] [eb] [Spfj] L x x
+[pj] [SL] [fC] x [pj] [Sz] g L
+[pjL] a d G k [pjk] a d G z
+[pjkzC] a d G p a d G
+[uj] [pL] [fb] [ujx] S f x
+[uHC] a d x [uadx] H
+[Seuak] j j [0uadfH]
+[S6epfj]
+[rh] j h G [yioh] k [wz] c [yioz] k
+[rh] j h G [yioh] k [wz] c [yioz] k
+[tg] f [uog] h [wj] k [tuol] z
+[0x] [tuo] 8 [tuo]
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[Wg] f D [ryuf] H [0k] z [ryuk] H
+[ef] f D [tuf] G [0H] j [tuk] j
+[el] [tu] 0 [tup]
+[9c] x [ipaz] x [rc] x [ipaz] x
+[yc] x [ipaz] x [9c] x [ipaz] c
+[0x] z [tupl] z [ex] z [tupl] z
+[tx] z [upl] z [0x] z [tupl] x
+[Wf] G [yuH] j [0k] l [Oyuz] x
+[rc] x [yuOZ] x [0Z] x [yuaC] V
+[eb] [Tup] 0 [Tup]
+e [Tup] 0 [Tup]
+[ej] [Tupb] 0 [upTC]
+e [Tupx] 0 [upTL]
+[ek] [Tupj] 0 [upTH]
+[ej] [Tup] 0 [Tup]
+[ej] k [upTL] k [0j] k [upTL] k
+[ej] k [upTL] k [0j] k [upTL] k
+[9L] [Iypk] Q [ypIJ]
+[rk] [Iyp] y [Ip]
+[rz] x [aIC] x [yz] x [aIC] x
+[Iz] x [paC] x [rz] C [Iax] z
+[0L] z [upx] z [eL] z [upx] z
+[TL] z [upx] z [0L] z [upx] L
+[Ik] L [paZ] L [Yk] L [paZ] L
+[rk] L [paIZ] L [rk] L [paIZ] k
+[Oux] [Hfkx] [9y] [Hfkx]
+[H7rfkx] [Hfzx] 0 [Odf]
+[ej] [TLupjb] 0 [upjTLC]
+e [TLupjx] 0 [upfjTL]
+[Sefk] [TSupfj] 0 [upfTSH]
+[Sefj] [Tup] 0 [Tup]
+[ej] k [upTL] k [0j] k [upTL] k
+[ej] k [upTL] k [0j] k [upTL] j
+[9L] [IGypdk] Q [ypdIGJ]
+[Grdk] [Iyp] y [Ip]
+[rz] x [ypIC] x [Qz] x [ypIC] x
+[rz] x [ypIC] x [rz] C [Iypx] z
+[0L] z [Tupx] z [eL] z [Tupx] z
+[TL] z [upx] z [0L] z [Tupx] L
+[9k] J [Iypk] L [rz] L [Iyaz] x
+[WC] x [yuaZ] x [0Z] x [yuaC] V
+[Teupb]
+[H0fkx]
+[S6epfj] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
