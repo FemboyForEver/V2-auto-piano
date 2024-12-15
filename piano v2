@@ -780,7 +780,7 @@ z x
 [680wpsf] f f f g f
 [680wf] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
