@@ -1329,56 +1329,58 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ [$QIG] [5woh] [8tsl] [7rak] [^EPJ] [18ts] [@(YD] [5woh] [$QIG] [4qig] [@(YD] [4qig]
-[Y5wiad] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad]
-[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[YDtosh] [8ts] [woh] [8ts] [tsYIDG] [YDtisg] [wtosYD]
-[(Yts] [wyoP] [(Yts]
-[YDtosh] [8ts] [woh] [8ts] [tsYIDG] [YDtisg] [wtosYD]
-[(Yts] [wyoP] [(Yts]
-[OHisgl] [qig] [tsl] [qig] [OHiagk] [igOPHJ] [tisgOH]
-[WOig] [tosD] [WOig] [O8tis] [O7rus]
-[5wiad] [iad] s [5wiad] [5wiad] [iad] s [5wiad] [5w]
-[5woag] [4qoaD] [@(oad] [29oaD]
-[Y18os] [Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa] [Yos]
-[18] [Yos] [Yoa] [oYP] [Yoa] [Yos]
-[Yos] [Yoa] [oYP] [Yoa]
-[4qig] [8tsl] [4qig] [%WOH] [8tsl] [*TSL] [8tsl] [^EPJ] [%WOH] [5woh]
-[%WOH] [^EPJ] [18uf] [qtiO] [YOts] [WYOs] [YOqs]
-[wyoa] [9yo] [wos] [rad] [tosD] ( w [9s]
-[8sfh] [wsg] [tsD] [Pwd] [qsOD] t q [Qs] s
-[wia] [9o] [wad] r [tosD] ( w 9
-[8os] w [tsg] w [qsOD] [Ots] [Oqs] [QOs]
-[wia] [9o] [wos] [rad] [tosD] w t [rs]
-[EPSh] [Pqg] [(PD] [EPd] [sWOD] 8 9 [(Os]
-[O0s] [Oqs] [Owg] [WOg] [woaD] 5 7 8
-[9ad] [s(D] [qdg] [Dwh] [4sgH] q [iO] [8s] 4 [yia]
-5 w [9oaD] [5oag] [D8sh] [tos] [wos] [os] 8 [Pus]
-8 E 0 8 s [O4sg] [qD] [8d] [4s]
-[5yia] [wyia] [9yia] 5 [Y8os] t [wios] 8
-[8uos] E [P0of] [8h] [4sODH] q [iO] [8s] 4 [yia]
-5 w [9ios] [5oad] [8oD] [tid] [Ys] w [yP] 8 [tuo]
-8 E [0yi] [8uos] [%WOsg] [18D] [29d] [@(s]
-[YO30s] [YO4qs] [5wsDH] [%W] [5w] [?7adh] [29] [?7g]
-[5w] [29H] [?7] [?5h] [Yos] [Yoa]
-[oYP] [Yoa] [Yos] [Yos] [Yoa]
-[oYP] [Yoa] [Yos] [Yos] [Yoa]
-[oYP] [Yoa] [Yos] [Yos] [Yoa]
-[oYP] [Yoa] [Y18os] [8s] [(D] [wh]
-[QG] [qg] [(D] [8s] [Y5wiad]
-[5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] [Ywi] [5ad] ]]
+shared.scr = [[ [9d]
+[(YDv] [uf] [pj] [OH] [oh]
+e t [uf] [YD] [yd] t [yd] [H0usdkl]
+H d [H0k] 6 [sfj] [Hsf]
+[sfh] [Hsf] [sfj] [sfj] [Hsf]
+[sfh] [Hsf] [sfj] [sfj] [Hsf]
+[sfh] [Hsf] [sfj] [sfj] [Hsf]
+[sfh] [Hsf] [sfj] 6 [sfj] 8 [Hsf] 9
+[fh] s 0 [H8sf] [6psfj] [6psfj] 8 [H8sf] 9 [sfh]
+0 [H8sf] [sfj] 6 [sfj] 8 [Hsf] 9
+[sfh] 0 [H8sf] [6psfj] [6psfj] 8 [H8sf] 9
+[sfh] 0 [H8sf] [sfj] 6 [sfj] 8 [Hsf] 9
+[sfh] 0 [H8tsf] [6psfj] [6psfj] 8 [H8sf] 9 [sfh]
+0 [H8sf] [sfj] 6 [sfj] 8 [Hsf] 9 [sfh]
+0 H [8sfl] [6epsfj] 6 j [psf] 8 [H8sf] 9
+[sfh] 0 [H8fl] [6epsfj] p 8 f p [D9sj]
+0 d 8 [6s] p [6e] o [8pj] 8 9 [of]
+s 0 [O8sf] [6epsfj] [pj] 8 f p [D9sj]
+0 d 8 [6s] p 6 o [8p] 8 9
+[osf] 0 [O8sf] [9dgj] d j [qd] [Hg]
+6 h * [9g] d s d
+[sgj] 6 [Sgj] [Had] k j [Hdk] [Hd] k [7j] H [dk]
+9 [H0fz] [H9efl] [H8fk]
+[H7fl] [6sfj] j [sf] 8 [Hsf] 9
+[sfh] 0 [H8sf] [6sfj] [6sfj] 8 [Hsf] 8 9
+[sfh] 0 [H8sf] [sfj] 6 [sfj] 8 [Hsf] 9 [sfhl]
+0 [H8sf] [6sfj] [6psfjl] 8 [H8sf] 9 [sfh]
+0 [H8sfl] [8sl] [Lej] [9d] [qg] [ej] [EJz] [ej]
+[wh] [qg] [0f] [qg] [wh] [S6eo] [ydg]
+
+[pj] [ij] [yj] [Hud] [rf] [uj] [OHk] [pfjlx]
+t u [rj] [Lejx] [uz] [epjl] u [ygjl] [pj]
+y j Y [Hud] [rf] [uk] O l [pfj] t
+u r [Sej] u [pjz] u [ygl]
+[pj] [yj] [Yj] [Hud] [rf] [uk] O [pfjl]
+u [pj] [Oj] [Johx] [ydz] [tl] [ohk] [igjl]
+e r [tj] [TSj] [yd] [uz] [iz] [ul] 0
+6 [O7a] [8sjl] [9ad] [0sf] [pdgj] 9
+[yi] p 6 [yig] [O0ru] 0 [Ou] [7sl] [O0ud] [6psfj]
+e [tu] [0p] [6etu] [TS6eup] w [*u] [6ep] [ipd]
+[9s] y i [6ak] [yipdj] [Ory] [O0] [ry] O 7 [ry] [6tp] e
+[0rypdj] [TS6uj] w [*Lfh] x g [jl] c 9
+[dg] [6pj] [Haf] 0 [Hf] [7j] [H0uafjk] [6fl]
+[Ledk] [sj] 0 [ah] 6 [Spf] 6 w [*ad] [Sfj] [qigjz]
+[6eigl] [7rk] [8tgj] [ts] [*T] [9y] [0fjlc] [qg] [H0ufx]
+[O7rd] [OH0uafg] [7r] [Ouafk] r [sfj]
+[Hsf] [sfh] [Hsf] [sfj]
+[sfj] [Hsf] [sfh] [Hsf] [sfj]
+6 [sfj] 8 [Hsf] 9 [sfh] 0 [Hf] [8sl] [6psfj]
+j [6epsf] 8 [H8sf] 9 [sfhl] 0 [H8tsfl]
+6 [6pj] [8l] [0x] [(Z] [9z] [8l] [6pj]
+[asf] k f W k ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/Wild%20side"))()
 
