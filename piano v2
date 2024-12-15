@@ -1633,7 +1633,7 @@ d p o y e w 9 6 5 2 ? ? ? ? ? ? ? ? ? ? ? ? 1 ! 2 @ 3 4 $ 5 % 6 ^ 7 8 * 9 ( 0 q 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("kiss me", "Autoplayf", function()
+Section:NewButton("skyfall", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1642,86 +1642,99 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ 6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [4t] [4y] [4u] [4i]
-[8u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[3u] 3 [3u] 3 [3u] 3 [3u] 3
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [4t] [4y] [4u] [4i]
-[8u] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[3u] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 4 [4i] [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] 8 8 [8i]
-[3o] 3 3 [3i] [3u] 3 3 [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 [4i] 4 [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] [8i] [8u] [8i]
-[3u] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4g] [4q] [4q] [4q] [4q] [4q] [4q] [4q]
-[80] 8 8 [8h] [8h] 8 [8h] 8
-[3H] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4z] 4 4 4 4 4-0-[40] [40]
-[80] 8 8 8 8 [80]-0-[80] [80]
-0 - 9 - 8,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] [3u] [3uf] [3u]
-[eu] - e - e u-u-[eu] u
-[qu] - q - q u-u-[qu] u
-[tu] - t - t u-u-[tu] u
-[0u] - 0 - 0 u-u-[0u] u
-[ep] e [ej] e e [ep]-p-[ep] [ei]
-[qi] q [qg] q q [qu]-u-[qu] [qi]
-[tu] t t t t [tu]-u-[tu] [ti]
-u - y - t,
-[6psj] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8uof] 8 8 8 8 8 8 [8u]
-[O3ua] 3 [3y] 3 [3t] 3 3 3
-[6etp] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8ofh] 8 8 8 8 8 8 [8u]
-[H0uk] - y - t,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6 ]]
+shared.scr = [[ 2 6 9 q e u e q 9 6 2 6 9 q e t e q 9 6 2 6
+9 q e u e q 9 6 2 6 9 q e t e q e t u p f p s f j x j f s p u u
+p f p u t e 0 0 e u e 0 6 6 0 6 2
+[2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q]
+[2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2e] [9q] [2qy] [qy] 2
+[qy] [qy] [qy] [qy]
+[qy] 5 [qy] 5 [2qy] [qy]
+[qy] [qy] [qy] [qy]
+[qy] 5 [qy] 5 [3qey] [qey]
+[qey] [qey] [60ey] y
+[T0] T i [2qei] y y 6 9 q 6
+E ^ 9 q ^ 9 9 [E5] 9 q E q 9 E
+[5y] u 9 i q E [5u] [2u] 9 q 9 i [29] q
+y y ^ 9 ^ q 9 E 5 9 q 5 9 q E
+[5u] y 9 u 9 q [5y] [2eu] 9 q e y i
+4 8 9 q ^ 9 y 5 9 [Eq] 9 q
+[5u] 9 y u 9 q y [3eu] 0 q e 0 q 3
+e 0 q y 0 3 y [ey] p 6 e 6 0 o p
+T e w 0 6 y u [2u] y y 9 q [2e] 9
+E ^ 9 E 9 ^ 9 [9r] 5 9 r 9 y 5
+[E5qy] u 9 i q E [5u] [2qeu] 9 q e 9 q y
+q E 9 q E ^ 9 [9r] q r 9 q y 5
+[E5u] y u E q [5y] [2qeu] 9 q e 9 i u
+[^Ey] t [Ey] q ^ E ^ q [9r] 9 r 9 r 5
+[E5u] y u 9 E 4 y [3qeu] 0 q e 0 q [30]
+[qe] [30] q [30] e 0 3 [ep] 6 e y T e 0 6
+o p [0w] e [6y] y [2y] 6 p q 6 2 6
+q 6 2 6 y 6 y 6 y 4 9 [^P] q t y E
+i q t E y ^ y 6 [5y] 9 E d 9 E P o
+9 w E y o i [3yo] 0 e 0 [ey] 0 3 i
+[Ti] o 6 w i w [eu] w [2qy] 6 p 9 6 2 6
+q 9 6 2 [8y] y 8 [Ey] ^ P ^ q E
+y q E 9 [6y] y [5wry] 9 d w r p o
+9 w r 9 o 5 i [W3yo] 0 i i o 0 w
+i 6 [eu] 5 [29qey] 9 q e q 9 q
+[^E] 9 ^ [Eq] 9 ^ [59r] 9 5 [qr] 9 5
+[Ewi] 5 [Eu] [2qey] 2 9 [qe] 2 9 2
+[Eq] 9 ^ [Eq] ^ [qr] 9 5 [qr] 5 9
+[E5] y 9 y w i [2q] e u y y [26] 9 [qe] 9
+[^E9q] 9 ^ [Eq] 9 ^ 9 [qr] 5 9 [qr] 5 9 q
+[E5y] u 9 q i 9 q u [2qeu] y i 9 q 2 9
+[E9] 9 E ^ 9 q [9r] 5 9 r 5 y 9
+[E5u] y u q E y [2qeu] [qy] [qy] 9 q 9
+^ y ^ [^9y] [0u] [qi] [5wryo] [ep] 9 w e y [5i]
+[E59wyo] o p y E [5w] q [30qey] q 0 [qey] [30] y y
+[30eyp] [yo] 0 0 [ey] 0 [3y] p [Teu] 6 e [60] [ETPu] 0 O
+[6s] O [Tp] [we] 0 6 [yd] [yd] [26yipd] 9 [pj] q e [qeu] y
+[9qeu] [qi] 9 2 [yd] [8yd] [Pyid] ^ [PJdg] ^ q [qu] y
+[qu] i ^ [^yid] [6yd] [P2yid] 5 [Jdgz] 5 9 [qu] y
+[qeu] 9 y 5 [oh] 9 [ig] [30ipdh] 0 i [uipdg] [oh] 3 i
+[Sipg] 6 i [Sipg] e [S6upf] [26yid] 9 [pdgj] [9e] y [qu] y
+[qu] [qi] 9 2 [yid] 9 [8yipd] [^Pyid] ^ [PJdg] q t u y
+u [yi] E q [^yid] [6yid] [2yoad] 5 [dhkz] 7 9 [ru] y
+[ru] w [ry] 9 [5oh] [ig] [odh] 3 g [37idg] [odh] [30] i
+[PS6iog] 6 6 [PSuof] 6 6 [2yipd] 2 2 9 2 [9qy] [9qy]
+[0u] 2 [qeti] [29] 2 [2qe] 9 2 [qe] [26] [9y] [9y]
+[0u] 9 [qei] 6 2 9 e 9 6 2 2 6 9 q y [qy]
+[qeu] [29] i [9e] y i [yp] [O2y] 9 e [9yp] e e
+y 9 e 0 q 9 q 9 0 6 2 9 e u t [pf] d
+[pf] y [ipsg] e 9 e y i 9 e y u p e f d
+f y g e u i p 2 [9e] 2 9 u e f d
+[ipf] y g e e 9 y [9qr] 9 q r 9 r w
+r w r [uf] f f [2i] P f [yd] 5 y [Pi] 5
+[Pi] w 9 [5uf] [uf] [wig] [Puif] [ig] ^ y t y E
+[Pyi] q [^p] [pj] [oh] [^o] [odh] o [8osh] g [pd] 8 w [et] 8
+[*yd] [yd] [Tw] [yd] * [yd] [Tq] [ig] [2uipf] [yipd] [ig] e q [qet] q
+u q [et] [29] [8yipd] [pj] 8 [^odgh] [pj] [^q] [ipsg] [^t] y i
+[yip] E ^ q [6qesl] [oh] q [59oh] [pj] [ig] [Ewe]
+[Ewe] [59] w p [pdgj] [pdgj] [wy] p [pdj] 3 e [ey] [30] [pj] [pdj]
+u p 0 [pdj] [30] p [dj] S [SL3j] [dkz] [SLj] 6 e [ru] [Tu] e
+[6w] e T u [6p] p S f [6j] [yd] [yd] [2yipd] [26] [pdgj] 9 q [upsf] [ypsd]
+[upsf] [ipsg] [9et] d [9dgjz] 2 [8dgz] [^Jdgz] [^q] [JBzc] t u [Eupsf] [qypsd]
+[9upsf] [^ipsg] 4 [^Jdgz] [J6dgz] [J2dgz] 5 [^Bzc] 9 w [upsf] [Eypsd]
+[wupsf] [9u] [^Pyid] 5 [2odh] 5 [idg] [Podh] 3 o [Pod] 0 [3i] g
+[S3ipg] [Soph] u T [Seipg] e [S6upf] [yipd] 2 [pdgj] [26] [9f] [qfjlx] [edjlz]
+[yfjlx] i [gjlc] [pd] d [9e] [yipd] 8 [Pyid] 4 ^ [PJ9dg] q [Ef] [yfjlx] [djlz]
+[fjlx] [ips] [gjlc] 8 [Pyid] [P6yid] [2yiad] 5 [7dgkz] 9 w [upf] [ypd]
+[upf] [ry] [yiad] w [579oadh] 5 [iadg] [Odh] 3 [%Oiadg] [%O37iadg] [Ooadh] [%370] i
+[S3ipg] [36] [36] [36] [S36upf] [36] [36] [36] [yipd] 2 [26dgjz] [9sl] [qdgjz] [esl]
+[9qeydgjz] [9qe] u [ydgjz] [qe] s [8sgjl] [dgjz] ^ d j z l j f [qts] d s p [Equ] p d s
+[^d] s P p P s d f [6g] h j J l 2 [Jdgz] 5 [^d] [J9g] [Jwdgz] [sl] [Jdgz] [sl]
+[EJypdgz] o [Eyd] [Jwg] [Jdgz] [SJL9wg] [5dz] [SL] [3pdj] [odh] [pdj] 3 [odh] [0y] p
+[Spfj] 6 p S P p S f E e T u [26eyi] 9 e [yi] 9 e [yi]
+[29] e [eyi] [9e] y [oh] [pdgj] [odgh] [^pdgj] e [eyi] [^Eq] e y [eyi]
+^ e ^ [eyi] 6 [pj] [PJ] [pj] 2 5 [PJ59dgh] [Ewy]
+[EPwyiodg] [wy] [EPodh] [Pidg] [S3upf] [60] [*e] [T0] [eu]
+[Tp] [Su] [pf] [Sj] [Lf] [jx] [Lb] x b
+d
+s d s p o p s 2 6 8 [0e] t u p 2 6 [2wo] 6
+2 6 [2qi] 6 2 6 [0u] 2 2 6 9 q e u e q 9 6 2
+6 9 q e t e q 9 6 2 6 9 q e u e q 9 6 2 6 9 q e t e q 9 6 2 6 9
+q e u e q 9 6 2 6 9 q e t e t u p f p s f j x j f s p u u p f p
+u t e 0 0 e u e 0 6 2 ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
