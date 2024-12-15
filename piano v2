@@ -876,7 +876,7 @@ f [0hx] k 0 [DZ] [ru] 0 [fx] [H9] [kz] V 9 [jb] [ry] k n
 [^JB] [^JB] [^JB] [^JB] [^JB] [^JB] [^JB] [^JB] [^JB]
 [0wru] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/shadow%20garden"))()
 
 end)
 Section:NewButton("tokyo ghoul re", "Autoplayf", function()
