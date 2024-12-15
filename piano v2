@@ -1020,7 +1020,7 @@ a a a s s
 [6x] [0j] [ef] [rz] [ej] [rf] [tl] u p s a s d s a s
 [6x] [0j] [ef] [rz] [ej] [rf] [tl] u p s a s d s a s ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%20tokyo%20ghoul"))()
 
 end)
 Section:NewButton("No game no life", "Autoplayf", function()
