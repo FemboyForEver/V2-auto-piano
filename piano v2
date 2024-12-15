@@ -11315,7 +11315,7 @@ P [6weT?]
 [S6pfj?] 
 [I29ypd] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("Giorno Theme", "Autoplayf", function()
