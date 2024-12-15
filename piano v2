@@ -9950,7 +9950,7 @@ _[_Sipg] [_Te] [_Te] [_TSeupf] [_Te] [*Te] [29ipsg] 9 e [yidgjz] e 9 [@dgsl] ( r
 [IG3] 0 [ru] [OHaf] 0 3 [6psfj] [6etup] [epsfj] [pjlxb] [jxbm] [pjlxb]
 [epsfj] [6etup] [680e] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/elfen%20lied%20lilium"))()
 
 end)
 Section:NewButton("Its Raining Tacos", "Auto", function()
