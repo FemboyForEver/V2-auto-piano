@@ -1320,7 +1320,7 @@ d h k ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("kiss me", "Autoplayf", function()
+Section:NewButton("wild side", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1379,7 +1379,7 @@ shared.scr = [[ [IG] [oh] [sl] [ak] [PJ] [ts] [YD] [oh] [IG] [ig] [YD] [ig]
 4 [qoYP] 5 [@Yoa] 1 [8s] [(D] [wh]
 [QG] [qg] [(D] [8s] [?D7dhkz] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/Wild%20side"))()
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
