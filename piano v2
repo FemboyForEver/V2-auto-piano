@@ -1354,7 +1354,7 @@ g [Suo] P [Oid] k [W8yia] [zcn] V
 [lv] [Vx] [vm] [Vx] [lv] [Vx] [vm] [Vx]
 [lv] [oshx] m v 8 w u ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
 Section:NewButton("Rush E", "Auto", function()
