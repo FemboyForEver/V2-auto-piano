@@ -704,7 +704,7 @@ s [qeya] p [wrydh]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("Hier encore", "Autoplayf", function()
+Section:NewButton("gojo honored", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -713,72 +713,85 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ z x
-[9ypsdgc] p x [gc] b
-[5woadgv] y [ac] v c
-[8toasfx] o x [fb] x
-[qpsgx] t p z x
-[9ypsdgc] p z [gx] z
-[O0afz] r [Ok] k
-[6epsfl] u [sd] f
-[9yipsdg] f g j
-[5yioadgh] G h G h g
-[8tuoasf] D f D f h
-[qtuipsg] f g f g f
-[9ryipsdg] d d d d g
-[O0ryuaf] d f d f d
-[680wpsf] s s s s d
-[680wf] s s s d f
-[9yipsdg] f g j
-[5yioadgh] G h G h g
-[8tuoasf] D f D f h
-[qtuipsg] f g f g f
-[9ryipsdg] d d d d g
-[O0ryuaf] d f d f d
-[680wpsf] s s s s d
-[680ws] s d s a p
-[680wpsf] f g h
-[9yipsdgj] H j l
-[5yioadgk] j k j k j
-[8tuoasfh] G h G h k
-[qtuipsgj] H j H j h
-[9yipsdg] g g g g j
-[0ryuafOH] g H g H g
-[680wpsf] f f f g f
-[680wf] f f f d f
-[9yipsdgj] H j l
-[5yioadgk] j k j k j
-[8tuoasfh] G h G h k
-[qtuipsgj] H j H j h
-[9yipsdg] g g g g j
-[0ryuafOH] g H g H g
-[680wpsf] f f f g f
-[680wf]
-z x
-[9ypsdgc] p x [gc] b
-[5woadgv] y [ac] v c
-[8toasfx] o x [fb] x
-[qpsgx] t p z x
-[9ypsdgc] p z [gx] z
-[O0afz] r [Ok] k
-[6epsfl] u [sd] f
-[9yipsdg] f g j
-[5yioadgh] G h G h g
-[8tuoasf] D f D f h
-[qtuipsg] f g f g f
-[9ryipsdg] d d d d g
-[O0ryuaf] d f d f d
-[680wpsf] s s s s d
-[680ws] s d s a p
-[680wpsf] f g h
-[9yipsdgj] H j l
-[5yioadgk] j k j k j
-[8tuoasfh] G h G h k
-[qtuipsgj] H j H j h
-[9yipsdg] g g g g j
-[0ryuafOH] g H g H g
-[680wpsf] f f f g f
-[680wf] ]]
+shared.scr = [[ i p a s a p
+i p a s a p
+i p a s a p
+i p a s a p
+u o a [sk] a o
+u o a d a o
+u o a [dk] a o
+u o a f a o
+y p s [hk] s p
+y p s h s p
+y p s [hk] s p
+y p s h s p
+t o f [kz] f o
+t o f k f o
+t o f [kz] f o
+t o f l f o
+[iz] p [aj] s [ak] p
+[il] p a s a p
+[iz] p [aj] s [ak] p
+[il] p a [sk] [aj] p
+[uz] o [ah] s [aj] o
+[uk] o a d a o
+[uz] o [ah] f [aj] o
+[uk] o a [fj] [ah] o
+[yz] p [sh] h [sj] p
+[yk] p s h s p
+[yz] p [sh] h [sj] p
+[yk] p s [hj] [sz] p
+[thv] o [gc] h [gz] o
+[tk] o d h d o
+t o f k f o
+[tkz] o f [klv] f o
+[4l] 8 0 s [ef] f
+[qf] t y p [ed] f
+[qh] t u p [td] p
+[qs] t u o y
+1 5 [8hk] [0l] [rk] w
+[8of] w r u [rd] w
+[8od] w r y [uf] [yh]
+[uh] t y o s t
+[^f] h l q e [Ed] i z
+[thl] E s t f [qd]
+[9ph] q e t [dg] 0
+[qsf] e t u o y
+[wu] t [yfk] [tl] [yk] o
+d a t y d
+[0s] e y o u
+w r [uf] [ok] [pzv]
+t i p f b g
+g b f [gb]
+[ps] j b k
+l b k [hm]
+[sfv] v
+x d v
+v z
+[4sfl] 8 0 e 0 d h k
+h g d [adz] o i y r [fx] 9
+[4fx] 8 0 o a o
+[8lm] [wkn] e [fx] q [dz]
+[1ahk] 5 [8a] [0s] [wa] [yo]
+[8y] w [rgjc] y [fhx]
+[7dgz] q e r y x
+[H3sl] 7 9 W t O s O t
+[6toa] 0 [esl] e [tdz] u
+[ef] j l t x [okn] r [tlm] 9
+[5h] l z v 9 w r t h
+[wl] [yh] [ol] c r x
+[4fjx] 8 q w e [tx]
+[qjz] [tl] i w e l
+[2jv] 6 9 0 q e
+[9vn] [qk] [ex] [tb] [0v] [qs]
+[6lxbm] 8 0 [wsf] e t
+q w [tf] h z e [wk] q
+[7ofh] 0 w r u o
+[wa] u f h k
+[qm] u n [am] v s m
+h g f
+[tm] u O n m [sv] m
+d m v a ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/for%20song%20carol%20etc"))()
 
