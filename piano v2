@@ -2246,7 +2246,7 @@ w [ups] - [ad] - [esf] t [ups] - [ad] - [qsf] t u -
 f [plx] s [fjl] - [kz] - [ilx] s f - [xv] [lx] - [olx]
 s g H [kz] - lhfsotutw08 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/noel%20musiv"))()
 
 end)
 Section:NewButton("dandadam -4", "Autoplayf", function()
