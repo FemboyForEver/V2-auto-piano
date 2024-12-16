@@ -1773,7 +1773,7 @@ c [8c] [wx] [tl] [yh] [ig] [uf] [os] [ts] [wps] y o s [od] y f d
 t u [os] [qpd] y i s [wo] t y t [ryo]
 [eto] d f d [wtos] d f d [qs] t [ip] t [ip] s [8twuos] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/book%20of%20circus"))()
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
