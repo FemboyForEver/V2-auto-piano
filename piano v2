@@ -1776,7 +1776,7 @@ t u [os] [qpd] y i s [wo] t y t [ryo]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/book%20of%20circus"))()
 
 end)
-Section:NewButton("kiss me", "Autoplayf", function()
+Section:NewButton("connecte magica plus 6", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1785,86 +1785,176 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ 6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [4t] [4y] [4u] [4i]
-[8u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[3u] 3 [3u] 3 [3u] 3 [3u] 3
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [4t] [4y] [4u] [4i]
-[8u] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[3u] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 4 [4i] [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] 8 8 [8i]
-[3o] 3 3 [3i] [3u] 3 3 [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 [4i] 4 [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] [8i] [8u] [8i]
-[3u] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4g] [4q] [4q] [4q] [4q] [4q] [4q] [4q]
-[80] 8 8 [8h] [8h] 8 [8h] 8
-[3H] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4z] 4 4 4 4 4-0-[40] [40]
-[80] 8 8 8 8 [80]-0-[80] [80]
-0 - 9 - 8,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] [3u] [3uf] [3u]
-[eu] - e - e u-u-[eu] u
-[qu] - q - q u-u-[qu] u
-[tu] - t - t u-u-[tu] u
-[0u] - 0 - 0 u-u-[0u] u
-[ep] e [ej] e e [ep]-p-[ep] [ei]
-[qi] q [qg] q q [qu]-u-[qu] [qi]
-[tu] t t t t [tu]-u-[tu] [ti]
-u - y - t,
-[6psj] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8uof] 8 8 8 8 8 8 [8u]
-[O3ua] 3 [3y] 3 [3t] 3 3 3
-[6etp] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8ofh] 8 8 8 8 8 8 [8u]
-[H0uk] - y - t,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6 ]]
+shared.scr = [[ O P a P a S [uD] O a [ua] S
+D u a [IS] [PD] S [IG] S I
+S [YS] I P [YP] a S Y P [OS]
+[Ya] [rP] a W [rP] [Ya] [OS] [uD] O a
+[ua] S D u a [IS] [PD] S [IG]
+S I S [WS] O Y T O [Ys] [TS]
+[sWOD] [?!@%] [?!@%] [?!@%] [?!@%]
+e r t y [?4etu] [68] [et] 4 [68]
+[?5wry] 5 7 [9w] [ryp] [?5] [?4] [?3ruo]
+[79] [wr] 3 [79] [?0et] 3 7
+8 ? 3 [?6e] r t y [?$etu] [680] [et]
+6 [80] [?4ety] 4 6 [89] [typ] [48]
+o [?5tyo] [79wr] 5 ? y [?6up] d
+[6d] [0eS] T p S 2 T
+Q W e [6*] W e [6*]
+r r [370W] [70W] [70W] Q 3
+0 6 % 0 2 Q [7!%W]
+0 0 W ! y [%7] y T
+r [70] W e r [$*0e] $ r
+* [Qe] 3 [0*W] T u
+O 2 S I O 9 p [Qe]
+O [Tep] a 2 a [3ruO] [ruO]
+[ruO] I 7 u [Q0e] [70W] O
+f 2 S [!7rua] p [%70] [ra] [rp]
+a [47*] p a a [!%7u] d f [p$TS]
+* [WOa] * [Iep] * e $
+W [30] e r [2eQT] I S G I
+[9S] [rQG] [eQI] S G I S [9eQG] I [rS]
+G [2Q] I S [TG] I S [9QTG] I S
+j [2H] j [Q9x] [eT] y [!%T7u] O a
+[yH] O a [0WTH] O a [rH] O a [0e*H]
+O [ra] H [$*0] p S j p S [9j]
+[0p] [$S] j H j [S3f] * [0p] a [p@TS]
+T [(I] [eQTS] T I a [@TIp] T I
+[(ep] [Ip] @ [6a] ( [I2upf] u [9I] [QTef] u
+I O [I2yp] y T [Q9er] I 2 [2p]
+! y [?I] a p [QI9eya] p ? p [!Oua]
+p [WO0rua] [TS] ! [TS] [I2ypd] 6 *
+9 Q W e r T y u I [7r!%YO] ! ? [?s]
+a s d [?4psf] [680] [4ps] [ad] [4sf] [680]
+[ps] [?5ad] [sf] [79w] [oa] [dh] 5 [5yd] [79w] [yoad] [?3]
+[79] [3oa] [ps] [3ad] [79] o [?6d] s [6a]
+[80ws] [?6p] s [?5d] [?4psf] [680] [4ps] [ad]
+[4sf] [680] [ps] [?5ad] [sf] [79w] [oa] [dh] 5 [5yd] [79w]
+[yupd] [?6] 6 [*0ey] 9 [6TS] [3yd] [??Supf]
+? [*60] ? 6 [ts] [?6ra] [?5ts] [yd] [?4upsf] [680]
+[4ps] [ad] [4sf] [680] [ps] [?5ad] [sf] 5 [79wodh]
+[?4yd] [?3yoad] 3 [79w] [3ra] [ts] [3yd] [79]
+[wo] [?6oh] [ig] [6uf] [80wts] [ra] 6 [tips] [?2]
+2 [68q] [upsf] [2f] o [?3a] d g [3f]
+[79wd] g 3 [osf] [?4] w t y 4 u o [680s] d f
+h l z x [?5oad] [79woadh] 6 5 2 ?
+[?4upsf] [680] [etu] 4 [68t] [?5wry]
+5 7 [9w] [yp] 5 [?4] [?3wryo] [57]
+[wr] 3 [57] [?0et] 3 7 8 ?
+3 [?5e] r t y [?$etu] [680] [et] $ [68e]
+[?4ety] 4 6 [89] [typ] 4 o [?5wtyo]
+5 [79wr] 5 e y [?6u] p 9
+[6*] 0 [26Q] T Q
+W e 9 S I O 2
+p [370] r W Q 0 7
+u [2O] p a [!%7] 0
+W r [yf] [Ta] [rf]
+[WH] * f [$Sefj] * [WHafk] *
+f [QH] x * [30fOH] * 2
+I [TS] G [QI] [WS] G [eI] S G [WI]
+S [eG] [rI] S W 3 O [Wa] H [WO]
+[Qa] H [0O] a H [3O] a [0H] [uO] a
+T [!r] a [ef] k [ra] [ef] k [ra] f
+[ek] [ra] [rf] [*0k] a [uf] k [e$*T] S j
+[rL] S j [eQL] S j [TL] S j [TIL]
+j k [9SGL] e T y u I O p O I [yk]
+[SG9j] e T y u I O p O I [yj] k [9SG] e
+T y u I O [pjSGL] O I y [9jSGL] e T y u
+I O p O I [ySL] [dz] [*Hfx] W r T y u O [Hadz] O
+u T [f*SHL] W r [THafk] y u O [aj] O u [Tk]
+[$Sf] * Q W e T u T e [kxWHV] [$fjx] *
+Q W e T u T e [Wp] a [p@IS] 6 * ( Q
+e T e Q [(a] [@TIp] 6 * ( Q e T e
+Q [(Ip] a [I2pf] 6 * 9 Q e [TIpf] e Q [9O]
+[I2p] 6 * 9 Q e [TI] e Q [9p] [?$I9ya]
+p a p [?$9] p [!%O7ua] p
+a S [!%7] S [Ipd] [?29] [2?Q] [2?QW]
+[?Q2e] [?2r] [q?!WT] 7 % ! s a s
+d [?4psf] [680] [4ps] [ad] [4sf] [680] [ps] [?5ad]
+[sf] [79w] [oa] [dh] 5 [5yd] [79w] [yoad] [?3] [79]
+[3oa] [ps] [3ad] [79] o [?6d] s [6a] [80ws]
+[?6p] s [?5d] [?4psf] [680] [4ps] [ad] [4sf] [680]
+[ps] [?5ad] [sf] [79w] [5oadh] [5ysd] [79w] [yupd] [?6]
+6 [0ey] 9 [6TS] 3 [yd] [??Supf] ? [*60]
+? 6 [ts] [?6ra] [?5ts] [yd] [?4upsf] [680] [4ps] [ad]
+[4sf] [680] [ps] [?5ad] [sf] 5 [79woadh] [?4yd]
+[?3yoad] 3 [79w] [3ra] [ts] [3yd] [79] [wo] [?6oh]
+[ig] [6uf] [80wts] [ra] 6 [tips] [?2] 2
+[68q] [upsf] [2f] o [?3a] d g [3f] [79wd]
+g 3 [osf] [?4] w t y 4 u o [680s] d f h l z x
+[?5oad] [79woadh] 6 5 2 ? [?36upsf]
+[upsf] [680] [?6] [?5etu] y [5t]
+[70wr] e [?5] e r t y [?14upsf] [upsf] 4 [680]
+[?4] [?5etu] y [5o] [79wri] u [?5p] a
+s [?36upsf] [upsf] [?36upsf] [680] [?3] [?57u]
+y [7t] [9wr] e [?57] e r t y [?14upsf] [upsf] [upsf]
+4 [680] [?4] [?5upsf] [yd] [oh] [?3ig]
+[uaf] [%7] e r t y [?4u] 4 8 9 0
+[?59] [5w] 7 [9t] p [?4] [wryo] [?3]
+3 7 8 9 [?68] [3u] [6y]
+[8t] r ? e r t y [?$u] $ 8
+9 0 [?49] 4 w 6 [8qt] p 4
+[ryo] [?3] [3y] [79] [wr] 3 [?6y]
+[3u] [Teu] ? [*36e] T y u p [?6] S d f [psj] [?4]
+4 [680e] ? [10e] [?5oadh] [yd] 5 [79wsl]
+[ak] [?5] [oh] [oadh] [?3] 3 [79wr] ? [3wr]
+[?6fx] [dz] [6sl] [80wsl] [dz] [?6] j k [?2sfjl]
+2 [68qk] j h j 2 f g [?3dh] g 3
+[79wf] d 3 s d [?4f] d s a [4d] s [680a] p a
+o [4a] s d f g [?5adh] 5 8 9 w
+y o [268q]
+h o [3589]
+h o [4680] h
+o [379] h o
+[268q] o s h s o s [3589]
+o s h s o s [4680] o
+s h s o s [379] o s h
+[268] [qs] [ep] [ts] [ep] q
+s [3589] d 0 [rs] y [ra] 0 a [480s]
+[qp] t [us] [td] q a [379] p o
+r e w [268e] [qs] [ep] [ts]
+[ep] q s [3589] d 0 [rs] y [ra] 0
+a [4ups] 8 p w [ups]
+e f q u p [3a] d 7
+0 Q W 0 r
+0 [uO]
+l
+k l z [ix] s f
+l z x i l [oz] [sx] d v
+z o [uz] a d k l z u
+h [pz] [al] [sk] [fl] j [pl] z [ix]
+s f l z x i l [oz] [sx] d
+v z o f [ej] z u p d f
+[dL] [pz] [Lefjx] p u y e 0 9
+6 [?!3] [?3] 6 [?3]
+6 [?3] 6 [?3] 6 [?3] 6 [?3] [?36ts] 6 [?3] [6ra] [?3] 6 [?3ts] 6 [?3yd] 6 [?3] [upsf]
+[8t] [9y] [0u] [ts] [yd] [uf] [579woadh]
+[468qyoad] 7 ^ % $ 4 @ ! ? ? ? ? ? ? ? ? [?3yoad] [79w] [3ra] [ts] [3yd] [79w]
+o s f [??sl] [ak] [80w] [6oh] [uf] 6 [ts] [80w] [ra] [?2tips]
+2 [68q] [upsf] [2f] o [?3a] d g [3f]
+[79wd] g 3 [osf] [?4] [680w] t y 4 u o [680s] d f
+[4h] l z [680x] [?5oad] w 9 7 5 2 [??oadh] [??]
+[??] [??upsf] 4 [680] e t u [?5wry]
+5 7 [9w] [yoad] [?5] [?4] [?3yoad] [79]
+3 [79roa] ? 3 [?36] [roa] 7 8 [tups]
+[?5] e t u [?$tups] [680] [et] 4 [68e] t u
+[?4ty] 4 6 [80] [tup] 4 o [?3wryo]
+3 [79y] r 3 y [?6] [tu] [tu]
+3 [?36p] a s d f g [?36] h j [?36] [sfl] [?4] 4 6 [0e]
+? [10e] [?5ak] j h j 5 [79wah] [ag] [?4]
+f g [?3adh] [ag] [79] [3af] [ag] 3 [af] [79] [ad] [?6af] g
+f [6d] [80ws] d [?5] p s d [?$psf] [680]
+[et] $ p s d [68f] [?4sd] 4 6 [8q] [pj]
+4 [oh] [268osh] o s [39h] o s [4680h]
+o s [?h] o [4s] [68oh] [ig] [uf] [ig] [268qosh]
+o s [39h] o s [4680h] o s [?h] o
+[4s] [68oh] [sl] [ak] [osdh] [?5] 8 9 w t y o y
+t w y t [?5wr] d z
+[sl] [?sfhl] 1 [6qwr]
+4 8 q 8 q w r w r
+t u t u i o i o a s
+f g h [?1]
+[ry] [oa] [kx] n b V v
+y u r ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
