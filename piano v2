@@ -2030,7 +2030,7 @@ a h o d h 5 y ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("kiss me", "Autoplayf", function()
+Section:NewButton("final", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2039,86 +2039,59 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ 6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [4t] [4y] [4u] [4i]
-[8u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[3u] 3 [3u] 3 [3u] 3 [3u] 3
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [4t] [4y] [4u] [4i]
-[8u] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[3u] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 4 [4i] [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] 8 8 [8i]
-[3o] 3 3 [3i] [3u] 3 3 [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 [4i] 4 [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] [8i] [8u] [8i]
-[3u] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4g] [4q] [4q] [4q] [4q] [4q] [4q] [4q]
-[80] 8 8 [8h] [8h] 8 [8h] 8
-[3H] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4z] 4 4 4 4 4-0-[40] [40]
-[80] 8 8 8 8 [80]-0-[80] [80]
-0 - 9 - 8,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] [3u] [3uf] [3u]
-[eu] - e - e u-u-[eu] u
-[qu] - q - q u-u-[qu] u
-[tu] - t - t u-u-[tu] u
-[0u] - 0 - 0 u-u-[0u] u
-[ep] e [ej] e e [ep]-p-[ep] [ei]
-[qi] q [qg] q q [qu]-u-[qu] [qi]
-[tu] t t t t [tu]-u-[tu] [ti]
-u - y - t,
-[6psj] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8uof] 8 8 8 8 8 8 [8u]
-[O3ua] 3 [3y] 3 [3t] 3 3 3
-[6etp] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8ofh] 8 8 8 8 8 8 [8u]
-[H0uk] - y - t,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6 ]]
+shared.scr = [[ [q^O] O P s O P P s o Y
+[8WO] O P s H [wh] D P o
+[*WO] O P s O P P s o Y
+[9ep] p P s g [pf] [dh] [sg]
+[qti^WO] O P s O P P s o Y
+[8tWYO] O P s H [wh] D P o
+[ti*WTO] O P s O P P s o Y
+[9etip] p P s g [pf] [dh] [sg]
+[uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO] [uO]
+[ti^O] [^] [i^O] [o^P] [^Os] [^] [i^O] [^] [o^P] [^] [o^P] [^Os] [^Yo] [^] [t^Y] [^]
+[18tiYO] [18] [18iO] [18oP] [O18s] [18] [18gH] [18] [D18ih] [18] [18sD] [18] [18oP] [18] [Y18o] [18]
+[i!*TYO] [!*] [i!*O] [o!*P] [!*Os] [!*] [i!*O] [!*] [o!*P] [!*] [o!*P] [!*Os] [!*Yo] [!*] [t!*Y] [!*]
+[29uip] [29] [29ip] [29uP] [29ps] [29] [29sg] [29] [29pf] [29] [29dh] [29] [29sg] [29] [29] [29]
+[ti^O] [^] [i^O] [o^P] [^Os] [^] [i^O] [^] [o^P] [^] [o^P] [^Os] [^Yo] [^] [t^Y] [^]
+[18tiYO] [18] [18iO] [18oP] [O18s] [18] [18gH] [18] [D18ih] [18] [18sD] [18] [18oP] [18] [Y18o] [18]
+[i!*TYO] [!*] [i!*O] [o!*P] [!*Os] [!*] [i!*O] [!*] [o!*P] [!*] [o!*P] [!*Os] [!*Yo] [!*] [t!*Y] [!*]
+[29uip] [29] [29ip] [29uP] [29ps] [29] [29sg] [29] [29pf] [29] [29dh] [29] [29sg] [29] [29] [29]
+[^Z] [^] [^B] [^] [i^V] [^] [^Z] [^] [^Ov] [^] [^] [^v] [^s] [^] [^V] [^]
+[18oP] [18] [18Z] [18] [18V] [18] [18Z] [18] [18ov] [18] [18] [18v] [18Y] [18] [18V] [18]
+[i!*TZ] [!*] [!*B] [!*] [!*V] [!*] [!*Z] [!*] [!*L] [!*] [!*] [!*L] [!*] [!*] [!*V] [!*]
+[29upL] [29] [29B] [29] [29v] [29] [29L] [29] [29l] [29] [29] [29l] [29] [29] [29L] [29]
+[^Z] [^] [^B] [^] [i^V] [^] [^Z] [^] [^Ov] [^] [^] [^v] [^s] [^] [^V] [^]
+[18sD] [18] [18Z] [18] [18V] [18] [18Z] [18] [P18v] [18] [18] [18v] [18o] [18] [18V] [18]
+[i!*OZ] [!*] [!*B] [!*] [!*V] [!*] [!*Z] [!*] [!*L] [!*] [!*] [!*L] [!*] [!*] [!*V] [!*]
+[pj] j J l c z l l l l
+[qg^*SH] [^q] [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] [^q] [q^*J] [^ql] [^*Dqsh] [q^H] h [q^*D] [^q]
+[8qgWSH] [8W] [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WV] [WH8qlv] [8W] [8qWZ] [8W] [8qWJ] [8W] [W8qh] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*W] [q*WJ] [*Wl] [q*WJ] [*W] [q*WH] [*W] [80wsfJ] [8w] [80w] [8w] [80whl] [8w] [80w] [8w]
+[qg^*SH] [^q] [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] [^q] [q^*J] [^ql] [^*Dqsh] [q^H] h [q^*D] [^q]
+[8qgWSH] [8W] [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WV] [WH8qlv] [8W] [8qWZ] [8W] [8qWJ] [8W] [W8qh] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*W] [q*WJ] [*Wl] [q*WJ] [*W] [q*WH] [*W] [80wsfJ] [8w] [80w] [8w] [80whl] [8w] [80w] [8w]
+[qsg^*H] g [^qs] g [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] h [^qg] h [q^*J] [^ql] [^*Dqsh] [^q] [q^*D] [^q]
+[8qsWDH] g [W8s] g [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WZ] [WH8qlv] [8W] [8qWZ] [8W] [W8ql] [8W] [8qWZ] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*WH] [q*WJ] [*Wl] [q*WZ] [*Wl] [q*WH] [*Wg] [80wsfJ] H [8wg] s [80wJ] H [8wg] s [80whl] h [8wf] s [80wl] h [8wf] s
+[qsg^*H] g [^qs] g [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] h [^qg] h [q^*J] [^ql] [^*Dqsh] [^q] [q^*D] [^q]
+[8qsWDH] g [W8s] g [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WZ] [WH8qlv] [8W] [8qWZ] [8W] [W8ql] [8W] [8qWZ] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*WH] [q*WJ] [*Wl] [q*WZ] [*Wl] [q*WH] [*Wg] [80wsfJ] H [8wg] s [80wJ] H [8wg] s [80whl] h [8wf] s [80wl] h [8wf] s
+[qg^*SH] [^q] [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] [^q] [q^*J] [^ql] [^*Dqsh] [q^H] h [q^*D] [^q]
+[8qgWSH] [8W] [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WV] [WH8qlv] [8W] [8qWZ] [8W] [8qWJ] [8W] [W8qh] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*W] [q*WJ] [*Wl] [q*WJ] [*W] [q*WH] [*W] [80wsfJ] [8w] [80w] [8w] [80whl] [8w] [80w] [8w]
+[qsg^*H] g [^qs] g [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] h [^qg] h [q^*J] [^ql] [^*Dqsh] [^q] [q^*D] [^q]
+[8qsWDH] g [W8s] g [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WZ] [WH8qlv] [8W] [8qWZ] [8W] [W8ql] [8W] [8qWZ] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*WH] [q*WJ] [*Wl] [q*WZ] [*Wl] [q*WH] [*Wg] [80wsfJ] H [8wg] s [80wJ] H [8wg] s [80whl] h [8wf] s [80wl] h [8wf] s
+[qsg^*H] g [^qs] g [q^*H] [q^J] [^*ql] [^q] [q^*H] [^q] [q^*J] h [^qg] h [q^*J] [^ql] [^*Dqsh] [^q] [q^*D] [^q]
+[8qsWDH] g [W8s] g [8qWH] [8WJ] [W8ql] [8WH] [W8ql] [8WZ] [WH8qlv] [8W] [8qWZ] [8W] [W8ql] [8W] [8qWZ] [8W]
+[*WSqgc] [*W] [*Wql] [*WZ] [*Wqc] [*W] [*Wql] [*W] [q*WJ] [*W] [q*WJ] [*Wl] [qh*WJ] [*W] [q*WH] [*W]
+[qg*WSJ] [*WH] [q*WJ] [*Wl] [q*WZ] [*Wl] [q*WH] [*Wg] [80wsfJ] H [8wg] s [80wJ] H [8wg] s [80whl] h [8wf] s [80wl] h [8wf] s ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
