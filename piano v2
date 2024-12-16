@@ -2096,7 +2096,7 @@ shared.scr = [[ [q^O] O P s O P P s o Y
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
-Section:NewButton("kiss me", "Autoplayf", function()
+Section:NewButton("I will survie", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2105,86 +2105,61 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ 6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [4t] [4y] [4u] [4i]
-[8u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[3u] 3 [3u] 3 [3u] 3 [3u] 3
-6 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [4t] [4y] [4u] [4i]
-[8u] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[3u] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 4 [4i] [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] 8 8 [8i]
-[3o] 3 3 [3i] [3u] 3 3 [3i]
-[6u] 6 6 [6i] [6u] 6 6 [6i]
-[4u] 4 [4i] 4 [4u] 4 4 [4i]
-[8u] 8 8 [8i] [8u] [8i] [8u] [8i]
-[3u] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4g] [4q] [4q] [4q] [4q] [4q] [4q] [4q]
-[80] 8 8 [8h] [8h] 8 [8h] 8
-[3H] [30] [30] [30] [30] [30] [30] [30]
-[60] 6 6 [6l] [6k] 6 [6j] 6
-[4z] 4 4 4 4 4-0-[40] [40]
-[80] 8 8 8 8 [80]-0-[80] [80]
-0 - 9 - 8,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] [3u] [3uf] [3u]
-[eu] - e - e u-u-[eu] u
-[qu] - q - q u-u-[qu] u
-[tu] - t - t u-u-[tu] u
-[0u] - 0 - 0 u-u-[0u] u
-[ep] e [ej] e e [ep]-p-[ep] [ei]
-[qi] q [qg] q q [qu]-u-[qu] [qi]
-[tu] t t t t [tu]-u-[tu] [ti]
-u - y - t,
-[6psj] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8uof] 8 8 8 8 8 8 [8u]
-[O3ua] 3 [3y] 3 [3t] 3 3 3
-[6etp] 6 6 6 6 6 6 6
-4 4 4 4 [4ipg] 4 4 4
-[8ofh] 8 8 8 8 8 8 [8u]
-[H0uk] - y - t,
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
-[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
-[37u] 3 [3u] 3 [3u] 3 [3u] 3
-[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
-[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
-[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
-[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
-6 6 6 [6w] [6w] [6q] [6q] [60]
-[60] 6 [69] 6 6 6 6 6
-6 6 6 [6w] [6w] [6q] [6q] [60]
-6 6 6 6 [60] 6 6 6 ]]
+shared.scr = [[ [I29ypd]
+[5o]
+o w E y o o o o p P
+[1p] ( w t o o o o o
+[4o] q e t i Y i i o i i Y
+[Y] q E y y y y y y
+[@y] q w E y y y y y y
+[y] ( w e t t t y t t t
+[2y] 9 Q e y y y
+[2I] 9 Q e I I o p 2 9 Q e I I I
+[5o] [Pdh] 5 [Pdh] [P5dh] [4o] [2o] o
+1 [Dsh] 1 [Dsh] [D1sh] 1 1 [2o] [@o] [3o]
+4 i o 4 [Dgj] [D4gj] 4 i 4 o @ [2i]
+[o] i [i] i o [1dgJ] 2 [dgJ]
+@ [Pod] [@Pod] [Pod] [Pod] @ [Pod] [@Pod] [P1od] [Pod]
+[Yos] [Yos] [Yos] [Yod] [Yos] [Yos] [Yos] [Y1od]
+[I2pd] [Ipd] [Gdj] 2 [Gdj] [G2dj] [Ipd] [Ipd] [I2pd] 2 [Ipd] 2
+[2IG] [IG] 2 [oh] [2pj] [IG] [2IG] [IG]
+[P5odh] 5 5 [Podh] [4pdj] [2dPJ] [pdj]
+1 [Dosh] 1 1 1 [1oh] 2 [@oh] 3
+[4osh] [ipsg] [4ipsg] [ipsg] [4osh] [4ipsg] [4ipsg] @ [2ipsg]
+[Podh] [Pidg] [Pidg] [Pidg] [Pidg] [Pidg] [1d] 2 d
+[@Pod] [Pod] [@Pod] [Pod] [Pod] @ [@Pod] [Pod] [P1od]
+[Pod] [Pod] [oPD] [Pod] [Pod] [Pod] [Pod] [P1od] [Iypd]
+2 2 2 [IG] [2oh] 2 [uf] 2 [pdIG]
+2 2 2 [ig] [2oh] [IG] [oh]
+[5s] [5P] 5 o [4P] [2g]
+[1D] 1 d [1s] d 1 s P 1 [2p] P p [@o] 3
+[4i] 4 4 4 D 4 @ [2d] D
+[d] s d [s] P s [P] p [P] [1p] 2 o p
+[@o] @ [@d] [@D] 1
+[d] s P p [o] i Y y [s] P p o [i] Y [1y] t
+[2pdh] [pdh] 2 [pdh] [2pdh] [pdh] 2 2 [pdh] 2
+[2pdG] [pdG] 2 [Pdh] [2pdG] 2 @ $
+[5wo] [wo] [wo] 5 [wo] [wo] 5 [4ep] [2EP]
+[1ep] [wo] [wo] 1 1 1 [wo] 1 [2wo] [@wo] 3
+[4wo] [qi] [qi] 4 [qi] [wo] 4 [4qi] 4 [qi] [@(Y] 2 [(Y]
+[9y] [9y] d [1d] [2d]
+[@Pod] [Pod] [@Pod] [Pod] [Pod] @ [Pod] [@Pod] [P1od]
+[Pod] [Yos] [Yos] [Yos] [Yos] [Yod] [Yod] [Y1od] [Ipd]
+2 2 2 [dz] [2dz] 2 [dz] 2 [dz]
+2 2 2 [yd] [2yd] [yd]
+[5oh] [oh] [oh] 5 [oh] [oh] 5 [4pj] [2PJ]
+[1pj] [oh] [oh] 1 1 1 [oh] 1 [2oh] [@oh] 3
+[4oh] [ig] [ig] 4 [ig] [oh] 4 [4ig] 4 [ig] [@YD] 2 [YD]
+[yd] [yd] [Pyod] [P1yod] [P2yod]
+[@Pyod] [Pyod] [@Pyod] [Pyod] [Pyod] @ [Pyod] [@Pyod] [P1yod]
+[Pyod] [Ytos] [Ytos] [Ytos] [Ytos] [YPod] [YPod] [I1ypd] [Iypd]
+2 2 2 d [2d] 2 d 2
+[2pIG] G [2G] h [Gpdj] 2 G [2pdG] G
+[2pdIG] 2 2 [ipdg] [2odh] 2 [upsf] 2 [pdIG]
+2 2 2 [IG] [2uf] [IG] [oh]
+[5y] y y [5] y y [5] [5u] [5] I [5]
+[5o] [29] [^] [6]
+[P5odh] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
