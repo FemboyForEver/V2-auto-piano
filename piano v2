@@ -2380,7 +2380,7 @@ J l J l J j
 [5whz] x [rypl] [ohz] x [wl] [ruhz] x
 [8wyl] u w t 8 [0t] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/creepy%20nuts"))()
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
