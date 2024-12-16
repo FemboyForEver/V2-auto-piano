@@ -2161,7 +2161,7 @@ o w E y o o o o p P
 [5o] [29] [^] [6]
 [P5odh] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://github.com/FemboyForEver/teste-/blob/main/i%20will%20survive"))()
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
