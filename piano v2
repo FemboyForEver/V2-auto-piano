@@ -618,88 +618,86 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ f [30d]
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d]
-s [W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d]
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d]
-s [W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[579qo]
-[80wf] h [8qeg] f d
-[80ws] [59qo]
-[80wf] h [8qeg] f d
-[80ws] [E0wo]
-[8qep] [qet] a
-[9qed] s [qeya] p
-[9wro] [wryo]
-[qwryo]
-[80wf] h [8qeg] f d
-[80ws] [59qo]
-[80wf] h [8qeg] f d
-[80ws] [E0wo]
-[8qep] [qet] a
-[9qed] s [qeya] p
-[wryh] [qryg]
-[W0ryf]
-[30d]
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d] s
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d]
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[0etf] f [30d] s
-[W70a] s [30d]
-[W70a] s [30d]
-[W790s] a [6ep]
-[579qo] [80wf]
-h [8qeg] f d [80ws]
-[59qo] [80wf]
-h [8qeg] f d [80ws]
-[E0wo] [8qep]
-[qet] a [9qed]
-s [qeya] p [9wro]
-[wryo] [qwryo]
-[80wf]
-h [8qeg] f d [80ws]
-[59qo] [80wf]
-h [8qeg] f d [80ws]
-[E0wo] [8qep]
-[qet] a [9qed]
-s [qeya] p [wrydh]
-[qrydg] [W0ryaf]
-[30ad]
-[WO70a]
-[ps] [30ad] [WO70a]
-[ps] [30ad] [W790ps]
-[Oa] [6eup] [0etsf]
-[sf] [30ad] [ps] [WO70a]
-[ps] [30ad] [WO70a]
-[ps] [30ad] [W790ps]
-[Oa] [6eup] [0etsf]
-[30ad] [WO70a]
-[ps] [30ad] [WO70a]
-[ps] [30ad] [W790ps]
-[Oa] [6eup] [0etsf]
-[sf] [30ad] [ps] [WO70a]
-[ps] [30ad] [WO70a]
-[ps] [30ad] [W790ps]
-[Oa] [6eup] [6epsfj] ]]
+shared.scr = [[ [9e] f
+[0d] [Wr] a [Wrs] [0d] [Wr] a [Wrs]
+[0d] [Wr] s [Wra] [0p] [Wr] f [etf]
+[0d] [Wr] s a [Wrs] [0d] [Wr] a [Wrs]
+[0d] [Wr] s [Wra] [0p] [Wr] f [etf]
+[0d] [Wr] s a [Wrs] [0d] [Wr] a [Wrs]
+[0d] [Wr] s [Wra] [0p] [Wr] f [etf]
+[0d] [Wr] s a [Wrs] [0d] [Wr] a [Wrs]
+[0d] [Wr] s [Wra] [ep]
+[5ryio]
+[8f] 0 w h [9g] q e f d
+[8s] 0 w [9qo]
+[8f] 0 w h [9qeg] f d
+[0s] [qo]
+[qp] a [Qd] s
+a p [wtuo]
+[wtuo] [yio]
+5
+[8f] w [uh] t [wg] r [if] [td]
+[8s] w u t [wo] r i t
+[8f] w [uh] t [wg] r [if] [td]
+[8s] w u t [wo] r i t
+[4tp] 8 q e t a
+[$d] ( [Qs] w [ta] p
+[fj] o [dh] 5
+[O3udf]
+f
+[3ad] 0 [Oa]
+[0ps] [3ad] 0 [Oa]
+[0ps] [3ad] 0 [ps]
+[O0a] [7p] 0 [sf] [sf]
+[3ad] 0 a s [3d] 0 a s
+[3d] 0 s a [6p] 0 f f
+[3d] 0 s a s [3d] 0 a s
+[3d] 0 s a [6p] 0 f f
+[3ad] 0 [Oa] [ps] [3ad] 0 [Oa] [ps]
+[3ad] 0 [ps] [Oa] [6p] 0 [sf] [sf]
+[3ad] 0 [ps] [Oa] [ps] [3ad] 0 [Oa] [ps]
+[3ad] 0 [ps] [Oa] [6p] 0 [sf] [sf]
+[3ad] 0 [Oa] [ps] [3ad] 0 [Oa] [ps]
+[3ad] 0 [ps] [Oa] [6p] 0 [sf] [sf]
+[3ad] 0 [ps] [Oa] [ps] [3ad] 0 [Oa] [ps]
+[3ad] 0 [ps] [Oa] [6p]
+[woadgh] 5
+[8p] [ts] f h [5p] [wd] g f d
+[8u] [tp] s [5y] [wi] o
+[8tpsf] h [5wpdg] f d
+[0s] [qo]
+[qp] a [Qd] s
+a p [wtuo]
+[wtuo] [yio]
+[oah] [oah] [5woah] [hkv] [hkv] [5whkv]
+f
+[0z] f [Wrf] f
+k f [Wrl] f
+[0z] f [Wrf] f
+k f [Wrl] f
+[0z] f [Wrf] f
+l f [Wrk] f
+[0j] f [etf] f
+x f [etx] f
+[0z] f [etf] x
+f f [Wrl] k
+[0j] f [Wrx] f
+[0f] x [etf] [lx] [lx]
+[0kz] k l [Wrz] k l
+[30z] 3 [3l] [3k] [3j] [et] [3lx] [lx]
+[30kz] [3k] l [Wrz] 3 [3k] [3l]
+[30z] 3 [3l] [3k] [3j] [et] [3lx] [3lx]
+[30kz] 3 [3k] [3l] [Wrz] 3 [3k] [3l]
+[30z] 3 [3l] k [3j] [et] [3lx] [3lx]
+[0kz] 0 [0k] [0l] [Wrz] 0 [0k] [0l]
+[0z] 0 [0l] [0k] [0j]
+[3x] [0l] [6x] [0z] [3x] [0l] [6k] [0j]
+[0k] 0 [0z] 0 [Wrf] [0x] 0 0
+[30g] 3 [3z] [3h] [et] [3z] 3
+[3lx] [0lx] [kz] [6k] [0l] z
+[3k] [0l] z [6l] [0k] [pf]
+[0pf] 0 [0jx] 0 [pf] [jx]
+ ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
