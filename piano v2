@@ -1317,7 +1317,7 @@ o y r
 y o a
 d h k ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/snowman"))()
 
 end)
 Section:NewButton("lay all your love on me -7", "Autoplayf", function()
