@@ -699,7 +699,7 @@ f f [Wrl] k
 [0pf] 0 [0jx] 0 [pf] [jx]
  ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/kalinka"))()
 
 end)
 Section:NewButton("gojo honored", "Autoplayf", function()
