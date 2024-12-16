@@ -2258,78 +2258,91 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ o P s
-[5wd] [yd] [29d] [4qd] [5wyd] s P
-[18s] [18ts] [!*S] [29d] y
-[5w] d [yd] [29d] [4q] [5wyd] s P
-[18s] [18ts] [!*P] [29o] y
-[5w] d [yd] [29d] [4qd] [5wyd] P
-[18s] [18ts] [!*S] [29d] y
-[5w] [yd] [29d] [4qd] [5wyd] s P
-[18s] [18ts] [!*P] [29o] y P
-[5w] [ti] [yo] [29iP] [4qos] [P5wd] [os] [iP]
-[18yo] [18yo] [i!*P] [29os] [Pd] [os] [iP]
-[5wyo] [yo] [29iP] [4qos] [P5wd] [os] [iP]
-[18o] [18o] [!*i] [29o] [^P]
-[5w] [ti] [yo] [29iP] [4qos] [P5wd] [os] [iP]
-[18yo] [ti] [18yo] [i!*P] [29os] [Pd] [os] [iP]
-[5wyo] [ti] [yo] [29iP] [4qos] [P5wd] [os] [iP]
-[18o] o [18] [!*i] [29o] [4qP]
-[wo] [oh] [Jcv] [ydl] [Ltscv] [EPl] [Jcv] [tsh]
-[wcv] [EP] [tscv] [EP] [Scv] [yd] c C
-[qocv] [oh] [Jcv] [ydl] [Ltscv] [EPl] [Jcv] [tsh]
-[9B] v B [EP] v [tsB] v B [yd] v [tsB] [EP] [wob] [qiB]
-[wo] [oh] [Jcv] [ydl] [Ltscv] [EPl] [Jcv] [tsh]
-[wcv] [EP] [tscv] [EP] [Scv] [yd] c C
-[qo] h [PJ] [ol] [PL] [sl] J L [yd] [dz]
-[ydz] [tsl] [29yd] [29yd]
-[0wtuf] [uf] [uf] [uf]
-[woh] [ig] [uf] [qi] [yd] [uf]
-[60wtu] [yd] [uf] [3yd] [5uf] 6
-h [epj] [0uf] [9yd] [8ts] d
-[0wtuf] [uf] [uf] [uf]
-[roah] [ig] [uf] [ts] [yd] [uf]
-[60wtu] [yd] [uf] [3yd] [5uf] 6
-h [epj] [9yd] [8ts] [8ts] d
-[0wtuf] [uf] [uf] [uf]
-[wyod] f g [qi] f d s
-[60wtuf] [uf] 3 [5uf] 6 [uf]
-[yd] [ep] h [0uj] [9yf] [8ts] d
-[0wtu] s s
-[ra] s p [ts] d p
-[60wtu] p s [3p] [5s] 6 d f
-[ep] f [9y] d [8t] [8tf] d
-[8ts]
-[wo] [0u]
-[EP80ts]
-[5q] w e p 4 P 2 g
-1 P [8p] [^P]
-5 p 4 P 2 g
-1 P [4p] 5 [^P]
-[5q] w e p 4 P 2 g
-1 [4P] 5 [9p] [^P]
-[5gj] [gj] [gj] [4gj] [gj] [2gj] [gj] [gj]
-[4gj] [yd] [yd]
-[0wtuf] [uf] [uf] [uf]
-[woh] [ig] [uf] [qi] [yd] [uf]
-[60wtu] [yd] [uf] [3yd] [5uf] 6
-h [epj] [0uf] [9yd] [8ts] d
-[0wtuf] [uf] [uf] [uf]
-[roah] [ig] [uf] [ts] [yd] [uf]
-[60wtu] [yd] [uf] [3yd] [5uf] 6
-h [epj] [9yd] [8ts] [8ts] d
-[0wtuf] [uf] [uf] [uf]
-[wyod] f g [qi] f d s
-[60wtuf] [uf] 3 [5uf] 6 [uf]
-[yd] [ep] h [0uj] [9yf] [8ts] d
-[0wtu] s s
-[ra] s p [ts] d p
-[60wtu] p s [3p] [5s] 6 d f
-[ep] f [9y] d [8t] [8tf] d
-[8ts]
-[woh] [0uf]
-[EPJ80tusl]
-l ]]
+shared.scr = [[ 6 6 5 8 8
+6 5 8 8
+6 6 6 6
+6 [uf] [uf] [uf]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 2 [yd] 3 [ts] [5yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd] [yd]
+[6uf] [6ep] [6ep] 8 [6wo]
+[6ep] [3uf] [3uf] [5uf]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd]
+[6uf] 6 [6uf] 8 6
+[6yd] [ts] 2 [yd] 3 [ts] [5yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd] [yd]
+[6uf] [6ep] [6ep] 8 [6wo]
+[6ep] 3 3 p [5p] p
+s p p o [6p] p [5p]
+[6p] o 6 p 6 [8p] [6p] p
+[6s] p [6p] o [6p] [8p] [6o]
+[6p] o 5 p 3 p 5 p
+[6s] [6p] p [6p] 8 [6p] p
+[6p] o 6 p 6 [8p] [6p] p
+[6s] p [6p] p 6 [8p] [6p] o
+[6p] o 5 p 3 [5p] u
+6 6 t [6t] 8 [6y]
+[6u] u 6 u [6u] 8 [6y] t
+[6y] t [6y] t [6y] [8u] [6y] t
+[6y] u 5 y [3u] [5y] u
+6 y [6u] 6 8 [6o] O
+[6p] [6o] O [6p] 8 6
+[6O] [6O] p 6 [8p] 6 p
+[6p] [5p] o [3p] [5o] p
+6 s [6p] p [6p] [8d] [6p]
+[6p] d [6P] [6p] [8o] [6p]
+6 [6o] p [6p] [8p] [6p] p
+[6p] d 5 p [3o] p [5p] p
+[6p] [6u] 6 8 [6p] p p
+[6p] p p [6p] p p [6p] 8 i 6 u
+6 [6p] p p [6p] 8 [6p] p
+[6p] p p [5p] [3p] p 5 s
+6 [6u] u u [6o] 8 p 6 s
+6 u [6y] u [6y] 8 Y 6 u
+6 u [6Y] u [6y] [8u] [6y] Y y
+[6y] Y y [5Y] u [3u] t 5 e
+6 [6p] p 6 [8p] [6p] p
+[6p] p [6p] p 6 [8p] [6p] p
+[6p] s [6p] p [6o] 8 O 6 p
+y y Y Y
+[6u] 6 y [6t] [8y] [6u]
+6 y 6 t [6y] [8t] [6Y]
+[6u] 6 y [6t] [8y] [6u] u
+[6u] u 5 y [3t] y [5u]
+[6u] 6 t [6y] [8t] [6y] t
+[6y] u [6y] t [6y] [8t] [6t]
+[6u] 6 t [6y] [8t] [6y]
+[6y] t [5y] t [3y] u [5u]
+6 p 6 p 6 [8p] [6p] p
+6 p [6o] p 6 [8p] 6 p
+6 p [6p] p [6p] [8p] [6o] p
+6 5 3 5
+6 p [6p] p [6p] [8p] [6p] p p
+[6p] p [6o] p 6 [8p] [6p] s
+[upf] [upf] [ypd] [ypd] [tos] [ep]
+[uf] [uf] [uf]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 2 [yd] 3 [ts] [5yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd] [yd]
+[6uf] [6ep] [6ep] 8 [6wo]
+[6ep] [3uf] [3uf] [5uf]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd]
+[6uf] 6 [6uf] 8 6
+[6yd] [ts] 2 [yd] 3 [ts] [5yd]
+[6uf] 6 [6uf] 8 6
+[6ep] [ts] 6 [yd] 6 [8ts] [6yd] [yd]
+[6uf] [6ep] [6ep] 8 [6wo]
+[6ep] 3 3 5
+[6j] H h G g f D d S s a P p ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/creepy%20nuts"))()
 
