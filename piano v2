@@ -8353,7 +8353,7 @@ shared.scr = [[ [id][pf][sh][pj][sh][pf][id][pf][sh][pj][sh][pf]
 [Q9ed]z| I e y I
 [yd] p G d j ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/golden%20hour"))()
 
 end)
 Section:NewButton("four season", "Auto", function()
