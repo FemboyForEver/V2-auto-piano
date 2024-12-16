@@ -10472,7 +10472,7 @@ E E d p O o i y i o
 ^ ^ y e W w q 9 q w
 8 8 y e W w q 9 q w ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%205"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/megalovania"))()
 
 end)
 Section:NewButton("moonlight sonata shadow", "Auto", function()
