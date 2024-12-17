@@ -2162,7 +2162,7 @@ o w E y o o o o p P
 loadstring(game:HttpGet("https://github.com/FemboyForEver/teste-/blob/main/i%20will%20survive"))()
 
 end)
-Section:NewButton("all want christmas is you", "Autoplayf", function()
+Section:NewButton("all want christmas is you -7", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -10440,7 +10440,7 @@ x V b m x V b|||
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%20for%20solas%20song"))()
 
 end)
-Section:NewButton("lilium", "Auto", function()
+Section:NewButton("lilium -3", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
