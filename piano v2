@@ -2354,7 +2354,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ [io]|||[io][io][io][io]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yupa][tsio][tsio][ts][ts][ts][ts][ts]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yuiopa][io][io][io][io][io]|||[uiop][ya][ya][ya][ya][uiop]|||[yupa][tsio][tsio][ts][ts][ts][ts][ts]|||[io]|||[io][io][io][io]||| [yuiop][ay]yttrertty[ya][yuiop] ]]
+shared.scr = [[ [io]|||[io][io][io][io]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yupa][tsio][tsio][ts][ts][ts]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yuiopa][io][io][io][io][io]|||[uiop][ya][ya][ya][ya][uiop]|||[yupa][tsio][tsio][ts][ts][ts]|||[io]|||[io][io][io][io]||| [yuiop][ay]yttrertty[ya][yuiop] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
