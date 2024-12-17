@@ -1475,7 +1475,7 @@ shared.scr = [[ [60et], [W30r],
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/tempo%20133%20for%20lay%20all%20your%20love%20on%20me"))()
 
 end)
-Section:NewButton("evangelion", "Autoplayf", function()
+Section:NewButton("evangelion plus 3", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -7504,7 +7504,7 @@ q [tW] 8 [tW] q [tW] 8 [tW]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("old doll", "Auto", function()
+Section:NewButton("old doll plus 3", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
