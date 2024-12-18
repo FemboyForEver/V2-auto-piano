@@ -2370,7 +2370,7 @@ shared.tempo = 89 -- tempo overides the delay
 shared.scr = [[ [@(YD] [%WOH] [7rak]
 3
 [3uf] [6pj] [8sl]
-[26fjx] [268fj] [268fj] [Ip] [uO] 3 
+[26fjx] [268fj] [268fj] 3 
 7 0 W [ruO] u p s 
 [2i] p s f [etui] [ipsf] 
 [O30ud] [Os] a 
