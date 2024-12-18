@@ -2370,9 +2370,7 @@ shared.tempo = 89 -- tempo overides the delay
 shared.scr = [[ [@(YD] [%WOH] [7rak]
 3
 [3uf] [6pj] [8sl]
-[26fjx] [268fj] [268fj] l [H37dz] [370fH] l [370fj] k
-[6l] k [368j] f [368s] a [6p] [368] p [368s] f
-[2pdj] ]]
+[26fjx] [268fj] [268fj] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/howl's%20moving%20castle"))()
 
