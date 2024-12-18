@@ -2358,7 +2358,7 @@ shared.scr = [[ [io]|||[io][io][io][io]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yu
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
-end)Section:NewButton("teste 666", "Autoplayf", function()
+end)Section:NewButton("teste howl's castle -2", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
