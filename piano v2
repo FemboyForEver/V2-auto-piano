@@ -2387,7 +2387,7 @@ shared.scr = [[ [@(YD] [%WOH] [7rak]
 [1uf] [0wryd] [uf] [0wryd] [ts] [7ra] [7(Q] [TS] [7(QYD]
 [O3uf] [0rWO] a [W0rf] H k [0x] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/howl's%20moving%20castle"))()
 
 end)
 Section:NewButton("Liszt Transcendental Etude No 5 Feux Follets", "Autoplayf", function()
