@@ -2372,10 +2372,7 @@ shared.scr = [[ [@(YD] [%WOH] [7rak]
 [3uf] [6pj] [8sl]
 [26fjx] [268fj] [268fj] l [H37dz] [370fH] l [370fj] k
 [6l] k [368j] f [368s] a [6p] [368] p [368s] f
-[2pdj] [9ey] [pdj] [9ey] [pdj] [5pdj] [qwrpk] [qwroh] [ig]
-[1oah] [0wrf] D [0wrf] g [5f] [0wr] a [0wrf] h
-[$afk] [0et] [0etpj] [7oh] [er(IG] [(eroh]
-[3pj] [0er] [0eroh] ]]
+[2pdj] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/howl's%20moving%20castle"))()
 
