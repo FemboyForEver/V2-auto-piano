@@ -9590,7 +9590,7 @@ Wytreuytriuytoiuypoiuopas [0wtuo]
 [6eu]|t|[^qy]|[5wE]|
 [29qe] ]]
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo%20for%20song"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/bach%20toccata"))()
 
 end)
 Section:NewButton("Liebestraum no 3", "Auto", function()
