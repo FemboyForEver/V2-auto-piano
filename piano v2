@@ -232,7 +232,7 @@ q [8ak] 4 8 [1uf] 5 8 9
 [9d] [qeyd] f d s a s
 [6a] [80r] - p ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/valse%20d'amelie"))()
 
 end)
 Section:NewButton("fairytale alexender transposition -7", "Autoplayf", function()
