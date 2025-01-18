@@ -10251,269 +10251,274 @@ shared.ftime = 3*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 155 -- tempo overides the delay
 
-shared.scr = [[ ! % [%*] 0 [!W] * [%0] W [!T] 0 [%W] T [!u] W [%T] u
-[!O] T [%u] O [!S] u [%O] S [!f] O [%S] f [f!_OSH] [f%OSH]_
-_1 % [%8] ( [1W] 8 [%(] W [1t] ( [%W] t [1Y] W [%t] Y_
-_[1O] t [%Y] O [1s] Y [%O] s [1D] O [%s] D [18sODH] [s%ODH]_
-_7 * [%q] W [7T] q [%W] T [7i] W [%T] i [7O] T [%i] O_
-_[7S] i [%O] S [7g] O [%S] g [7H] S [%g] H [7gSHL] [g%SHL]_
-_6 * [6Q] e [6T] T [6I] p [6S] S [6G] j [6SGL] [6SGL]_
-_6 * [60] w [6T] T [6u] o [6S] S [6f] h [6hSL] [6hSL]_
-_[%Hsl] [tWO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H_
-_[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h_
-_[tWO] H [tO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H_
-_[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h_
-_[tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h_
-_[tWOH] [%W]_
-_! % [%_] 0 [!W] * [%0] W [!T] 0 [%W] T [!u] W [%T] u
-[!O] T [%u] O [!S] u [%O] S [!f] f [%H] L [!*fx] [%fx]
-^ 0 [*w] T [^u] w [*T] u [^o] T [*u] o [^S] u [*o] S
-[^f] o [*S] f [^h] S [*f] h [^L] f [*h] L [^fx] [*fx]
-5 ( [(E] T [5Y] E [(T] Y [5P] T [(Y] P [5S] Y [(P] S
-[5D] P [(S] D [5J] S [(D] J [5L] J [(D] S [5J] D [(S] P
-[%a] ( 7 ( [%D] ( 7 ( % ( 7 ( [%a] ( 7 [(O]
-[^o] O ( P [*O] ( [^o] ( * ( ^ ( [*o] ( [^D] ( * [(o]
-[7P] ( 7 ( [7O] ( 7 ( 7 ( [7O] ( [7D] ( 7 [(O]
-[5a] ( 5 ( [5P] ( 5 ( 5 ( [5P] ( [5D] ( 5 [(P]
-[%a] ( [7DZ] ( % ( [7DZ] ( % ( [7DZ] ( [%ak] ( [7OH] (
-[^OH] ( [*oh] ( ^ ( [*oh] ( ^ ( [*oh] ( [^DZ] ( [_oh] (_
-_[7PJ] ( [7OH] ( 7 ( [7OH] ( 7 ( [7OH] ( [7DZ] ( [7OH] (_
-_[5ak] ( [5PJ] ( 5 ( [5PJ] ( 5 ( [5PJ] ( [5DZ] ( [5PJ] (_
-_[$sl] ( % ( $ ( % ( [3SL] *% * 3 *% *_
-_[3PJ] k *J k $ J H * J [_@ak _] 7 $ 7 @ 7 $ 7 @ 7 $ 7_
-_[2OH] 7 3 7 2 7 3 7 [!pj] 6 3 6 ! 6 3 6_
-_[!oh] H ^ h H @ h g ^ h [7OH] % @ % 7 % @ % 7 % @ %_
-_[!S36pfj] f G H j k L k_
-_[Tupj] f G H j k L k [Tupj] f G H j k L k_
-_[Tupj] f G H [Tupj] k L z [Tupx] Z x Z [Tupx] L k j_
-_[YH] a O a Y a O a [YJ] k [SJ] k [oJ] k S J k Y J k S J [ok] J [SH] J_
-_[uaOH] [!T36eup] u I O p a S a_
-_p u I O [0ep] a S a p u I O [0ep] a S a_
-_p u [0e_I] O p a [0eS] a p u [0eI] O p a [0eS] a
-[_0ep] u I O p a S d f G H j k L z Z_
-_[fx] e 0 e * e 0 e [9OH] r q r 9 r q r_
-_[(ak] r W r ( r W r [_@Two _] ( 9 ( 9 ( 9 (_
-_[r%WO] [WYa] [WYa] [WYa] [WYa] [WYa] [EYP] [rYO]_
-_[(TYo] [oTYD] [oTYD] [oTYD] [oTYD] [oTYD] [rYOD] [EYPD]_
-_[a%WD] [WYa] [WYa] [WYa] [WYa] [WYa] [EYP] [rYO]_
-_[(TYo] [oTYD] [oTYD] [oTYD] [oTYD] [oTYD] [rYOD] [EYPD]_
-_[a%D] [raWD] [raWD] [YOra] * [WTSf] [WTSf] [uTOS]_
-_( [raWD] [raWD] [YOra] ( [wEPD] [wEPD] [oEYP]_
-_[%Oa] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [^(PSJ] [7a(OH]_
-_[@_(Poh] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [rh(DZ] [h(ESL]
-[%Hak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [^(PSJ] [7a(OH]
-[@(Poh] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [rh(DZ] [h(ESL]
-[%WHak] [YHrk] [YHrk] [rkWZ] * [uTHL] [uTHL] [WTLx]
-( [YHrk] [YHrk] [rkWZ] * [hEYJ] [hEYJ] [wEJZ]
-7 [YODk] [YODk] [rYHZ] * [Supj] [Supj] [ufTL]
-( [aYOH] [aYOH] [YDrk] ( [TPoh] [TPoh] [ETSJ]
-[a%H] W ( W % W ( W % W ( W [%a] W ( [WO]
-[%o] E ( E [o%TD] E ( E [o%TD] E ( E [o%TD] E ( E
-[%r] O W D ( W % W ( W % W ( W [%k] W ( [WH]
-[%h] E ( E [h%SZ] E ( E [h%SZ] E ( E [h%SZ] E ( E
-[%a] H W Z ( W % W ( W [%S] h E Z ( E % E ( E
-[%a] H W Z ( W % W ( W [%S] h E Z ( E % E ( E
-[%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO]
-[%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI]
-[!WT0u] % [%] 0 [!W] * [%0] W [!T] 0 [%W] T [!u] W [%T] u
-[!O] T [%u] O [!S] u [%O] S [!f] O [%S] f [f!_OSH] [f%OSH]_
-_1 % [%8] ( [1W] 8 [%(] W [1t] ( [%W] t [1Y] W [%t] Y_
-_[1O] t [%Y] O [1s] Y [%O] s [1D] O [%s] D [18sODH] [s%ODH]_
-_7 * [%q] W [7T] q [%W] T [7i] W [%T] i [7O] T [%i] O_
-_[7S] i [%O] S [7g] O [%S] g [7H] S [%g] H [7gSHL] [g%SHL]_
-_6 * [6Q] e [6T] T [6I] p [6S] S [6G] j [6SGL] [6SGL]_
-_6 * [60] w [6T] T [6u] o [6S] S [6f] h [6hSL] [6hSL]_
-_[%Hsl] [tWO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H_
-_[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h_
-_[tWO] H [tO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H_
-_[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h_
-_[tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h_
-_[tWOH] [%W]_
-_! % [%_] 0 [!W] * [%0] W [!T] 0 [%W] T [!u] W [%T] u
-[!O] T [%u] O [!S] u [%O] S [!f] f [%H] L [!*fx] [%fx]
-^ 0 [*w] T [^u] w [*T] u [^o] T [*u] o [^S] u [*o] S
-[^f] o [*S] f [^h] S [*f] h [^L] f [*h] L [^fx] [*fx]
-5 ( [(E] T [5Y] E [(T] Y [5P] T [(Y] P [5S] Y [(P] S
-[5D] P [(S] D [5J] S [(D] J [5L] J [(D] S [5J] D [(S] P
-[%a] ( 7 ( [%D] ( 7 ( % ( 7 ( [%a] ( 7 [(O]
-[^o] O ( P [*O] ( [^o] ( * ( ^ ( [*o] ( [^D] ( * [(o]
-[7P] ( 7 ( [7O] ( 7 ( 7 ( [7O] ( [7D] ( 7 [(O]
-[5a] ( 5 ( [5P] ( 5 ( 5 ( [5P] ( [5D] ( 5 [(P]
-[%a] ( [7DZ] ( % ( [7DZ] ( % ( [7DZ] ( [%ak] ( [7OH] (
-[^OH] ( [*oh] ( ^ ( [*oh] ( ^ ( [*oh] ( [^DZ] ( [*oh] (
-[7PJ] ( [7OH] ( 7 ( [7OH] ( 7 ( [7OH] ( [7DZ] ( [7OH] (
-[5ak] ( [5PJ] ( 5 ( [5PJ] ( 5 ( [5PJ] ( [5DZ] ( [5PJ] (
-[$sl] ( % ( $ ( % ( [3SL] *% * 3 *% *
-[3PJ] k *J k $ J H * J [@ak ] 7 $ 7 @ 7 $ 7 @ 7 $ 7
-[2OH] 7 3 7 2 7 3 7 [!pj] 6 3 6 ! 6 3 6
-[!oh] H ^ h H @ h g ^ h [7OH] % @ % 7 % @ % 7 % @ %
-[!_S36pfj] f G H j k L k_
-_[Tupj] f G H j k L k [Tupj] f G H j k L k_
-_[Tupj] f G H [Tupj] k L z [Tupx] Z x Z [Tupx] L k j_
-_[YH] a O a Y a O a [YJ] k [SJ] k [oJ] k S J k Y J k S J [ok] J [SH] J_
-_[uaOH] [!T36eup] u I O p a S a_
-_p u I O [0ep] a S a p u I O [0ep] a S a_
-_p u [0e_I] O p a [0eS] a p u [0eI] O p a [0eS] a
-[_0ep] u I O p a S d f G H j k L z Z_
-_[fx] e 0 e * e 0 e [9OH] r q r 9 r q r_
-_[(ak] r W r ( r W r [_@Two _] ( 9 ( 9 ( 9 (_
-_[r%WO] [WYa] [WYa] [WYa] [WYa] [WYa] [EYP] [rYO]_
-_[(TYo] [oTYD] [oTYD] [oTYD] [oTYD] [oTYD] [rYOD] [EYPD]_
-_[a%WD] [WYa] [WYa] [WYa] [WYa] [WYa] [EYP] [rYO]_
-_[(TYo] [oTYD] [oTYD] [oTYD] [oTYD] [oTYD] [rYOD] [EYPD]_
-_[a%D] [raWD] [raWD] [YOra] * [WTSf] [WTSf] [uTOS]_
-_( [raWD] [raWD] [YOra] ( [wEPD] [wEPD] [oEYP]_
-_[%Oa] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [^(PSJ] [7a(OH]_
-_[@_(Poh] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [rh(DZ] [h(ESL]
-[%Hak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [%(Dak] [^(PSJ] [7a(OH]
-[@(Poh] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [(Tfhx] [rh(DZ] [h(ESL]
-[%WHak] [YHrk] [YHrk] [rkWZ] * [uTHL] [uTHL] [WTLx]
-( [YHrk] [YHrk] [rkWZ] * [hEYJ] [hEYJ] [wEJZ]
-7 [YODk] [YODk] [rYHZ] * [Supj] [Supj] [ufTL]
-( [aYOH] [aYOH] [YDrk] ( [TPoh] [TPoh] [ETSJ]
-[a%H] W ( W % W ( W % W ( W [%a] W ( [WO]
-[%o] E ( E [o%TD] E ( E [o%TD] E ( E [o%TD] E ( E
-[%r] O W D ( W % W ( W % W ( W [%k] W ( [WH]
-[%h] E ( E [h%SZ] E ( E [h%SZ] E ( E [h%SZ] E ( E
-[%a] H W Z ( W % W ( W [%S] h E Z ( E % E ( E
-[%a] H W Z ( W % W ( W [%S] h E Z ( E % E ( E
-[%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO] [%r] [WO] [(Y] [WO]
-[%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI] [%t] [QI] [(Y] [QI]
-[!WTqi] * [%q] W [!T] q [%W] T [!i] W [%T] i [!O] T [%i] O
-[!S] i [%O] S [!g] O [%S] g [!H] S [%g] H [g!*SHL] [g%SHL]
-7 * [%q] W [7T] q [%W] T [7i] W [%T] i [7O] T [%i] O
-[7S] i [%O] S [7g] O [%S] g [7H] S [%g] H [7gSHL] [g%SHL]
-6 * [6Q] e [6T] T [6I] p [6S] S [6G] j [6jSGL] [6jSGL]
-4 * [4W] r [4T] T [4O] a [4S] S [4H] k [4kSHL] [4kSHL]
-[j$SGL] T e T [QS] T e T Q T e T [Qp] T e [TI]
-[Wi] I T O [rI] T [Wi] T r T W T [ri] T [WS] T r [Ti]
-[eO] T e T [eI] T e T e T [eI] T [eS] T e [TI]
-[qp] T q T [qO] T q T q T [qO] T [qS] T q [TO]
-[Qp] S p S [TI] S p S I S p S [eI] S p [QS]
-[QO] S a S [qO] S a S O S [qa] S [TO] S a [qS]
-[WI] S p S [QI] S p S I S [Qp] S [TI] S p [QS]
-[QI] d [Qp] d [yI] d p [Qd] [Qp] d [Qs] d [yp] d s [Qd]
-[wo] d a d [9o] d a d o d a d [7o] d a [5d]
-[5p] d s d [$p] d s d p d [$s] d [9p] d s [$d]
-[6o] d a d [5o] d a d o d [5a] d [9o] d a [5d]
-[$O] d a d [4O] S a S O S [4a] S [*O] S a [4S]
-[$I] S [$p] S [6I] S [$p] S [2I] G [2p] G [$I] G [2p] G
-[1I] G [OD] G I G [OD] G I G [1OD] G [@i ] G [1OD] G
-[!u] f [!S] f [3u] f [!S] f [6u] f [6S] f [!u] f [6S] f
-[$Y] D [$S] D [6Y] D [$S] D [5Y] D [5S] D [^Y] D [5S] D
-[s%YD] % % % [%O] % % % % % % % [%p] % [%O] %
-[e%TI] % % % [%O] % [%I] % [%Wru] % % % [%I] % [%u] %
-[e%QY] % % % [%u] % [%Y] % [0%WT] % % % [%Y] % [%T] %
-[%(Qt] % % % % % % % [0%_T] % % % % % % %_
-_[%8] [%W] [%Y] % [%H] % % % % % [%H] % [%j] % [%H] %_
-_[%G] % [p%SG] % [a%DH] % [p%SG] % [%Oaf] % [%Oaf] % [p%SG] % [%Oaf] %_
-_[p%ID] % [p%ID] % [%Oaf] % [p%ID] % [u%OS] % [u%OS] % [p%ID] % [u%OS] %_
-_[%YIs] % % % % % % % [u%TS] % % % % % % %_
-_[%t] I % D % % % % % % % % % % [u%TS] % % %_
-_[%YIs] % % % [%YIs] % % % [u%TS] % % % [u%TS] % % %_
-_[%t] I % D % % % % % % % % % % [%Tu] % [%S] %_
-_[%YI] % [%s] % [%YI] % [%s] % [%Tu] % [%S] % [%Tu] % [%S] %_
-_[t%I] % [%D] % [t%I] % [%D] % [T6u] 6 [6S] 6 [T6u] 6 [6S] 6_
-_[$TYep]_
-_[t%WYO]_
-_! % [%_] 0 [!W] * [%0] W [!T] 0 [%W] T [!u] W [%T] u
-[!O] T [%u] O [!S] u [%O] S [!f] O [%S] f [f!*OSH] [f%OSH]
-1 % [%8] ( [1W] 8 [%(] W [1t] ( [%W] t [1Y] W [%t] Y
-[1O] t [%Y] O [1s] Y [%O] s [1D] O [%s] D [18sODH] [s%ODH]
-7 * [%q] W [7T] q [%W] T [7i] W [%T] i [7O] T [%i] O
-[7S] i [%O] S [7g] O [%S] g [7H] S [%g] H [7gSHL] [g%SHL]
-6 * [6Q] e [6T] T [6I] p [6S] S [6G] j [6SGL] [6SGL]
-6 * [60] w [6T] T [6u] o [6S] S [6f] h [6hSL] [6hSL]
-[%Hsl] [tWO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H
-[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h
-[tWO] H [tO] H [tO] H [TP] H [Ys] H [uS] H [ID] H [Ys] H
-[ID] H [uS] H [pG] H [Of] H [ID] H [uS] H [Ys] H [Tp] h
-[tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h [tWO] H [WTp] h
-[tWOH] [%W]
+shared.scr = [[ 2 6 [69] q [2e] 9 [6q] e [2y] q [6e] y [2i] e [6y] i
+[2p] y [6i] p [2d] i [6p] d [2g] p [6d] g [29pdgj] [6pdgj]
+! 6 [_6] 0 [!e]_ [60] e [!T] 0 [6e] T [!u] e [T6] u
+[!p] T [6u] p [!S] u [6p] S [!f] p [S6] f [!*Spfj] [S6pfj]
+9 [Q6] e y Q [6e] y I e [6y] I p y [I6] p
+d I [6p] d G p [6d] G j d [G6] j [G8djz] [G6djz]
+9 [^w] E y y [^o] P d d [^h] J [Jdhz] [^Jdhz]
+9 [^q] W y y [^i] O d d [^g] H [Hdz] [^Hdz]
+[SL6j] [Tep] j [Tep] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Tp] j [Tp] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H
+[Tepj] [6e]
+2 6 [69] q [2e] 9 [6q] e [2y] q [6e] y [2i] e [6y] i
+[2p] y [6i] p [2d] i [6p] d [2g] g [6j] z [29gc] [6gc]
+q [W9] y [7i] W [9y] i [O7] y [9i] O [7d] i [O9] d
+[7g] O [9d] g [H7] d [9g] H [7z] g [H9] z [7gc] [9gc]
+0 [0r] y [%u] r [0y] u [%a] y [0u] a [%d] u [0a] d
+[%f] a [0d] f [%k] d [0f] k [%z] k [0f] d [%k] f [0d] a
+[6s] 0 8 0 [6f] 0 8 0 6 0 8 0 [6s] 0 8 [0p]
+[O7] p [0a] p [9p] 0 [O7] 0 9 0 7 0 [O9] 0 [7f] 0 9 [O0]
+[8a] 0 8 0 [8p] 0 8 0 8 0 [8p] 0 [8f] 0 8 [0p]
+[%s] 0 % 0 [%a] 0 % 0 % 0 [%a] 0 [%f] 0 % [0a]
+[6s] 0 [8fx] 0 6 0 [8fx] 0 6 0 [8fx] 0 [6sl] 0 [8pj] 0
+[7pj] 0 [OH9] 0 7 0 [OH9] 0 7 0 [OH9] 0 [7fx] 0 [OH9] 0
+[8ak] 0 [8pj] 0 8 0 [8pj] 0 8 0 [8pj] 0 [8fx] 0 [8pj] 0
+[%sl] 0 [%ak] 0 % 0 [%ak] 0 % 0 [%ak] 0 [%fx] 0 [%ak] 0
+[SL5] 0 6 0 5 0 6 0 [4dz] 9 6 9 4 9 6 9
+[4ak] l [9k] l [6k] l [9j] k [3sl] 8 5 8 3 8 5 8 3 8 5 8
+[2pj] 8 4 8 2 8 4 8 [PJ2] ^ 4 ^ 2 ^ 3 ^
+[OH] j [H7] j [H3] j [G6] H [pj] 6 3 6 6 3 6 6 3 6
+[^PJ249dg] g h j J l z l
+[PJyi] g h j J l z l [PJyi] g h j J l z l
+[PJyi] g h j [PJyi] l z x [Pyic] x c x [Pyic] z l J
+[uj] s p s u s p s [uk] l [dk] l [Ok] l [dk] l [uk] l [dk] l [Ok] l [dj] k
+[ipsj] [^EP249yi] i o p P s d s
+P i o p [EP9q] s d s P i o p [EP9q] s d s
+P i [E9qo] p P s [E9qd] s P i [E9qo] p P s [E9qd] s
+[EP9q] i o p P s d D g h j J l z Z x
+[9gc] E q E 9 E q E [(pj] t Q t ( t Q t
+[0sl] t e t 0 t e t [WO3y] 0 ( 0 ( 0 ( 0
+[6tup] [eus] [eus] [eus] [eus] [eus] [rua] [tup]
+[O0yu] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [tupf] [ruaf]
+[6esf] [eus] [eus] [eus] [eus] [eus] [rua] [tup]
+[O0yu] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [tupf] [ruaf]
+[6sf] [etsf] [etsf] [tups] 9 [eydg] [eydg] [yipd]
+0 [etsf] [etsf] [tups] 0 [Wraf] [Wraf] [Orua]
+[6ps] [60sfl] [60sfl] [60sfl] [60sfl] [60sfl] [70afk] [80psj]
+[OH390a] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0tfx] [H0rdz]
+[6sjl] [60sfl] [60sfl] [60sfl] [60sfl] [60sfl] [70afk] [80psj]
+[OH390a] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0tfx] [H0rdz]
+[6sjl] [tujl] [tujl] [etlx] 9 [yijz] [yijz] [eyzc]
+0 [tujl] [tujl] [etlx] 9 [Hruk] [Hruk] [Wrkx]
+8 [upfl] [upfl] [tujx] 9 [PJid] [PJid] [yigz]
+0 [upsj] [upsj] [tufl] 0 [OHya] [OHya] [rydk]
+[6sj] e 0 e 6 e 0 e 6 e 0 e [6s] e 0 [ep]
+[O6] r 0 r [O6yf] r 0 r [O6yf] r 0 r [O6yf] r 0 r
+[6t] p e f 0 e 6 e 0 e 6 e 0 e [6l] e 0 [ej]
+[H6] r 0 r [H6dx] r 0 r [H6dx] r 0 r [H6dx] r 0 r
+[6s] j e x 0 e 6 e 0 e [6d] H r x 0 r 6 r 0 r
+[6s] j e x 0 e 6 e 0 e [6d] H r x 0 r 6 r 0 r
+[6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep]
+[T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo]
+[2qeyi] 6 [69] q [2e] 9 [6q] e [2y] q [6e] y [2i] e [6y] i
+[2p] y [6i] p [2d] i [6p] d [2g] p [6d] g [29pdgj] [6pdgj]
+! 6 [_6] 0 [!e]_ [60] e [!T] 0 [6e] T [!u] e [T6] u
+[!p] T [6u] p [!S] u [6p] S [!f] p [S6] f [!*Spfj] [S6pfj]
+9 [Q6] e y Q [6e] y I e [6y] I p y [I6] p
+d I [6p] d G p [6d] G j d [G6] j [G8djz] [G6djz]
+9 [^w] E y y [^o] P d d [^h] J [Jdhz] [^Jdhz]
+9 [^q] W y y [^i] O d d [^g] H [Hdz] [^Hdz]
+[SL6j] [Tep] j [Tep] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Tp] j [Tp] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H
+[Tepj] [6e]
+2 6 [69] q [2e] 9 [6q] e [2y] q [6e] y [2i] e [6y] i
+[2p] y [6i] p [2d] i [6p] d [2g] g [6j] z [29gc] [6gc]
+q [W9] y [7i] W [9y] i [O7] y [9i] O [7d] i [O9] d
+[7g] O [9d] g [H7] d [9g] H [7z] g [H9] z [7gc] [9gc]
+0 [0r] y [%u] r [0y] u [%a] y [0u] a [%d] u [0a] d
+[%f] a [0d] f [%k] d [0f] k [%z] k [0f] d [%k] f [0d] a
+[6s] 0 8 0 [6f] 0 8 0 6 0 8 0 [6s] 0 8 [0p]
+[O7] p [0a] p [9p] 0 [O7] 0 9 0 7 0 [O9] 0 [7f] 0 9 [O0]
+[8a] 0 8 0 [8p] 0 8 0 8 0 [8p] 0 [8f] 0 8 [0p]
+[%s] 0 % 0 [%a] 0 % 0 % 0 [%a] 0 [%f] 0 % [0a]
+[6s] 0 [8fx] 0 6 0 [8fx] 0 6 0 [8fx] 0 [6sl] 0 [8pj] 0
+[7pj] 0 [OH9] 0 7 0 [OH9] 0 7 0 [OH9] 0 [7fx] 0 [OH9] 0
+[8ak] 0 [8pj] 0 8 0 [8pj] 0 8 0 [8pj] 0 [8fx] 0 [8pj] 0
+[%sl] 0 [%ak] 0 % 0 [%ak] 0 % 0 [%ak] 0 [%fx] 0 [%ak] 0
+[SL5] 0 6 0 5 0 6 0 [4dz] 9 6 9 4 9 6 9
+[4ak] l [9k] l [6k] l [9j] k [3sl] 8 5 8 3 8 5 8 3 8 5 8
+[2pj] 8 4 8 2 8 4 8 [PJ2] ^ 4 ^ 2 ^ 3 ^
+[OH] j [H7] j [H3] j [G6] H [pj] 6 3 6 6 3 6 6 3 6
+[^PJ249dg] g h j J l z l
+[PJyi] g h j J l z l [PJyi] g h j J l z l
+[PJyi] g h j [PJyi] l z x [Pyic] x c x [Pyic] z l J
+[uj] s p s u s p s [uk] l [dk] l [Ok] l [dk] l [uk] l [dk] l [Ok] l [dj] k
+[ipsj] [^EP249yi] i o p P s d s
+P i o p [EP9q] s d s P i o p [EP9q] s d s
+P i [E9qo] p P s [E9qd] s P i [E9qo] p P s [E9qd] s
+[EP9q] i o p P s d D g h j J l z Z x
+[9gc] E q E 9 E q E [(pj] t Q t ( t Q t
+[0sl] t e t 0 t e t [WO3y] 0 ( 0 ( 0 ( 0
+[6tup] [eus] [eus] [eus] [eus] [eus] [rua] [tup]
+[O0yu] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [tupf] [ruaf]
+[6esf] [eus] [eus] [eus] [eus] [eus] [rua] [tup]
+[O0yu] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [Oyuf] [tupf] [ruaf]
+[6sf] [etsf] [etsf] [tups] 9 [eydg] [eydg] [yipd]
+0 [etsf] [etsf] [tups] 0 [Wraf] [Wraf] [Orua]
+[6ps] [60sfl] [60sfl] [60sfl] [60sfl] [60sfl] [70afk] [80psj]
+[OH390a] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0tfx] [H0rdz]
+[6sjl] [60sfl] [60sfl] [60sfl] [60sfl] [60sfl] [70afk] [80psj]
+[OH390a] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0ygc] [H0tfx] [H0rdz]
+[6sjl] [tujl] [tujl] [etlx] 9 [yijz] [yijz] [eyzc]
+0 [tujl] [tujl] [etlx] 9 [Hruk] [Hruk] [Wrkx]
+8 [upfl] [upfl] [tujx] 9 [PJid] [PJid] [yigz]
+0 [upsj] [upsj] [tufl] 0 [OHya] [OHya] [rydk]
+[6sj] e 0 e 6 e 0 e 6 e 0 e [6s] e 0 [ep]
+[O6] r 0 r [O6yf] r 0 r [O6yf] r 0 r [O6yf] r 0 r
+[6t] p e f 0 e 6 e 0 e 6 e 0 e [6l] e 0 [ej]
+[H6] r 0 r [H6dx] r 0 r [H6dx] r 0 r [H6dx] r 0 r
+[6s] j e x 0 e 6 e 0 e [6d] H r x 0 r 6 r 0 r
+[6s] j e x 0 e 6 e 0 e [6d] H r x 0 r 6 r 0 r
+[6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep] [6t] [ep] [0u] [ep]
+[T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo] [T6] [wo] [0u] [wo]
+[QI2ey] 9 [Q6] e [2y] Q [6e] y [I2] e [6y] I [2p] y [I6] p
+[2d] I [6p] d [G2] p [6d] G [2j] d [G6] j [G29djz] [G6djz]
+9 [Q6] e y Q [6e] y I e [6y] I p y [I6] p
+d I [6p] d G p [6d] G j d [G6] j [G8djz] [G6djz]
+9 [^w] E y y [^o] P d d [^h] J [Jdhz] [^Jdhz]
+9 [$e] t y y [$p] s d d [$j] l [djlz] [$djlz]
+[J5dhz] y E y [wd] y E y w y E y [Pw] y E [yo]
+[Ie] o y p [to] y [Ie] y t y e y [It] y [ed] y t [Iy]
+[Ep] y E y [Eo] y E y E y [Eo] y [Ed] y E [yo]
+[QP] y Q y [Qp] y Q y Q y [Qp] y [Qd] y Q [yp]
+[Pw] d P d [yo] d P d o d P d [Eo] d P [wd]
+[wp] d s d [Qp] d s d p d [Qs] d [yp] d s [Qd]
+[eo] d P d [wo] d P d o d [Pw] d [yo] d P [wd]
+[wo] D [Pw] D [Yo] D P [Dw] [Pw] D [Sw] D [YP] D S [Dw]
+[WO] D s D [(O] D s D O D s D [O8] D s [%D]
+[%P] D S D [P5] D S D P D [S5] D [(P] D S [D5]
+[^O] D s D [%O] D s D O D [%s] D [(O] D s [D5]
+[5p] D s D [$p] d s d p d [$s] d [9p] d s [$d]
+[5o] d [P5] d [^o] d [P5] d [@o] h [@p] h [5o] h [@p] h
+[!o] h [pf] h o h [pf] h o h [!pf] h [3o] h [!pf] h
+[2i] g [2d] g [4i] g [2d] g i g d g [2i] g d g
+u f d f u f d f u f d f u f d f
+[Suf] 6 6 p 6 6 6 6 P 6 p 6
+[Eyo] 6 6 p 6 o 6 [eti] 6 6 o 6 i 6
+[Ewu] 6 6 i 6 u 6 [qey] 6 6 u 6 y 6
+[T0w] 6 6 6 6 [9qy] 6 6 6 6
  
-W 0 W [*O] W 0 W * W 0 W [*u] W 0 [WT]
-[(t] T W Y [QT] W [(t] W Q W ( W [Qt] W [(O] W Q [Wt]
-[0Y] W 0 W [0T] W 0 W 0 W [0T] W [0O] W 0 [WT]
-[8u] W 8 W [8Y] W 8 W 8 W [8Y] W [8O] W 8 [WY]
-[*u] W [0OH] W * W [0OH] W *W [0OH] W [*uf] W [0TS] W
-[(TS] W [Qts] W ( W [Qts] W ( W [Qts] W [(OH] W [Qts] W
-[0YD] W [0TS] W 0 W [0TS] W 0 W [0TS] W [0OH] W [0TS] W
-[8uf] W [8YD] W 8 W [8YD] W 8 W [8YD] W [8OH] W [8YD] W
-[7ig] W *W 7 W * W [6IG] Q *Q 6 Q * Q
-[6YD] f Q D f 7 D S Q D [%uf] 0 7 0 % 0 7 0 % 0 7 0
-[5TS] 0 6 0 5 0 6 0 [$yd] 9 6 9 $ 9 6 9
-[$ts] S ( s S % s P ( s [3TS] *% * 3 *% * 3 *% *
-[$QI69ypd] p a S d f G f
-[Qeyd] p a S d f G f [Qeyd] p a S d f G f
-[Qeyd] p a S [Qeyd] f G h [Qeyj] H k j [Qeyh] G f d
-[WS] u T u W u T u [WD] f [ID] f [tD] f I D f W D f I D [tf] D [IS] D
-[euTS] [$Q269ey] e r T y u I u
-y e r T [$69y] u I u y e r T [$69y] u I u
-y e [$69r] T y u [69$I] o p a [69$S] d f G [$69h] H
-[$pj] 9 6 9 $ 9 6 9 [5TS] 0 ^ 0 5 0 ^ 0
-[%uf] 0 *0 % 0 * 0 [%Q8t] % 5 % 5 % 5 %
-[0!*T] [*Wu] [*Wu] [*Wu] [*Wu] [*Wu] [(WY] [0WT]
-[%QWt] [tQWO] [tQWO] [tQWO] [tQWO] [tQWO] [0WTO] [(WYO]
-[u!*O] [*Wu] [*Wu] [*Wu] [*Wu] [_Wu] [(WY] [0WT]_
-_[%QWt] [tQWO] [tQWO] [tQWO] [tQWO] [tQWO] [0WTO] [(WYO]_
-_[u!O] [0u_O] [0uO] [WT0u] $ [_QIp] [QIp] [eQTI]_
-_% [0u_O] [0uO] [WT0u] % [8(YO] [8(YO] [t(WY]
-[!*Tu] [*WOuf] [*WOuf] [*WOuf] [*WOuf] [*WOuf] [(WYID] [0uWTS]
-[%QWYts] [WIDsl] [WIDsl] [WIDsl] [WIDsl] [WIDsl] [ufWSL] [WYDGZ]
-[!*Hfx] [*WOuf] [*WOuf] [*WOuf] [*WOuf] [*WOuf] [(WYID] [0uWTS]
-[%QWYts] [WIDsl] [WIDsl] [WIDsl] [WIDsl] [WIDsl] [ufWSL] [WYDGZ]
-[!*Hfx] [uTHL] [uTHL] [ufOH] Q [jTIL] [jTIL] [IGpj]
-W [ufTH] [ufTH] [OSuf] Q [tYDH] [tYDH] [sYOD]
-0 [WTSH] [WTSH] [TOuf] $ [epQG] [epQG] [Ieyd]
-% [WO0f] [WO0f] [uWTS] % [(QID] [(QID] [QYts]
-[u!S] *% * ! *% * ! *% * [!u] *% [*T]
-[!t] ( % ( [t!QO] ( % ( [t!QO] ( % ( [t!QO] ( % (
-[!0] T *O % * ! *% * ! *% * [!f] *% [*S]
-[!s] ( % ( [s!IH] ( % ( [s!IH] ( % ( [s!IH] ( % (
-[!u] S *H % * ! *% * [!I] s ( H % ( ! ( % (
-[!u] S *H % * ! *% * [!I] s ( H % ( ! ( % (
-[!0] [*T] [%W] [*T] [!0] [*T] [%W] [*T] [!0] [*T] [%W] [*T] [!0] [*T] [%W] [*T]
-[*7q] [7T] [!W] [7T] [*7q] [7T] [!W] [7T] [*7q] [7T] [!W] [7T] [_7q] [7T] [!W] [7T]_
-_[6e_QT] * [$Q] e [6T] Q [$e] T [6I] e [$T] I [6p] T [$I] p
-[6S] I [$p] S [6G] p [$S] G [6j] S [$G] j [6jSGL] [j$SGL]
-% * [30] W [%T] 0 [3W] T [%u] W [3T] u [%O] T [3u] O
-[%S] u [3O] S [%f] O [3S] f [%H] S [3f] H [f%SHL] [3fSHL]
-5 *0 w E T 5 ^ ! 3 5 T u o P S 5 ^ *
-0 w S f h J [wuETL]
-$ 6 8 ( Q e $ 6 1 @ $ e t Y I p $ 6 8
-( Q p s D [QYetj] O u O [WT] O u O T O u O [0T] O u [*O]
-[*Y] O I O [8Y] O I O Y O [8I] O [WY] O I [8O]
-[(T] O u O [*T] O u O T O [*u] O [WT] O u [*O]
-[0t] O I O [(t] O I O t O [(I] O [Wt] O I [(O]
-[0uTO] W 0 W [0OH] W 0 W 0 W 0 W [0uf] W 0 [WTS]
-[QTS] W Q W [Qts] W Q W Q W [Qts] W [QOH] W Q [Wts]
-[0YD] W 0 W [0TS] W 0 W 0 W [0TS] W [0OH] W 0 [WTS]
-[8uf] W 8 W [8YD] W 8 W 8 W [8YD] W [8OH] W 8 [WYD]
-[*IG] W [*uf] W [_SL] W [_uf] W [7IG]_ [7ig] *[7SL] * [7ig] *_
-_[6OH] *[6IG] * [6SL] *[6IG] * [4pj] *[4OH] * [4SL] *[4OH] *_
-_[!$j] G S p I T p I T e Q *_
-_e Q *6 * Q e T I p S G j G S p_
-_[$2j] G d p I y p I y e Q 9_
-_e Q 9 6 9 Q e y I p d G j G d p_
-_[5!L] J h f S P f S P o u T E_
-_u T E w 0 * 0 w E T u o P S f h J L J f_
-_[!%x] L H f S O f S O u S O u_
-_T O u T W u T W 0 T W 0 *W 0 *_
-_% 6 ^ 7 8 * 9 ( 0 q Q w W e E r_
-_t T y Y u i I o O p P a s S d D f g G h H_
-_[WItj] k j k j k j k j k j k j k j k j k j k j k j k j k j k j k j k H G f D G S s D p O I p u Y I T t Y e W Q e 0 ( Q * 8 ( 6 % 5_
-_%_
-_[!_] *% * ! *% * ! *% *
-[!u] *% [*T] [!t] ( % ( [t!QO] ( % ( [t!QO] ( % (
-[t!QO] ( % ( [!0] T *O % * ! *% * ! *% *
-[!f] *% [*S] [!s] ( % ( [s!IH] ( % ( [s!IH] ( % (
-[s!IH] ( % ( [!u] S *H % * ! *% * [!I] s ( H % (
-! ( % ( [!u] S *H % * ! *% * [!I] s ( H % (
-! ( % ( [!%*Y] S H [0u] [WO] [TS] [uf] [WO] [TS] [uf] [OH] [TS] [uf] [OH]
-[SL] [uf] [OH] [SL] [fx] [SL] [OH] [uf] [SL] [OH] [uf] [TS] [OH] [uf] [TS] [WO]
-[uf] [TS] [WO] [0u] [TS] [WO] [0u] [*T] [WO] [0u] [*T] [%W] [0u] [*T] [%W] [30]
-[_T] [%W] [30] [%W] [!_] [3f!%*SHL]
-[3u!%*TOS] ]]
+- e 6 u 6 j 6 6 6 j 6 J 6 j 6
+h 6 [Pdh] 6 [sfj] 6 [Pdh] 6 [psg] 6 [psg] 6 [Pdh] 6 [psg] 6
+[Pof] 6 [Pof] 6 [psg] 6 [Pof] 6 [ipd] 6 [ipd] 6 [Pof] 6 [ipd] 6
+[Suo] 6 6 6 6 [yid] 6 6 6 6
+T p 6 f 6 6 6 6 6 [yid] 6 6
+[Suo] 6 6 [Suo] 6 6 [yid] 6 6 [yid] 6 6
+T p 6 f 6 6 6 6 6 [yi] 6 d 6
+[uo] 6 S 6 [uo] 6 S 6 [yi] 6 d 6 [yi] 6 d 6
+[To] 6 f 6 [To] 6 f 6 [yi] ^ d ^ [yi] ^ d ^
+[EP5yu]
+[T6eup]
+2 6 [69] q [2e] 9 [6q] e [2y] q [6e] y [2i] e [6y] i
+[2p] y [6i] p [2d] i [6p] d [2g] p [6d] g [29pdgj] [6pdgj]
+! 6 [_6] 0 [!e]_ [60] e [!T] 0 [6e] T [!u] e [T6] u
+[!p] T [6u] p [!S] u [6p] S [!f] p [S6] f [!*Spfj] [S6pfj]
+9 [Q6] e y Q [6e] y I e [6y] I p y [I6] p
+d I [6p] d G p [6d] G j d [G6] j [G8djz] [G6djz]
+9 [^w] E y y [^o] P d d [^h] J [Jdhz] [^Jdhz]
+9 [^q] W y y [^i] O d d [^g] H [Hdz] [^Hdz]
+[SL6j] [Tep] j [Tep] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Tp] j [Tp] j [ya] j [Su] j [id] j [of] j [Su] j
+[of] j [id] j [Ph] j [pg] j [of] j [id] j [Su] j [Py] H
+[Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H [Tep] j [Pey] H
+[Tepj] [6e]
+9 e q e [9p] e q e 9 e q e [9i] e q [ey]
+[T0] y e u [wy] e [T0] e w e 0 e [Tw] e [0p] e w [Te]
+[qu] e q e [qy] e q e q e [qy] e [qp] e q [ey]
+[_i] e_ e [_u] e_ e *e [*u] e [_p] e_ [eu]
+[9i] e [qpj] e 9 e [qpj] e 9 e [qpj] e [9ig] e [qyd] e
+[0yd] e [TSw] e 0 e [TSw] e 0 e [TSw] e [0pj] e [TSw] e
+[quf] e [qyd] e q e [qyd] e q e [qyd] e [qpj] e [qyd] e
+[*ig] e [*uf] e *e [*uf] e *e [*uf] e [*pj] e [*uf] e
+[IG8] e 9 e 8 e 9 e [^oh] w 9 w ^ w 9 w
+[^uf] g [wf] g [8f] g [wd] f [6ig] q 8 q 6 q 8 q 6 q 8 q
+[%yd] q ^ q % q ^ q [YD5] ( ^ ( 5 ( ^ (
+[TS5] d [S0] d [S6] d [0a] S [4yd] 9 6 9 4 9 6 9 4 9 6 9
+[^(YPD5wo] P s d D g h g
+[EYDw] P s d D g h g [EYDw] P s d D g h g
+[EYDw] P s d [EYDw] g h H [EYJw] j l J [EYHw] h g D
+[ed] i y i e i y i [ef] g [of] g [Tf] g [of] g [ef] g [of] g [Tf] g [od] f
+[Eyid] [@(EY5w] E t y Y i o i
+Y E t y [^(Y5] i o i Y E t y [^(Y5] i o i
+Y E [^(5t] y Y i [^(5o] O P s [^(5d] D g h [^(H5] j
+[PJ5] ( ^ ( 5 ( ^ ( [%yd] q 7 q % q 7 q
+[6ig] q 9 q 6 q 9 q [TSo] 6 % 6 % 6 % 6
+[29y] [9ei] [9ei] [9ei] [9ei] [9ei] [0eu] [qey]
+[T5we] [Twep] [Twep] [Twep] [Twep] [Twep] [qeyp] [0eup]
+[29ip] [9ei] [9ei] [9ei] [9ei] [9ei] [0eu] [qey]
+[T5we] [Twep] [Twep] [Twep] [Twep] [Twep] [qeyp] [0eup]
+[29ip] [9qip] [9qip] [qeyi] 5 [P9wo] [P9wo] [Ewyo]
+6 [9qip] [9qip] [qeyi] 6 [*0up] [*0up] [T0eu]
+[29yi] [9eipg] [9eipg] [9eipg] [9eipg] [9eipg] [0eupf] [qeyid]
+[TS5weu] [SL6wf] [SL6wf] [SL6wf] [SL6wf] [SL6wf] [6qdgz] [60fhx]
+[29gjc] [9eipg] [9eipg] [9eipg] [9eipg] [9eipg] [0eupf] [qeyid]
+[TS5weu] [SL6wf] [SL6wf] [SL6wf] [SL6wf] [SL6wf] [6qdgz] [60fhx]
+[29gjc] [yijz] [yijz] [ipgj] w [Jyoz] [Jyoz] [PJoh]
+e [yigj] [yigj] [ipdg] w [Tufj] [Tufj] [Supf]
+q [eydj] [eydj] [yipg] 5 [EPwh] [EPwh] [EYDo]
+6 [qepg] [qepg] [eyid] 6 [0wof] [0wof] [TSwu]
+[2id] 9 6 9 2 9 6 9 2 9 6 9 [2i] 9 6 [9y]
+[T2] 0 6 0 [T2ep] 0 6 0 [T2ep] 0 6 0 [T2ep] 0 6 0
+[2q] y 9 p 6 9 2 9 6 9 2 9 6 9 [2g] 9 6 [9d]
+[S2] 0 6 0 [S2oj] 0 6 0 [S2oj] 0 6 0 [S2oj] 0 6 0
+[2i] d 9 j 6 9 2 9 6 9 [2o] S 0 j 6 0 2 0 6 0
+[2i] d 9 j 6 9 2 9 6 9 [2o] S 0 j 6 0 2 0 6 0
+[2q] [9y] [6e] [9y] [2q] [9y] [6e] [9y] [2q] [9y] [6e] [9y] [2q] [9y] [6e] [9y]
+[Q9] [8y] [2e] [8y] [Q9] [8y] [2e] [8y] [Q9] [8y] [2e] [8y] [Q9] [8y] [2e] [8y]
+[E9wy] 9 [5w] E y w [E5] y o E [5y] o P y [5o] P
+d o [P5] d h P [5d] h J d [5h] J [^Jdhz] [J5dhz]
+9 [4q] e y q [4e] y i e [4y] i p y [4i] p
+d i [4p] d g p [4d] g j d [4g] j [6dgjz] [4dgjz]
+9 q W r y 2 4 6 y i O a d % 7 9 q
+W d g H k [Wryiz]
+^ _0 w E ! 3 % E T u o P 5 ^_ 0
+w P S f h [ETJwu]
+9 p i p [ey] p i p y p i p [qy] p i [9p]
+[9u] p o p [*u] p o p u p [*o] p [eu] p o [*p]
+[0y] p i p [9y] p i p y p [9i] p [ey] p i [9p]
+[Tq] p o p [T0] p o p T p [0o] p [Te] p o [0p]
+[qyip] e q e [qpj] e q e q e q e [qig] e q [eyd]
+[wyd] e w e [TSw] e w e w e [TSw] e [wpj] e w [TSe]
+[quf] e q e [qyd] e q e q e [qyd] e [qpj] e q [eyd]
+[_ig] e_ e [_uf] e_ e *e [*uf] e [_pj] e_ [euf]
+[9oh] e [9ig] e [9dz] e [9ig] e [8oh] 9 [IG8] 9 [8dz] 9 [IG8] 9
+[^pj] 9 [^oh] 9 [^dz] 9 [^oh] 9 [$PJ] 9 [$pj] 9 [$dz] 9 [$pj] 9
+[J25] h d P o y P o y E w 9
+E w 9 ^ 9 w E y o P d h J h d P
+[@j5] h D P o Y P o Y E w (
+E w ( ^ ( w E Y o P D h J h D P
+[%2z] k H g d a g d a O i y r
+i y r W q 9 q W r y i O a d g H k z k g
+[26c] z j g d p g d p i d p i
+y p i y e i y e q y e q 9 e q 9
+6 ^ 7 8 * 9 ( 0 q Q w W e E r t
+T y Y u i I o O p P a s S d D f g g h H j
+[TJeo] l J l J l J l J l J l J l J l J l J l J l J l J l J l J l J l
+j h g f h d S f
+P p o P i u o y T u E e w E
+q 0 w 9 * 0 ^ 6
+%
+6
+[29] 9 6 9 2 9 6 9 2 9 6 9 [2i] 9 6 [9y]
+[T2] 0 6 0 [T2ep] 0 6 0 [T2ep] 0 6 0 [T2ep] 0 6 0
+[2q] y 9 p 6 9 2 9 6 9 2 9 6 9 [2g] 9 6 [9d]
+[S2] 0 6 0 [S2oj] 0 6 0 [S2oj] 0 6 0 [S2oj] 0 6 0
+[2i] d 9 j 6 9 2 9 6 9 [2o] S 0 j 6 0 2 0 6 0
+[2i] d 9 j 6 9 2 9 6 9 [2o] S 0 j 6 0 2 0 6 0
+[269i] d j [qi] [ep] [yd] [ig] [ep] [yd] [ig] [pj] [yd] [ig] [pj] [dz] [ig] [pj] [dz]
+[gc] [dz] [pj] [ig] [dz] [pj] [ig] [yd] [pj] [ig] [yd] [ep] [ig] [yd] [ep] [qi]
+[yd] [ep] [qi] [9y] [ep] [qi] [9y] [6e] [qi] [9y] [6e] [4q] [9y] [6e] [4q] [6e]
+[29] [2469dgjz]
+[2469yipd] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%201%20monligth%203%20mouvement"))()
 
