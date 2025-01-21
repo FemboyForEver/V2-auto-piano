@@ -3050,7 +3050,7 @@ x [30f] - [Gwr] - [30h] - [wrj] - [7k] - [wr] - 7 -
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/rush%20A%2CB%2CC%2CD%2CE%2CF%2CG"))()
 
 end)
-Section:NewButton("Rush F", "Auto", function()
+Section:NewButton("rush e teste", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3139,7 +3139,7 @@ _[e_J]-j-h-g-[6ef]-d-S-f-[9yd] - [29] -
 [rWV]-C-c-V-[QEC]-c-Z-C-[Wqc]-Z-z-c-[(QZ]-B-C-Z-
 [9qn]-B-V-C-[^Ec]-Z-z-c-[(YZ] - [@(ZC] ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/rush%20A%2CB%2CC%2CD%2CE%2CF%2CG"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/rush%20e%20new%20teste"))()
 
 end)
 Section:NewButton("katyusha", "Autoplayf", function()
