@@ -1,13 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Beethoven_ElMaestro", "Synapse")
+local Window = Library.CreateLib("", "Synapse")
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
-Section:NewButton("Faded", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+Section:NewButton("Faded", "Autoplay", function()
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -38,10 +38,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -131,10 +131,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("amour plastique", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -256,10 +256,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("kiss me", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -349,10 +349,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("valse d'amelie", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -454,10 +454,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("fairytale alexender transposition -7", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -627,10 +627,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("flight of the bambo cutter", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -739,10 +739,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("the world DEATH NOTE", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -787,10 +787,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("drowning love", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -863,10 +863,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("attack on titan", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -933,10 +933,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("kalinka", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1026,10 +1026,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("gojo honored", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1118,10 +1118,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("shadow garden theme -7", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1201,10 +1201,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("tokyo ghoul teste -2", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1345,10 +1345,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("No game no life", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1534,10 +1534,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("snowman -6", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1642,10 +1642,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("lay all your love on me -7", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1799,10 +1799,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("evangelion plus 3", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -1955,10 +1955,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("skyfall", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2061,10 +2061,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("book of circus", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2098,10 +2098,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("connecte magica plus 6", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2281,10 +2281,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("macarena", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2352,10 +2352,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("final", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2418,10 +2418,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("I will survie", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2486,10 +2486,10 @@ loadstring(game:HttpGet("https://github.com/FemboyForEver/teste-/blob/main/i%20w
 
 end)
 Section:NewButton("all want christmas is you -7", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2571,10 +2571,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("dandadam -4", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2669,10 +2669,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("test i am atomic", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2682,10 +2682,10 @@ shared.scr = [[ [io]|||[io][io][io][io]|||[iop][ua][ua][uiopa][ua][ua][ua]|||[yu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)Section:NewButton("teste howl's castle -2", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
@@ -2696,10 +2696,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Liszt Transcendental Etude No 5 Feux Follets", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 134 -- tempo overides the delay
@@ -2963,10 +2963,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Rush E", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -2977,10 +2977,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Rush D", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -3051,10 +3051,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("rush e teste", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -3143,10 +3143,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("katyusha", "Autoplayf", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 134 -- tempo overides the delay
@@ -3249,10 +3249,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Rush E i got distracted", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -3344,10 +3344,10 @@ q|[^EPJ134580qetyupdfgx] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethoven_ElMaestro/refs/heads/main/tempo"))()
 
 end)Section:NewButton("Rush E x minecraft", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -3404,8 +3404,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("rush E hard", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 1*50 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 140 -- tempo overides the delay
@@ -3527,8 +3527,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("logo rush e", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -3539,8 +3539,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("Rush A", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -3644,8 +3644,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("Rush B", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -3754,8 +3754,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("Idea 10", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 65 -- tempo overides the delay
@@ -3804,8 +3804,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("watlz death", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 180 -- tempo overides the delay
@@ -3898,8 +3898,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("remember me", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -3928,8 +3928,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Tarantella Napoletana", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 180 -- tempo overides the delay
@@ -4024,8 +4024,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Quiet resource", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -4185,8 +4185,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Melody of the night", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -4284,8 +4284,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Adieu to the piano", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -4347,8 +4347,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("butterfly waltz", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -4432,8 +4432,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("la vaguelette", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 115 -- tempo overides the delay
@@ -4473,8 +4473,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("carol of the bells", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 3*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -4537,8 +4537,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("sis puella magica", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 148 -- tempo overides the delay
@@ -4549,8 +4549,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("La campanella but i got distracted", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -4603,8 +4603,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("partita for violin no.3", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -4723,8 +4723,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("what a wonderful world", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 71 -- tempo overides the delay
@@ -4735,8 +4735,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("parasyte", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -4747,8 +4747,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("virus beethoven", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -4826,8 +4826,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("golden hour x interstellar", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -4894,8 +4894,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("La Boheme", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 150 -- tempo overides the delay
@@ -5031,8 +5031,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("etude d'execution", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 160 -- tempo overides the delay
@@ -5089,8 +5089,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("waltz in mirror", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 60 -- tempo overides the delay
@@ -5124,8 +5124,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("spooky scary", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 155 -- tempo overides the delay
@@ -5216,8 +5216,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("sonata 17 3rd", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 112 -- tempo overides the delay
@@ -5228,8 +5228,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("virtual love", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -5292,8 +5292,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("devil crybaby", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 72 -- tempo overides the delay
@@ -5366,8 +5366,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("my alchoolic friend", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -5453,8 +5453,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("initial d", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 600 -- tempo overides the delay
@@ -5569,8 +5569,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("une derniere danse", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -5681,8 +5681,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("London Bridge is Falling Down", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -5702,8 +5702,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("river flows in you", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -5714,8 +5714,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("nuvole bianche", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 75 -- tempo overides the delay
@@ -5783,8 +5783,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Yarichin B club Touch Me", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -5840,8 +5840,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("lacrimosa", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -5852,8 +5852,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("falling", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -5864,8 +5864,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("past live", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -5894,8 +5894,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("experience", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 94 -- tempo overides the delay
@@ -6001,8 +6001,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("les lacs du connemara", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 112 -- tempo overides the delay
@@ -6118,8 +6118,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("top gun", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -6147,8 +6147,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("gravity fall", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 150 -- tempo overides the delay
@@ -6177,8 +6177,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Fanteisie Impromptu", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -6326,8 +6326,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("pokemon theme", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 95-- tempo overides the delay
@@ -6408,8 +6408,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("swan lake", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -6461,8 +6461,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Howl’s Moving Castle Theme", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 6*00 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 105 -- tempo overides the delay
@@ -6515,8 +6515,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Five nights at freddy's", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -6572,8 +6572,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("If I Am With You Jujutsu Kaisen", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -6601,8 +6601,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("halloween", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -6691,8 +6691,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("titanic song", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -6703,8 +6703,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("the man who sold the world", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -6801,8 +6801,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("edith piaf", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0.0000001 -- delay overides the ftime
 shared.tempo = 300 -- tempo overides the delay
@@ -6813,8 +6813,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("change xxtentation", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 60 -- tempo overides the delay
@@ -6888,8 +6888,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("toxic", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 180 -- tempo overides the delay
@@ -7023,8 +7023,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("WOLF AND RABBIT", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -7118,8 +7118,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("prelude", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 126 -- tempo overides the delay
@@ -7130,8 +7130,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("elegy", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -7142,8 +7142,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("another love", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -7253,8 +7253,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("trhough the fire and flames", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -7622,8 +7622,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Je Te Laisserais Des Mots", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -7726,8 +7726,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("travelers who rest jojos bizarre adventure", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 79 -- tempo overides the delay
@@ -7754,8 +7754,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("old doll plus 3", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -7789,8 +7789,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("prince ali", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -7940,8 +7940,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Young girl a", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 190 -- tempo overides the delay
@@ -8069,8 +8069,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("La Marseillaise", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 80 -- tempo overides the delay
@@ -8157,8 +8157,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("urss", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -8208,8 +8208,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("lavender town", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -8267,8 +8267,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("GUTS BERSEK", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 70 -- tempo overides the delay
@@ -8321,8 +8321,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("one piece", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -8404,8 +8404,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("golden hour", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 94 -- tempo overides the delay
@@ -8522,8 +8522,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("four season", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -8545,8 +8545,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("the entertainer", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -8557,8 +8557,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("march", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -8600,8 +8600,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("rondo alla turca", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -8818,8 +8818,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("flight of the bumblebee", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 150 -- tempo overides the delay
@@ -8834,8 +8834,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("nocturne op. 9 no, 2", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 60 -- tempo overides the delay
@@ -9015,8 +9015,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("concerto a minor", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -9027,8 +9027,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("snoop dog", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 93 -- tempo overides the delay
@@ -9088,8 +9088,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("jojo aventure", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 200 -- tempo overides the delay
@@ -9259,8 +9259,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Blue bird", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -9293,8 +9293,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("cordelia", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 165 -- tempo overides the delay
@@ -9342,8 +9342,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("erika", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -9497,8 +9497,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("the second watlz", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 170 -- tempo overides the delay
@@ -9685,8 +9685,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("Itsumo Kokoro Ni", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -9697,8 +9697,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("death parade", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -9800,8 +9800,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Bach Toccata", "Auto", function()
-    shared.stop = true -- stops the player at any time if true
--- CONFIG:
+    shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -9954,10 +9954,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Liebestraum no 3", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -9968,10 +9968,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("sonatina in G Major", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 132 -- tempo overides the delay
@@ -10031,10 +10031,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("tetris", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -10142,10 +10142,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("Fur Elise", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -10162,10 +10162,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("given Fuyu no Hanashi", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -10295,8 +10295,8 @@ end)
 Section:NewButton("bella ciao", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -10329,8 +10329,8 @@ end)
 Section:NewButton("moonlight sonata 3rd mouvement", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 3*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 155 -- tempo overides the delay
@@ -10610,8 +10610,8 @@ end)
 Section:NewButton("pirate of caraibes", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -10649,8 +10649,8 @@ end)
 Section:NewButton("solas", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -10696,8 +10696,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 end)
 Section:NewButton("lilium -3", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 60 -- tempo overides the delay
@@ -10759,8 +10759,8 @@ end)
 Section:NewButton("Its Raining Tacos", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -10773,8 +10773,8 @@ end)
 Section:NewButton("World's Smallest Violin", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -10841,10 +10841,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("Megalovania", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -10932,10 +10932,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/
 
 end)
 Section:NewButton("moonlight sonata shadow", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 200 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -11081,10 +11081,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/beethov
 
 end)
 Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
-    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 150 -- tempo overides the delay
@@ -11148,8 +11148,8 @@ end)
 Section:NewButton("bohemian rhapsody", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 90 -- tempo overides the delay
@@ -11254,8 +11254,8 @@ end)
 Section:NewButton("Omori Final Duet", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 167 -- tempo overides the delay
@@ -11310,8 +11310,8 @@ end)
 Section:NewButton("Fur Elise x Rivers Flows", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -11385,8 +11385,8 @@ end)
 Section:NewButton("instertellar main theme", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -11449,8 +11449,8 @@ end)
 Section:NewButton("la campanella", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -11463,8 +11463,8 @@ end)
 Section:NewButton("grand valse brillant", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -11856,8 +11856,8 @@ end)
 Section:NewButton("HIT THE ROAD JACK", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 110 -- tempo overides the delay
@@ -11910,8 +11910,8 @@ end)
 Section:NewButton("Czardas", "Auto", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -12097,8 +12097,8 @@ end)
 Section:NewButton("Giorno Theme", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 138 -- tempo overides the delay
@@ -12111,8 +12111,8 @@ end)
 Section:NewButton("El Sol Se Recuesta", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -12234,8 +12234,8 @@ end)
 Section:NewButton("gurenge - demon slayer", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -12275,8 +12275,8 @@ end)
 Section:NewButton("gurenge - demon slayer 2", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
@@ -12346,7 +12346,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 Section:NewButton("New Rush E", "Autoplayf", function()
--- CONFIG:
+
 shared.ftime = 2*50 + 50 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 300 -- tempo overides the delay
@@ -12360,8 +12360,8 @@ end)
 Section:NewButton("Rush C", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 250 -- tempo overides the delay
@@ -12374,8 +12374,8 @@ end)
 Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
@@ -12465,8 +12465,8 @@ end)
 Section:NewButton("Bad Piggies- Main theme", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
@@ -12590,8 +12590,8 @@ local Section = Tab:NewSection("Stop Piano")
 Section:NewButton("Stop piano", "Auto", function()  
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
-shared.stop = true -- stops the player at any time if true
--- CONFIG:
+shared.stop = true 
+
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
