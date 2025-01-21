@@ -3059,19 +3059,19 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 120 -- tempo overides the delay
 
-shared.scr = [[ p -
-p -
-p -
-p -
-p -
-p - p - p - p -
-p p p p p p p p-p-
-p p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-p-
-9 - [qe] - 6 - [qe] - 6-7-_-[29] - [qe] - 6 - [qe] -_
-_[9p] - p - [qep] - p - [6p] - p - [qep] - p - [9p] - p - [qep] - p - [6p] - p - [qep] - p -_
-_[9p] - p - [qep] p - [6p] - P - [qep] - O - [9p] - [qed] - [6g] - [qe] -_
-_[h] - h - [weh] - h - [6h]-g-[wef]-h-[9g]-g-[qeg]-g-[6g]-f-[qed]-g-_
-_[0f]-f-[Wyf]-f-[7a]-[Wyf]-[eTS] - 6 7-_-
+shared.scr = [[ ---p
+----p 
+----p 
+---p 
+---p 
+---p --p  --p --p
+p p p p p p p p p 
+p p p p p p p p p p p p p p p p p p p p p
+-9  [qe]  -6  [qe] -6-7 _ -[29] [qe] -6 [qe] _
+_[9p] -p [qep]  -p [6p] -p  [qep] -p  [9p] -p  [qep] - p [6p]  -p [qep] -p _
+_[9p] -p[qep] -p [6p] -P [qep] -O [9p] [qed] [6g] [qe] _
+_[h]-h[weh]-h[6h]-g[wef]-h[9g]-g[qeg]-g[6g]-f[qed]-g_
+_[0f]-f[Wyf]-f[7a] [Wyf] [eTS] -6 7_
 [9p]-p-[qep]-p-[6p]-p-[qep]-p-[9p]-p-[qep]-p-[6p]-p-[qep]-p-
 [9p]-P-[qep]-O-[6p]-[qed]-g-[9j]-[qez] [6c] [qe]
 [wv]-c-[Eyx]-v-[qc]-x-[eyz]-c-[0x]-z-[wEL]-x-[9z]-j-[qeg]-d-
