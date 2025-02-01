@@ -10040,7 +10040,7 @@ shared.delay = 0 -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
 shared.scr = [[ 3 9 W u y O a d h k x
-[iadgjzc]||[OHuafx]||[aYODZ]||[Oyadz]||[Otasl]
+[iadgjzc]|[OHuafx]||||[aYODZ]||||[Oyadz]||||[Otasl]
 [rak]||[fkx] V n
 [x] V [xn] [Vm] [x] V [xm] [Vn]
 [xb] b [xb] [bm] [x] b [x] [bm]
