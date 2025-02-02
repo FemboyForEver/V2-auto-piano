@@ -130,6 +130,99 @@ u - y - t,
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
 
 end)
+Section:NewButton("kiss me", "Autoplayf", function()
+
+
+shared.stop = true 
+
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = 0 -- delay overides the ftime
+shared.tempo = 89 -- tempo overides the delay
+
+shared.scr = [[ 6 6 6 [6w] [6w] [6q] [6q] [60]
+[60] 6 [69] 6 6 6 6 6
+6 6 6 [6w] [6w] [6q] [6q] [60]
+6 6 6 6 [60] 6 6 6
+6 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] 4 [4t] [4y] [4u] [4i]
+[8u] 8 [8y] 8 [8t] [8y] [8u] [8i]
+[3u] 3 [3u] 3 [3u] 3 [3u] 3
+6 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] [4t] [4t] [4y] [4u] [4i]
+[8u] 8 [8t] [8t] [8t] [8y] [8u] [8i]
+[3u] 3 [3f] 3 [3f] 3 [3f] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
+[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
+[37u] 3 [3u] 3 [3u] 3 [3u] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
+[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
+[W3ru] 3 [3f] 3 [3f] 3 [3f] [3i]
+[6u] 6 6 [6i] [6u] 6 6 [6i]
+[4u] 4 4 [4i] [4u] 4 4 [4i]
+[8u] 8 8 [8i] [8u] 8 8 [8i]
+[3o] 3 3 [3i] [3u] 3 3 [3i]
+[6u] 6 6 [6i] [6u] 6 6 [6i]
+[4u] 4 [4i] 4 [4u] 4 4 [4i]
+[8u] 8 8 [8i] [8u] [8i] [8u] [8i]
+[3u] [30] [30] [30] [30] [30] [30] [30]
+[60] 6 6 [6l] [6k] 6 [6j] 6
+[4g] [4q] [4q] [4q] [4q] [4q] [4q] [4q]
+[80] 8 8 [8h] [8h] 8 [8h] 8
+[3H] [30] [30] [30] [30] [30] [30] [30]
+[60] 6 6 [6l] [6k] 6 [6j] 6
+[4z] 4 4 4 4 4-0-[40] [40]
+[80] 8 8 8 8 [80]-0-[80] [80]
+0 - 9 - 8,
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
+[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
+[37u] 3 [3u] 3 [3u] 3 [3u] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
+[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
+[W3ru] 3 [3f] 3 [3f] [3u] [3uf] [3u]
+[eu] - e - e u-u-[eu] u
+[qu] - q - q u-u-[qu] u
+[tu] - t - t u-u-[tu] u
+[0u] - 0 - 0 u-u-[0u] u
+[ep] e [ej] e e [ep]-p-[ep] [ei]
+[qi] q [qg] q q [qu]-u-[qu] [qi]
+[tu] t t t t [tu]-u-[tu] [ti]
+u - y - t,
+[6psj] 6 6 6 6 6 6 6
+4 4 4 4 [4ipg] 4 4 4
+[8uof] 8 8 8 8 8 8 [8u]
+[O3ua] 3 [3y] 3 [3t] 3 3 3
+[6etp] 6 6 6 6 6 6 6
+4 4 4 4 [4ipg] 4 4 4
+[8ofh] 8 8 8 8 8 8 [8u]
+[H0uk] - y - t,
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
+[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
+[37u] 3 [3u] 3 [3u] 3 [3u] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
+[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
+[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] 4 [48qt] [4y] [4u] [4i]
+[80u] 8 [8y] 8 [8t] [8y] [8u] [8i]
+[37u] 3 [3u] 3 [3u] 3 [3u] 3
+[60e] 6 6 [6o] [6o] [6i] [6i] [6u]
+[4u] 4 [4y] [4t] [48qt] [4y] [4u] [4i]
+[8wu] 8 [8t] [8t] [8t] [8y] [8u] [8i]
+[W3ru] 3 [3f] 3 [3f] 3 [3f] 3
+6 6 6 [6w] [6w] [6q] [6q] [60]
+[60] 6 [69] 6 6 6 6 6
+6 6 6 [6w] [6w] [6q] [6q] [60]
+6 6 6 6 [60] 6 6 6 ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+
+end)
 Section:NewButton("amour plastique", "Autoplayf", function()
 
 
