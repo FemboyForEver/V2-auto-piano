@@ -172,7 +172,7 @@ j [9h] a s {oad} [sf] {dg} [8fh] [fh] [fh] [tusf] -
 z {5dhl} - k j - k [8tfhl],
 [5fhl], {18fhl}- ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/teste%2010%20tempo%20song%20for%20180bpm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/mingle"))()
 
 end)
 Section:NewButton("amour plastique", "Autoplayf", function()
