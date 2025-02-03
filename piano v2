@@ -184,118 +184,118 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = 0 -- delay overides the ftime
 shared.tempo = 89 -- tempo overides the delay
 
-shared.scr = [[ [0wts]... f, [WO0rua]...
-f,
-[0ets]... g,
-[9wryof]... g,
-[0wts] s s s f - f,
-[W0rua] a a - f - f a - [0ets] -
-s s - f - f, [9wroa]
-[wa] a a f f,
-[0wts] s - s s - f f f,
-[W0rua] a - a - f - f a -
-[0ets] s s - f f, [9wroa] -
-[wa] a-a a - f - f, [0wtos] -
-s s s f - f,
-[WO0rua] a a - f f,
-[0ets] s - s - f f - f -
-[9wroa] [wa] a a - f f a -
-[0wtuo] - u-u - o - p a [W0r] -
-a - p a - p - s [0et]-
-s - s - d - s a -
-[9wry] a-w - a - a - p s -
-[0wts] - t s - d - s a -
-[0rWO] a, a a - p s
-[0ets] - s - d - s - a [9wroa] -
-a - a a - p - p s [0wtos],
-s - d - s a -
-[WO0ra] a - a a - a - p s -
-[0et] s - s s - d - s a -
-[9wryoa] - [wa] - a a p p s
-[0wtuf] - f, h - j - f [0rWO] -
-f - f f, d f
-[0et] f f f h j h f -
-[9wry] f - f - f - d -
-[0wts] - s - s - s a
-[W0r] a a a a a a s [0et] -
-p, p - p - o [9wro]......
+shared.scr = [[ [0wts]||| f| [WO0rua]|||
+f|
+[0ets]||| g|
+[9wryof]||| g|
+[0wts] s s s f | f|
+[W0rua] a a | f | f a || [0ets] |
+s s | f | f| [9wroa]
+[wa] a a f f|
+[0wts] s | s s | f f f|
+[W0rua] a | a | f | f a |
+[0ets] s s | f f| [9wroa] |
+[wa] a|a a | f | f| [0wtos] |
+s s s f | f|
+[WO0rua] a a | f f|
+[0ets] s | s | f f | f |
+[9wroa] [wa] a a | f f a |
+[0wtuo] | u|u | o | p a [W0r] |
+a | p a | p | s [0et]|
+s | s | d | s a |
+[9wry] a|w | a | a | p s |
+[0wts] | t s | d | s a |
+[0rWO] a| a a | p s
+[0ets] | s | d | s | a [9wroa] |
+a | a a | p | p s [0wtos]|
+s | d | s a |
+[WO0ra] a | a a | a | p s |
+[0et] s | s s | d | s a |
+[9wryoa] | [wa] | a a p p s
+[0wtuf] | f| h | j | f [0rWO] |
+f | f f| d f
+[0et] f f f h j h f |
+[9wry] f | f | f | d |
+[0wts] | s | s | s a
+[W0r] a a a a a a s [0et] |
+p| p | p | o [9wro]||||||
  
-[0wtf] - f - h - j k -
-[W0r] k - k - k - j l -
-[0et] j, j - j h
-[9wry].... [0wtf] -
-f - f - f - d [0rWO],
-d d - d - d d
-[0ets] s s s - s s - s a -
-[9wryo] a - a a - a - a [af] -
+[0wtf] | f | h | j k |
+[W0r] k | k | k | j l |
+[0et] j| j | j h
+[9wry]|||| [0wtf] |
+f | f | f | d [0rWO]|
+d d | d | d d
+[0ets] s s s | s s | s a |
+[9wryo] a | a a | a | a [af] |
 [0wtf] f f f f f f d
-[W0r] d d - d d - d d - d [0ets] -
-s s - s s - s s - a [9wro]
-[wa] a a-w - a - a -
-[0wto] o - o - o i - u-0 -
-[0wruo] o - o - o i - [wu] -
-[0etuo] o o o - o i u - [9wryo] -
-o o o - o - i u - [0wto] -
-i u - o - [0i] u,
-[0wro] o o - o i u -
-[0eto] o - o - o i - u -
-[9wro] o - o o - o i - u -
-[0wtos] s s s f f, [W0rua] -
-a a - f - f a - [0ets] -
-s - s - f - f,
-[9wroa] [wa] a a f [wf],
-[0wts] s - s - f f f,
-[W0rua] a - a - f f a -
-[0ets] s s - f f f - [9wroa] -
-a a a - f - f, [0wts] -
-s s - f f,
-[W0rua] a a - f f f,
-[0ets] s - s - f f - f -
-[9wroa] [wa] a - f f a -
-[0wtf] - f - h - j f [W0r] -
-f - f f, d f [0et] -
-f f f h j h f -
-[9wr] f - f - f - d -
-[0wts] - s - s - s a -
-[W0ra] a a a a a - s
-[0et] p - p p - p - p [9wryo] -
-o....
-[0wtf] - f - h - j k -
-[W0r] k - k - k - j l -
-[0et] j - j - j - j - h
-[9wro]....
-[0wtf].... [W0rd]......
+[W0r] d d | d d | d d | d [0ets] |
+s s | s s | s s | a [9wro]
+[wa] a a|w | a | a |
+[0wto] o | o | o i | u|0 |
+[0wruo] o | o | o i | [wu] |
+[0etuo] o o o | o i u | [9wryo] |
+o o o | o | i u | [0wto] |
+i u | o | [0i] u|
+[0wro] o o | o i u |
+[0eto] o | o | o i | u |
+[9wro] o | o o | o i | u |
+[0wtos] s s s f f| [W0rua] |
+a a | f | f a | [0ets] |
+s | s | f | f|
+[9wroa] [wa] a a f [wf]|
+[0wts] s | s | f f f|
+[W0rua] a | a | f f a |
+[0ets] s s | f f f | [9wroa] |
+a a a | f | f| [0wts] |
+s s | f f|
+[W0rua] a a | f f f|
+[0ets] s | s | f f | f |
+[9wroa] [wa] a | f f a |
+[0wtf] | f | h | j f [W0r] |
+f | f f| d f [0et] |
+f f f h j h f |
+[9wr] f | f | f | d |
+[0wts] | s | s | s a |
+[W0ra] a a a a a | s
+[0et] p | p p | p | p [9wryo] |
+o||||
+[0wtf] | f | h | j k |
+[W0r] k | k | k | j l |
+[0et] j | j | j | j | h
+[9wro]||||
+[0wtf]|||| [W0rd]||||||
  
-[0ets]....
-[9wryp]....
-[0wts] - s, s - s
-[W0ru] - u, u 0 - u
-[0etp] - p, p - p [9wryo] -
-o, o - o -
-[0wtuo] - u u o - p u -
-[W0r] u - u - u - y u -
-[0et] u, u p - o u 0-[9wr] -
-u - u o - s o [0wtuo]...
-s - o [W0ru]...
+[0ets]||||
+[9wryp]||||
+[0wts] | s| s | s
+[W0ru] | u| u 0 | u
+[0etp] | p| p | p [9wryo] |
+o| o | o |
+[0wtuo] | u u o | p u |
+[W0r] u | u | u | y u |
+[0et] u| u p | o u 0|[9wr] |
+u | u o | s o [0wtuo]|||
+s | o [W0ru]|||
 s o
-[0etuo]... s o -
-[9wr]... s - o
-[0wtuo]... s o
-[W0ro]... s o [0etuo]....
+[0etuo]||| s o |
+[9wr]||| s | o
+[0wtuo]||| s o
+[W0ro]||| s o [0etuo]||||
 s o
-[9wr]....
-[0wts]... f,
-[W0rua]... f,
-[0ets]... g,
-[9wryf]... g, [0wts]...
-f,
-[WO0ra]... f,
-[0ets]... g,
-[9wrf]... g,
-[0wts]... f, [W0ra]...
-f, [0ets]...
-g,
-[9wrf]... g- ]]
+[9wr]||||
+[0wts]||| f|
+[W0rua]||| f|
+[0ets]||| g|
+[9wryf]||| g| [0wts]|||
+f|
+[WO0ra]||| f|
+[0ets]||| g|
+[9wrf]||| g|
+[0wts]||| f| [W0ra]|||
+f| [0ets]|||
+g|
+[9wrf]||| g| ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FemboyForEver/teste-/refs/heads/main/amour%20plastique"))()
 
